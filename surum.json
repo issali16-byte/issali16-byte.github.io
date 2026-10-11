@@ -1,0 +1,10 @@
+{
+    "surum":  "2.2",
+    "yama":  23,
+    "sema":  "2026.10.11.1",
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL23/IBY_ERP.exe",
+    "sha256":  "6d62c8b6ce72c75de04a83b2e4a214c6382bd3d3785f42172922427989a3f50d",
+    "boyut":  52544158,
+    "notlar":  "PL23: Sirket veritabanlarinda eksik sutunlar tamamlandi (Doviz Kurlari ekrani hatasi duzeltildi). Yonetici girisinde Guncelleme Sihirbazi calisir.",
+    "tarih":  "2026-10-11 14:30"
+}
