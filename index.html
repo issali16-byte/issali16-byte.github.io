@@ -99,6 +99,7 @@
   /* Öne çıkanlar */
   .serit { background: var(--kart); border-bottom: 1px solid var(--cizgi); padding: 30px 0; }
   .serit .kap { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; text-align: center; }
+  .serit .kap.bes { grid-template-columns: repeat(5, 1fr); }
   .serit b { display: block; font-size: 22px; color: var(--lacivert); }
   .serit span { font-size: 14px; color: var(--gri); }
 
@@ -214,6 +215,7 @@
     <div><b>18+ modül</b><span>tek veritabanında</span></div>
     <div><b>Çok kullanıcılı</b><span>ağda birlikte çalışma</span></div>
     <div><b>%100 Türkçe</b><span>yerli destek</span></div>
+    <div id="indirme" hidden><b id="indirme-sayi"></b><span>kez indirildi</span></div>
   </div>
 </div>
 
@@ -329,6 +331,27 @@
       });
     });
     d.addEventListener('click', function () { d.close(); });
+  })();
+
+  // İndirme sayacı: önceki sürümlerin toplamı (YAYINLA her yayında istatistik.json'a yazar)
+  // + son sürümün canlı sayısı (GitHub). Az sayı güven vermediği için ESIK altında gizli kalır.
+  (function () {
+    var ESIK = 50;
+    Promise.all([
+      fetch('/istatistik.json', {cache: 'no-store'}).then(function (r) { return r.ok ? r.json() : {}; }).catch(function () { return {}; }),
+      fetch('https://api.github.com/repos/issali16-byte/iby-erp-surumler/releases/latest')
+        .then(function (r) { return r.ok ? r.json() : {}; }).catch(function () { return {}; })
+    ]).then(function (v) {
+      var toplam = Number((v[0] || {}).onceki_indirme || 0);
+      ((v[1] || {}).assets || []).forEach(function (a) {
+        if (a.name === 'IBY_ERP_Kurulum.exe') toplam += a.download_count || 0;
+      });
+      if (toplam < ESIK) return;
+      var yuvarlak = toplam >= 1000 ? Math.floor(toplam / 100) * 100 : Math.floor(toplam / 10) * 10;
+      document.getElementById('indirme-sayi').textContent = yuvarlak.toLocaleString('tr-TR') + '+';
+      document.getElementById('indirme').hidden = false;
+      document.querySelector('.serit .kap').classList.add('bes');
+    });
   })();
 </script>
 
