@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  25,
+    "yama":  26,
     "sema":  "2026.10.11.1",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL25/IBY_ERP.exe",
-    "sha256":  "5973215e0d90b41d8e3a2b479cc018b97d927f2716954d20ed6e6b0132403007",
-    "boyut":  52790522,
-    "notlar":  "PL25: Bobin Takibi firmaya ozel ek modul (yeni kurulumlarda kapali)",
-    "tarih":  "2026-10-12 10:26"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL26/IBY_ERP.exe",
+    "sha256":  "13f143aac23baa75ae0d9ad5c305ccad9498ec9d42444333beb80bbb010043a1",
+    "boyut":  52794234,
+    "notlar":  "PL26: Kurulumda veritabani ayarlari (bu bilgisayar / agdaki sunucu), LocalDB sadece gerekirse",
+    "tarih":  "2026-10-12 13:15"
 }
