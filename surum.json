@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  28,
+    "yama":  29,
     "sema":  "2026.10.11.1",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL28/IBY_ERP.exe",
-    "sha256":  "b84964ea68c1e23f4b644470c5c9bf3eae1b7f6df42f15414a4f87191acc3cf3",
-    "boyut":  52798779,
-    "notlar":  "PL28: Anahtarsiz 30 gun deneme, sunucu lisansi tum bilgisayarlari acar",
-    "tarih":  "2026-10-12 16:22"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL29/IBY_ERP.exe",
+    "sha256":  "31170d1d1c62f1e9fb9525b67c43c14f5edc3d73d6ccfa0e614945540bab1ae4",
+    "boyut":  51346828,
+    "notlar":  "PL29: Saatler duzeltildi (durum cubugu saati ve baslik tarihi artik guncelleniyor)",
+    "tarih":  "2026-10-18 01:08"
 }
