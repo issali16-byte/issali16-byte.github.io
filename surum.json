@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  29,
+    "yama":  30,
     "sema":  "2026.10.11.1",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL29/IBY_ERP.exe",
-    "sha256":  "31170d1d1c62f1e9fb9525b67c43c14f5edc3d73d6ccfa0e614945540bab1ae4",
-    "boyut":  51346828,
-    "notlar":  "PL29: Saatler duzeltildi (durum cubugu saati ve baslik tarihi artik guncelleniyor)",
-    "tarih":  "2026-10-18 01:08"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL30/IBY_ERP.exe",
+    "sha256":  "22a8c222412f9fa6edfb5b8c6b5b89fd608c210523824a613331371dbe172aed",
+    "boyut":  51345546,
+    "notlar":  "PL30: Sayilar artik tam yaziliyor (1.300 Adet; \u00271 bin\u0027 yuvarlamasi kaldirildi)",
+    "tarih":  "2026-10-18 01:29"
 }
