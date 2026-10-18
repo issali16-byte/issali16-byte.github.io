@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  30,
+    "yama":  31,
     "sema":  "2026.10.11.1",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL30/IBY_ERP.exe",
-    "sha256":  "22a8c222412f9fa6edfb5b8c6b5b89fd608c210523824a613331371dbe172aed",
-    "boyut":  51345546,
-    "notlar":  "PL30: Sayilar artik tam yaziliyor (1.300 Adet; \u00271 bin\u0027 yuvarlamasi kaldirildi)",
-    "tarih":  "2026-10-18 01:29"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL31/IBY_ERP.exe",
+    "sha256":  "f593752858bead2508a6673fec960379dc9b87e9c4e1bacb2cc3a0a085e945da",
+    "boyut":  51358590,
+    "notlar":  "PL31: Kullanim Kilavuzu yenilendi (21 bolum, arama, yazdirma)",
+    "tarih":  "2026-10-18 03:04"
 }
