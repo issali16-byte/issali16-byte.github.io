@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  33,
-    "sema":  "2026.10.22.1",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL33/IBY_ERP.exe",
-    "sha256":  "9d23182ba16fd9c5f518757783808f9d308f4430bfd21a10da3db765f6a0daa4",
-    "boyut":  52846437,
-    "notlar":  "PL33: Irsaliye sistemi SAP mantigiyla tek ekranda; sevkiyatta stok duser, iptalde geri gelir",
-    "tarih":  "2026-10-22 14:45"
+    "yama":  34,
+    "sema":  "2026.10.22.2",
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL34/IBY_ERP.exe",
+    "sha256":  "2fa428211f0b29d917cc630683ce59511f4e3613d9810e7a37cd9a1fe675967b",
+    "boyut":  52890816,
+    "notlar":  "PL34: Gelen e-Irsaliye XML\u0027den mal kabul, tedarikci kod eslestirme",
+    "tarih":  "2026-10-22 15:29"
 }
