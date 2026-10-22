@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  36,
+    "yama":  37,
     "sema":  "2026.10.22.2",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL36/IBY_ERP.exe",
-    "sha256":  "d727dd56c7b8386a46f30264e2542f01293134e0edaa2a2ba5715f17f26d0b2b",
-    "boyut":  52904088,
-    "notlar":  "PL36: Ust arac cubugu Turkce, gri butonlar, kisayollar",
-    "tarih":  "2026-10-22 16:28"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL37/IBY_ERP.exe",
+    "sha256":  "117107d51473d74210ecc31faef5747d0212c0305726813bea81f03540c79013",
+    "boyut":  52914221,
+    "notlar":  "PL37: Kisisel arac cubugu (sag tik), yildiz butonlar, Ctrl+Tab",
+    "tarih":  "2026-10-22 17:01"
 }
