@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  34,
+    "yama":  36,
     "sema":  "2026.10.22.2",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL34/IBY_ERP.exe",
-    "sha256":  "2fa428211f0b29d917cc630683ce59511f4e3613d9810e7a37cd9a1fe675967b",
-    "boyut":  52890816,
-    "notlar":  "PL34: Gelen e-Irsaliye XML\u0027den mal kabul, tedarikci kod eslestirme",
-    "tarih":  "2026-10-22 15:29"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL36/IBY_ERP.exe",
+    "sha256":  "d727dd56c7b8386a46f30264e2542f01293134e0edaa2a2ba5715f17f26d0b2b",
+    "boyut":  52904088,
+    "notlar":  "PL36: Ust arac cubugu Turkce, gri butonlar, kisayollar",
+    "tarih":  "2026-10-22 16:28"
 }
