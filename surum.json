@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  32,
-    "sema":  "2026.10.11.1",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL32/IBY_ERP.exe",
-    "sha256":  "868ff942d43aae416ff5aebec821a3d051ad766087824659fc8914f969221033",
-    "boyut":  52813602,
-    "notlar":  "PL32: Lisans penceresinde Sunucu Parmak Izi gorunur",
-    "tarih":  "2026-10-22 13:04"
+    "yama":  33,
+    "sema":  "2026.10.22.1",
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL33/IBY_ERP.exe",
+    "sha256":  "9d23182ba16fd9c5f518757783808f9d308f4430bfd21a10da3db765f6a0daa4",
+    "boyut":  52846437,
+    "notlar":  "PL33: Irsaliye sistemi SAP mantigiyla tek ekranda; sevkiyatta stok duser, iptalde geri gelir",
+    "tarih":  "2026-10-22 14:45"
 }
