@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  38,
-    "sema":  "2026.10.23.1",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL38/IBY_ERP.exe",
-    "sha256":  "590aa6a78d0476036af8bac2713903dd501c1694567f882d7f1624137abada15",
-    "boyut":  52992664,
-    "notlar":  "PL38: Satis ve alis faturalari tek sistem; iptal, iade, e-Fatura XML, mal kabulden faturalama",
-    "tarih":  "2026-10-23 11:01"
+    "yama":  39,
+    "sema":  "2026.10.23.2",
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL39/IBY_ERP.exe",
+    "sha256":  "cddd09295e86c63d101405e3920b5d6d767c79bd679847581565577f2e434bef",
+    "boyut":  53004167,
+    "notlar":  "PL39: GIB uyumlu e-Fatura / iade / e-Irsaliye XML; Uyumsoft test baglantisi ve GIB\u0027e Gonder; iade faturasinda e-Fatura XML ve GIB\u0027e Gonder butonlari; fatura no on eki IBY",
+    "tarih":  "2026-10-23 15:51"
 }
