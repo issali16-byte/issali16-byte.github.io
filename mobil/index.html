@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IBY ERP Mobil — Saha Satış, Stok ve Sipariş Uygulaması</title>
+<meta name="description" content="IBY ERP Mobil: sahadaki satış ekibi için telefon uygulaması. Müşteri bakiyesi, yeni müşteri, sipariş ve teklif girişi, depo ve raf bazında stok, barkod / el terminali. Canlı demoyu hemen deneyin.">
+<meta name="keywords" content="mobil ERP, saha satış uygulaması, mobil sipariş, mobil stok takip, el terminali, barkod okuyucu, depo uygulaması, mobil CRM, cari takip, teklif uygulaması">
+<meta name="theme-color" content="#1F4E79">
+<link rel="canonical" href="https://ibyerp.com/mobil/">
+<link rel="icon" href="/favicon.ico">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="tr_TR">
+<meta property="og:site_name" content="IBY ERP">
+<meta property="og:title" content="IBY ERP Mobil — saha satış ekibiniz cebinde">
+<meta property="og:description" content="Müşteri, stok, sipariş ve teklif telefonda. Canlı demoyu deneyin.">
+<meta property="og:url" content="https://ibyerp.com/mobil/">
+<meta property="og:image" content="https://ibyerp.com/img/og.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root { --lacivert:#1F4E79; --koyu:#16263a; --mavi:#1e88e5; --acik-mavi:#4fc3f7; --yesil:#1A9E55; --wa:#25D366;
+          --metin:#1d2733; --gri:#5d6b7a; --zemin:#f4f7fb; --kart:#ffffff; --cizgi:#e3e9f1; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body { font-family: 'Inter', 'Segoe UI', system-ui, sans-serif; color: var(--metin); background: var(--zemin); line-height: 1.6; }
+  a { color: inherit; text-decoration: none; }
+  .kap { max-width: 1120px; margin: 0 auto; padding: 0 20px; }
+  header { position: sticky; top: 0; z-index: 10; background: rgba(22, 38, 58, .92); backdrop-filter: blur(8px); }
+  header .kap { display: flex; align-items: center; justify-content: space-between; height: 64px; }
+  .marka { display: flex; align-items: center; gap: 10px; color: #fff; font-weight: 800; font-size: 20px; letter-spacing: .5px; }
+  .marka img { width: 38px; height: 38px; border-radius: 9px; }
+  nav { display: flex; gap: 26px; align-items: center; }
+  nav a { color: #cfe3f5; font-size: 15px; font-weight: 500; }
+  nav a:hover { color: #fff; }
+  nav .dugme { padding: 8px 16px; font-size: 14px; }
+  .dugme { display: inline-flex; align-items: center; gap: 10px; padding: 15px 28px; border-radius: 12px; font-weight: 700; font-size: 17px; transition: transform .15s; }
+  .dugme:hover { transform: translateY(-2px); }
+  .indir { background: linear-gradient(135deg, #22b866, var(--yesil)); color: #fff; box-shadow: 0 8px 24px rgba(26,158,85,.35); }
+  .wa { background: var(--wa); color: #fff; box-shadow: 0 8px 24px rgba(37,211,102,.3); }
+  .cerceve { border: 2px solid rgba(255,255,255,.35); color: #fff; }
+  .giris { background: radial-gradient(ellipse at 70% 40%, #2a5f8f 0%, var(--koyu) 65%); color: #fff; padding: 64px 0 72px; overflow: hidden; }
+  .giris .kap { display: grid; grid-template-columns: 1.1fr .9fr; gap: 48px; align-items: center; }
+  .rozet { display: inline-block; background: rgba(79,195,247,.15); color: var(--acik-mavi); border: 1px solid rgba(79,195,247,.4); padding: 6px 14px; border-radius: 30px; font-size: 14px; font-weight: 600; margin-bottom: 22px; }
+  h1 { font-size: 46px; line-height: 1.12; font-weight: 800; margin-bottom: 20px; }
+  h1 span { background: linear-gradient(90deg, var(--acik-mavi), #82b1ff); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .giris p.alt { font-size: 19px; color: #c3d6ea; margin-bottom: 26px; max-width: 540px; }
+  .maddeler { list-style: none; display: grid; gap: 10px; margin-bottom: 30px; color: #dce8f4; font-size: 16px; }
+  .maddeler li::before { content: "✓"; color: #6ee7a8; font-weight: 800; margin-right: 10px; }
+  .dugmeler { display: flex; gap: 14px; flex-wrap: wrap; }
+  .not { margin-top: 18px; font-size: 14px; color: #9fb7cf; }
+  .telefon { justify-self: center; display: flex; flex-direction: column; align-items: center; gap: 12px; }
+  .govde { width: 412px; max-width: 100%; padding: 11px; border-radius: 48px; background: #0d1622; box-shadow: 0 30px 80px rgba(0,0,0,.5), 0 0 0 2px #2b3a4d inset; }
+  .govde iframe { display: block; width: 390px; max-width: 100%; height: 780px; border: 0; border-radius: 38px; background: #F3F5F9; }
+  .telefon small { color: #9fb7cf; font-size: 13px; text-align: center; }
+  section { padding: 80px 0; }
+  .baslik { text-align: center; max-width: 680px; margin: 0 auto 48px; }
+  .baslik h2 { font-size: 34px; font-weight: 800; color: var(--lacivert); margin-bottom: 12px; }
+  .baslik p { color: var(--gri); font-size: 17px; }
+  .izgara { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; }
+  .kart { background: var(--kart); border: 1px solid var(--cizgi); border-radius: 16px; padding: 26px; }
+  .kart .ikon { font-size: 28px; width: 54px; height: 54px; display: grid; place-items: center; background: #eaf3fc; border-radius: 14px; margin-bottom: 16px; }
+  .kart h3 { font-size: 19px; color: var(--lacivert); margin-bottom: 8px; }
+  .kart p { color: var(--gri); font-size: 15px; }
+  .adimlar-bolum { background: var(--kart); }
+  .adimlar { display: grid; grid-template-columns: repeat(3, 1fr); gap: 26px; counter-reset: adim; }
+  .adim { position: relative; padding: 30px 26px 26px; border-radius: 16px; background: var(--zemin); border: 1px solid var(--cizgi); }
+  .adim::before { counter-increment: adim; content: counter(adim); position: absolute; top: -18px; left: 26px; width: 38px; height: 38px; border-radius: 50%; background: var(--mavi); color: #fff; font-weight: 800; display: grid; place-items: center; }
+  .adim h3 { font-size: 18px; color: var(--lacivert); margin: 8px 0; }
+  .adim p { color: var(--gri); font-size: 15px; }
+  .cagri { background: linear-gradient(135deg, var(--lacivert), var(--koyu)); color: #fff; text-align: center; border-radius: 24px; padding: 56px 30px; }
+  .cagri h2 { font-size: 32px; margin-bottom: 12px; }
+  .cagri p { color: #c3d6ea; font-size: 18px; margin-bottom: 28px; }
+  .cagri .dugmeler { justify-content: center; }
+  .sss { max-width: 780px; margin: 0 auto; }
+  details { background: var(--kart); border: 1px solid var(--cizgi); border-radius: 12px; padding: 18px 22px; margin-bottom: 12px; }
+  summary { cursor: pointer; font-weight: 600; color: var(--lacivert); font-size: 16px; }
+  details p { margin-top: 10px; color: var(--gri); font-size: 15px; }
+  footer { background: var(--koyu); color: #9fb7cf; padding: 40px 0; font-size: 14px; }
+  footer .kap { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 16px; }
+  footer a { color: #cfe3f5; }
+  @media (max-width: 900px) {
+    .giris .kap { grid-template-columns: 1fr; text-align: center; }
+    .giris p.alt { margin-left: auto; margin-right: auto; }
+    .maddeler { text-align: left; max-width: 460px; margin-left: auto; margin-right: auto; }
+    .dugmeler { justify-content: center; }
+    h1 { font-size: 34px; }
+    .izgara, .adimlar { grid-template-columns: 1fr 1fr; }
+    nav a:not(.dugme) { display: none; }
+  }
+  @media (max-width: 600px) {
+    .izgara, .adimlar { grid-template-columns: 1fr; }
+    h1 { font-size: 29px; }
+    .baslik h2, .cagri h2 { font-size: 26px; }
+    section { padding: 56px 0; }
+    .dugme { width: 100%; justify-content: center; }
+    .govde { padding: 6px; border-radius: 34px; }
+    .govde iframe { height: 680px; border-radius: 28px; }
+  }
+</style>
+<script data-goatcounter="https://ibyerp.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</head>
+<body>
+<header>
+  <div class="kap">
+    <a class="marka" href="/"><img src="/img/apple-touch-icon.png" alt="IBY ERP logosu">IBY ERP</a>
+    <nav>
+      <a href="/#moduller">Modüller</a>
+      <a href="#ozellikler">Mobil Özellikler</a>
+      <a href="#nasil">Nasıl Çalışır</a>
+      <a class="dugme indir" data-goatcounter-click="indir-mobil-menu" href="/indir/">İndir</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="giris">
+  <div class="kap">
+    <div>
+      <div class="rozet">📱 Çok yakında · IBY ERP Mobil</div>
+      <h1>Saha satış ekibiniz <span>cebinde</span></h1>
+      <p class="alt">Satışçınız müşterinin yanındayken bakiyeyi görür, stoğu sorar, siparişi telefondan girer; sipariş anında IBY ERP'ye düşer.</p>
+      <ul class="maddeler">
+        <li>Müşteri bakiyesi, risk limiti, vadesi geçen ve son belgeler</li>
+        <li>Sahada yeni müşteri kartı açma</li>
+        <li>Sipariş ve teklif girişi — stok yeterli mi anında görünür</li>
+        <li>Depo depo, raf raf stok · barkod / el terminali ile okutma</li>
+      </ul>
+      <div class="dugmeler">
+        <a class="dugme wa" data-goatcounter-click="whatsapp-mobil-ust" href="https://wa.me/905422846116?text=Merhaba%2C%20IBY%20ERP%20Mobil%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum.">💬 Bilgi Al</a>
+        <a class="dugme cerceve" href="#ozellikler">Özellikleri Gör</a>
+      </div>
+      <div class="not">IBY ERP'nin bir sonraki güncellemesiyle geliyor · Android ve iPhone · Mağaza gerekmez · İlk 30 gün ücretsiz</div>
+    </div>
+    <div class="telefon">
+      <div class="govde"><iframe src="demo/" title="IBY ERP Mobil canlı demo" loading="lazy"></iframe></div>
+      <small>👆 Canlı demo — tıklayıp gezin. Veriler örnektir, hiçbir şey kaydedilmez.<br>Barkod denemek için Stok ekranında <b>8690000000017</b> yazıp Enter'a basın.</small>
+    </div>
+  </div>
+</section>
+
+<section id="ozellikler">
+  <div class="kap">
+    <div class="baslik">
+      <h2>Sahada ihtiyacınız olan her şey</h2>
+      <p>IBY ERP ile aynı veritabanını kullanır; telefonda girilen sipariş, müşteri ve teklif programda anında görünür.</p>
+    </div>
+    <div class="izgara">
+      <div class="kart"><div class="ikon">👥</div><h3>Müşteriler</h3><p>Arama, bakiye, risk limiti, vadesi geçen tutar, son sipariş/teklif/faturalar ve tek dokunuşla arama.</p></div>
+      <div class="kart"><div class="ikon">➕</div><h3>Yeni Müşteri</h3><p>Ünvan, VKN/TCKN, vergi dairesi, iletişim ve adres; aynı VKN ile ikinci kart açılmaz.</p></div>
+      <div class="kart"><div class="ikon">🛒</div><h3>Sipariş ve Teklif</h3><p>Ürün ekleyin, miktar ve fiyatı girin; KDV ve toplam otomatik. Sipariş programda "YENİ" olarak düşer.</p></div>
+      <div class="kart"><div class="ikon">📦</div><h3>Stok Sorgu</h3><p>Ürünün hangi depoda, hangi rafta, hangi lotta ne kadar olduğu tek ekranda.</p></div>
+      <div class="kart"><div class="ikon">📷</div><h3>Barkod / El Terminali</h3><p>Barkod okuyuculu el terminali veya Bluetooth okuyucu ile okutun; ürün açılır ya da siparişe eklenir.</p></div>
+      <div class="kart"><div class="ikon">🔐</div><h3>Yetki ve Güvenlik</h3><p>Programdaki kullanıcı adı ve şifre; yetkisi olmayan göremez. Telefon veritabanına doğrudan bağlanmaz.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="nasil" class="adimlar-bolum">
+  <div class="kap">
+    <div class="baslik">
+      <h2>Kurulum yok, 3 adımda hazır</h2>
+      <p>Telefona uygulama indirmek gerekmez; tarayıcıda açılır, ana ekrana eklenir.</p>
+    </div>
+    <div class="adimlar">
+      <div class="adim"><h3>Programda açın</h3><p>IBY ERP'de Araçlar › Mobil Sunucu › Başlat. Program açıldıkça kendiliğinden başlasın diye işaretleyin.</p></div>
+      <div class="adim"><h3>QR kodu okutun</h3><p>Ekrandaki QR kodu telefonun kamerasıyla okutun, programdaki kullanıcı adı ve şifrenizle girin.</p></div>
+      <div class="adim"><h3>Ana ekrana ekleyin</h3><p>Tarayıcı menüsünden "Ana ekrana ekle". IBY ERP Mobil artık telefonunuzda bir uygulama gibi durur.</p></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="kap">
+    <div class="baslik"><h2>Sık sorulan sorular</h2></div>
+    <div class="sss">
+      <details><summary>Ücretli mi?</summary><p>İlk 30 gün ücretsizdir. Sonrasında IBY ERP lisansınıza ek modül olarak eklenir; fiyat için bize WhatsApp'tan yazın.</p></details>
+      <details><summary>Hangi telefonlarda çalışır?</summary><p>Güncel Android ve iPhone telefonların tarayıcısında çalışır. Barkod okuyuculu el terminallerinde (Android) de kullanılabilir.</p></details>
+      <details><summary>Telefon şirket dışındayken çalışır mı?</summary><p>İlk sürüm şirket ağında (Wi-Fi) çalışır. Sahadan internet üzerinden güvenli erişim bir sonraki güncellemeyle geliyor.</p></details>
+      <details><summary>IBY ERP olmadan kullanılabilir mi?</summary><p>Hayır. IBY ERP Mobil, IBY ERP'nin verisini kullanır; önce programı kurun. Program 30 gün ücretsiz denenebilir.</p></details>
+    </div>
+  </div>
+</section>
+
+<section style="padding-top: 0">
+  <div class="kap">
+    <div class="cagri">
+      <h2>Satış ekibinizi sahada güçlendirin</h2>
+      <p>IBY ERP Mobil çok yakında. Şimdiden IBY ERP'yi deneyin; mobil gelince güncellemeyle kendiliğinden eklenir.</p>
+      <div class="dugmeler">
+        <a class="dugme indir" data-goatcounter-click="indir-mobil-alt" href="/indir/">⬇ IBY ERP'yi Ücretsiz İndir</a>
+        <a class="dugme wa" data-goatcounter-click="whatsapp-mobil-alt" href="https://wa.me/905422846116?text=Merhaba%2C%20IBY%20ERP%20Mobil%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum.">💬 WhatsApp'tan Yazın</a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="kap">
+    <div>© 2026 IBY Yazılım ve Danışmanlık · <a href="/">ibyerp.com</a></div>
+    <div><a href="mailto:info@ibyerp.com">info@ibyerp.com</a> · <a href="https://wa.me/905422846116">WhatsApp 0542 284 61 16</a></div>
+  </div>
+</footer>
+</body>
+</html>

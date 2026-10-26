@@ -149,6 +149,18 @@
   summary { cursor: pointer; font-weight: 600; color: var(--lacivert); font-size: 16px; }
   details p { margin-top: 10px; color: var(--gri); font-size: 15px; }
 
+
+  /* Mobil tanıtım */
+  .mobil-bolum { background: radial-gradient(ellipse at 75% 50%, #2a5f8f 0%, var(--koyu) 70%); color: #fff; }
+  .mobil-bolum .kap { display: grid; grid-template-columns: 1.1fr .9fr; gap: 48px; align-items: center; }
+  .mobil-bolum h2 { font-size: 34px; font-weight: 800; margin-bottom: 14px; }
+  .mobil-bolum p { color: #c3d6ea; font-size: 17px; margin-bottom: 18px; }
+  .mobil-bolum ul { list-style: none; display: grid; gap: 8px; margin-bottom: 28px; color: #dce8f4; }
+  .mobil-bolum li::before { content: "✓"; color: #6ee7a8; font-weight: 800; margin-right: 10px; }
+  .mobil-telefon { justify-self: center; width: 300px; max-width: 100%; padding: 9px; border-radius: 40px; background: #0d1622; box-shadow: 0 30px 70px rgba(0,0,0,.5), 0 0 0 2px #2b3a4d inset; }
+  .mobil-telefon img { width: 100%; height: auto; display: block; border-radius: 32px; }
+  @media (max-width: 900px) { .mobil-bolum .kap { grid-template-columns: 1fr; text-align: center; } .mobil-bolum ul { text-align: left; max-width: 440px; margin: 0 auto 28px; } }
+
   footer { background: var(--koyu); color: #9fb7cf; padding: 40px 0; font-size: 14px; }
   footer .kap { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 16px; }
   footer a { color: #cfe3f5; }
@@ -187,6 +199,7 @@
     <nav>
       <a href="#moduller">Modüller</a>
       <a href="#ekranlar">Ekranlar</a>
+      <a href="/mobil/">📱 Mobil</a>
       <a href="#nasil">Nasıl Başlarım</a>
       <a href="#sss">Sorular</a>
       <a class="dugme indir" data-goatcounter-click="indir-menu" href="/indir/">İndir</a>
@@ -257,6 +270,23 @@
       <figure data-buyuk="img/ekran/mrp-ihtiyac-planlama.jpg"><img src="img/ekran/mrp-ihtiyac-planlama-k.jpg" alt="IBY ERP MRP malzeme ihtiyaç planlaması" width="800" height="413" loading="lazy"><figcaption>MRP — Malzeme İhtiyaç Planlaması</figcaption></figure>
       <figure data-buyuk="img/ekran/urun-listesi.jpg"><img src="img/ekran/urun-listesi-k.jpg" alt="IBY ERP ürün listesi ve Excel'den içe aktarma" width="800" height="413" loading="lazy"><figcaption>Ürün Listesi</figcaption></figure>
     </div>
+  </div>
+</section>
+
+<section id="mobil" class="mobil-bolum">
+  <div class="kap">
+    <div>
+      <div class="rozet">📱 Çok yakında · IBY ERP Mobil</div>
+      <h2>Saha satış ekibiniz cebinde</h2>
+      <p>Satışçınız müşterinin yanındayken bakiyeyi görür, stoğu sorar, siparişi telefondan girer; sipariş anında IBY ERP'ye düşer.</p>
+      <ul>
+        <li>Müşteri bakiyesi, risk limiti ve son belgeler</li>
+        <li>Sahada yeni müşteri, sipariş ve teklif</li>
+        <li>Depo ve raf bazında stok, barkod / el terminali</li>
+      </ul>
+      <div class="dugmeler"><a class="dugme indir" data-goatcounter-click="mobil-demo" href="/mobil/">📱 Canlı Demoyu Deneyin</a></div>
+    </div>
+    <a class="mobil-telefon" href="/mobil/" data-goatcounter-click="mobil-demo-resim"><img src="img/mobil-ana.png" alt="IBY ERP Mobil ana ekranı: müşteriler, yeni sipariş, stok sorgu, satış özeti" width="390" height="844" loading="lazy"></a>
   </div>
 </section>
 
