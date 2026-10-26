@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  39,
+    "yama":  40,
     "sema":  "2026.10.23.2",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL39/IBY_ERP.exe",
-    "sha256":  "cddd09295e86c63d101405e3920b5d6d767c79bd679847581565577f2e434bef",
-    "boyut":  53004167,
-    "notlar":  "PL39: GIB uyumlu e-Fatura / iade / e-Irsaliye XML; Uyumsoft test baglantisi ve GIB\u0027e Gonder; iade faturasinda e-Fatura XML ve GIB\u0027e Gonder butonlari; fatura no on eki IBY",
-    "tarih":  "2026-10-23 15:51"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL40/IBY_ERP.exe",
+    "sha256":  "beff6710ea6a71ebd0797d1f584774be70ea0e09dee0e0e4721ab6e54db3f774",
+    "boyut":  53010115,
+    "notlar":  "PL40: Yoneticiye yeni surum seridi (alt cubukta Simdi Guncelle); menu adlari duzeltildi (Adrese Tasi, IK Raporlari); kilavuz guncellendi",
+    "tarih":  "2026-10-26 14:03"
 }
