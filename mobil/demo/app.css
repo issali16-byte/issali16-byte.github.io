@@ -67,3 +67,4 @@ button,input,textarea{font:inherit;color:inherit}
 video.kamera{width:100%;border-radius:12px;background:#000;max-height:260px;object-fit:cover}
 .gizli{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
 .fiyat-yok{border-color:#E8A33D !important;background:#FFF8EC !important}
+.alt-menu button{min-width:0;font-size:clamp(9px,3.1vw,11px)}
