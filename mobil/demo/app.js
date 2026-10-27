@@ -11,6 +11,10 @@
   function yaz(k, v) { try { v == null ? localStorage.removeItem('iby_' + k) : localStorage.setItem('iby_' + k, v); } catch (e) {} }
   function h(s) { return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); }
   function tl(n) { return Number(n || 0).toLocaleString('tr-TR', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + ' ₺'; }
+  function kisa(n) {   // dar kutular için: 148.250 → '148,3 bin ₺', 2.684.500 → '2,7 mn ₺'
+    n = Number(n || 0); var f = function (x) { return x.toLocaleString('tr-TR', { maximumFractionDigits: 1 }); };
+    return Math.abs(n) >= 1e6 ? f(n / 1e6) + ' mn ₺' : Math.abs(n) >= 1e4 ? f(n / 1e3) + ' bin ₺' : tl(n);
+  }
   function sayi(n) { return Number(n || 0).toLocaleString('tr-TR', { maximumFractionDigits: 3 }); }
   function bas(ad) { return String(ad || '?').split(/\s+/).slice(0, 2).map(function (w) { return w.charAt(0); }).join('').toLocaleUpperCase('tr-TR'); }
   function bildir(m) { var b = document.getElementById('bildirim'); b.textContent = m; b.classList.add('goster'); clearTimeout(bildir.t); bildir.t = setTimeout(function () { b.classList.remove('goster'); }, 2600); }
@@ -110,7 +114,7 @@
       el('anaOzet').innerHTML = '<div class="kart"><div class="baslik" style="margin:0 0 10px">BUGÜN</div><div class="izgara3">' +
         '<div><div class="sayi">' + o.bugun_siparis + '</div><div class="etk">Sipariş</div></div>' +
         '<div><div class="sayi">' + o.bekleyen_teklif + '</div><div class="etk">Açık teklif</div></div>' +
-        '<div><div class="sayi" style="font-size:16px">' + tl(o.bugun_siparis_tutar) + '</div><div class="etk">Sipariş tutarı</div></div></div></div>' +
+        '<div><div class="sayi" style="white-space:nowrap" title="' + h(tl(o.bugun_siparis_tutar)) + '">' + kisa(o.bugun_siparis_tutar) + '</div><div class="etk">Sipariş tutarı</div></div></div></div>' +
         '<div class="baslik">BUGÜNKÜ PLAN</div><div class="liste">' + plan + '</div>';
     }, function (e) { el('anaOzet').innerHTML = '<div class="hata">' + h(e.message) + '</div>'; });
   };
