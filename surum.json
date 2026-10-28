@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  48,
+    "yama":  49,
     "sema":  "2026.10.23.2",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL48/IBY_ERP.exe",
-    "sha256":  "49f0da162b5644828d108b4c3291391bcc5e0594e21e1db8a340b86ac78b7572",
-    "boyut":  51702821,
-    "notlar":  "PL48: Mobil sunucu telefonu engelleyen ag/guvenlik duvari ayarlarini bulur ve duzeltir",
-    "tarih":  "2026-10-28 23:34"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL49/IBY_ERP.exe",
+    "sha256":  "95b9688d3102eb93cc3ffc10c2289b0f2c28a04522c18cbddbe362a4e84f019b",
+    "boyut":  51704337,
+    "notlar":  "PL49: Mobil sunucu programda acik olan sirkete baglanir (coklu sirkette sifre hatasi duzeltildi)",
+    "tarih":  "2026-10-28 23:52"
 }
