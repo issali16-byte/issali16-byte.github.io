@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  47,
+    "yama":  48,
     "sema":  "2026.10.23.2",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL47/IBY_ERP.exe",
-    "sha256":  "79e43edef4e349394addf7727e845864a7eccf8be0b2ec0d414c61a05205705e",
-    "boyut":  51695459,
-    "notlar":  "PL47: Mobil lisans, genel Tuketim ve Satin Alma Analizi, program bilgilerinde SEHA yerine IBY",
-    "tarih":  "2026-10-28 23:29"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL48/IBY_ERP.exe",
+    "sha256":  "49f0da162b5644828d108b4c3291391bcc5e0594e21e1db8a340b86ac78b7572",
+    "boyut":  51702821,
+    "notlar":  "PL48: Mobil sunucu telefonu engelleyen ag/guvenlik duvari ayarlarini bulur ve duzeltir",
+    "tarih":  "2026-10-28 23:34"
 }
