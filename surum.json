@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  43,
+    "yama":  44,
     "sema":  "2026.10.23.2",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL43/IBY_ERP.exe",
-    "sha256":  "59e461141d201f6226e51c59601657e9c4dbf8d18a96090ff9500dcac35c716e",
-    "boyut":  53078804,
-    "notlar":  "PL43: Kalan Bobin Giris ve diger ekranlarda ara sira cikan \u0027Baglanti baska bir komutun sonuclariyla mesgul\u0027 hatasi giderildi (canli stok raporu artik kendi baglantisini kullaniyor).",
-    "tarih":  "2026-10-28 10:55"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL44/IBY_ERP.exe",
+    "sha256":  "2fef761073a69589e8497fd0e6e616732b44d15094f6a6ca94e028dccb442d34",
+    "boyut":  53080671,
+    "notlar":  "PL44: E-posta - gonderen adinda Turkce harf (I, S, G, C, O, U) olunca mail sunucusunun reddetmesi giderildi.",
+    "tarih":  "2026-10-28 13:02"
 }
