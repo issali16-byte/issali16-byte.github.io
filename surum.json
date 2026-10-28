@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  46,
+    "yama":  47,
     "sema":  "2026.10.23.2",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL46/IBY_ERP.exe",
-    "sha256":  "bf6fbb35520e18419e299723b6050e3dc1d0ce26d865d8ecb4c781cd6ae8c316",
-    "boyut":  53082959,
-    "notlar":  "PL46: Bobin Satin Alma Onerisi - ilk sutunda tik ile secim; isaretlilerden satinalma talebi ve isaretlilere kritik seviye (elle verilmis seviyenin ustune).",
-    "tarih":  "2026-10-28 16:46"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL47/IBY_ERP.exe",
+    "sha256":  "79e43edef4e349394addf7727e845864a7eccf8be0b2ec0d414c61a05205705e",
+    "boyut":  51695459,
+    "notlar":  "PL47: Mobil lisans, genel Tuketim ve Satin Alma Analizi, program bilgilerinde SEHA yerine IBY",
+    "tarih":  "2026-10-28 23:29"
 }
