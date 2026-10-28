@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  45,
+    "yama":  46,
     "sema":  "2026.10.23.2",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL45/IBY_ERP.exe",
-    "sha256":  "f88c536c3019029a5f488c243ccf922179000877a48ba4b56185ca38692786a2",
-    "boyut":  53083151,
-    "notlar":  "PL45: Oturum zaman asimi artik Yonetim \u003e Sistem Geneli Ayarlar\u0027dan ayarlanabilir (dakika; 0 = oturum kapanmaz).",
-    "tarih":  "2026-10-28 14:39"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL46/IBY_ERP.exe",
+    "sha256":  "bf6fbb35520e18419e299723b6050e3dc1d0ce26d865d8ecb4c781cd6ae8c316",
+    "boyut":  53082959,
+    "notlar":  "PL46: Bobin Satin Alma Onerisi - ilk sutunda tik ile secim; isaretlilerden satinalma talebi ve isaretlilere kritik seviye (elle verilmis seviyenin ustune).",
+    "tarih":  "2026-10-28 16:46"
 }
