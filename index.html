@@ -136,6 +136,11 @@
   .adim::before { counter-increment: adim; content: counter(adim); position: absolute; top: -18px; left: 26px; width: 38px; height: 38px; border-radius: 50%; background: var(--mavi); color: #fff; font-weight: 800; display: grid; place-items: center; box-shadow: 0 6px 16px rgba(30, 136, 229, .35); }
   .adim h3 { font-size: 18px; color: var(--lacivert); margin: 8px 0; }
   .adim p { color: var(--gri); font-size: 15px; }
+  .adim .etiket { position: absolute; top: 14px; right: 16px; font-size: 11px; font-weight: 700; letter-spacing: .3px;
+                  padding: 3px 9px; border-radius: 999px; background: #eaf3fc; color: var(--mavi); }
+  .adim .etiket.ucretsiz { background: #e7f6ee; color: #1A9E55; }
+  .adim ul { margin: 8px 0 0 18px; color: var(--gri); font-size: 14.5px; }
+  .adim li { margin: 2px 0; }
 
   /* Çağrı */
   .cagri { background: linear-gradient(135deg, var(--lacivert), var(--koyu)); color: #fff; text-align: center; border-radius: 24px; padding: 60px 30px; }
@@ -299,13 +304,24 @@
 <section id="nasil" class="adimlar-bolum">
   <div class="kap">
     <div class="baslik">
-      <h2>3 adımda denemeye başlayın</h2>
-      <p>Kurulum birkaç dakika sürer, teknik bilgi gerekmez.</p>
+      <h2>Denemeden canlıya, anahtar teslim</h2>
+      <p>Programı önce kendiniz deneyin. Karar verdiğinizde şirketinize geliyoruz; kurulumdan veri girişine,
+         eğitimden canlıya geçişe kadar her adımda yanınızdayız.</p>
     </div>
     <div class="adimlar">
-      <div class="adim"><h3>İndirin ve kurun</h3><p>Kurulum dosyasını indirip çalıştırın. Gerekli veritabanı bileşenleri kendiliğinden kurulur.</p></div>
-      <div class="adim"><h3>30 gün ücretsiz kullanın</h3><p>Program ilk açılışta denemeyi kendiliğinden başlatır. Anahtar, kayıt veya kredi kartı gerekmez; tüm modüller açık.</p></div>
-      <div class="adim"><h3>Beğenirseniz lisans alın</h3><p>Lisans anahtarınızı WhatsApp'tan gönderiyoruz. Yapıştırın; girdiğiniz veriler olduğu gibi kalır, kaldığınız yerden devam edersiniz.</p></div>
+      <div class="adim"><span class="etiket ucretsiz">Ücretsiz</span><h3>İndirin, 30 gün deneyin</h3>
+        <p>Kurulum dosyasını indirip çalıştırın; deneme kendiliğinden başlar. Anahtar, kayıt veya kredi kartı gerekmez, tüm modüller açık.</p></div>
+      <div class="adim"><span class="etiket">Anahtar teslim</span><h3>Ön görüşme ve ihtiyaç analizi</h3>
+        <p>Şirketinize gelip iş akışınızı yerinde inceliyoruz: depo, üretim, satış, satınalma ve finans. Hangi modüllerin, kaç kullanıcının gerektiğini birlikte belirliyoruz.</p></div>
+      <div class="adim"><span class="etiket">Anahtar teslim</span><h3>Sunucu kurulumu ve altyapı</h3>
+        <p>Programı şirket sunucunuza biz kuruyoruz:</p>
+        <ul><li>SQL Server veritabanı ve yedekleme düzeni</li><li>Ağdaki bilgisayarlar ve mobil uygulama</li><li>Kullanıcılar, yetkiler, depo ve raf tanımları</li></ul></div>
+      <div class="adim"><span class="etiket">Anahtar teslim</span><h3>Veri aktarımı ve veri girişi</h3>
+        <p>Ürün kartları, cari hesaplar, açılış stokları ve reçeteler Excel'den aktarılır; kalan veri girişini ekibinizle birlikte yapıyoruz.</p></div>
+      <div class="adim"><span class="etiket">Anahtar teslim</span><h3>Kullanıcı eğitimi</h3>
+        <p>Her çalışana kendi işini programda işinin başında gösteriyoruz: depocu, satışçı, üretim, muhasebe ve yönetim.</p></div>
+      <div class="adim"><span class="etiket">Anahtar teslim</span><h3>Canlıya geçiş ve destek</h3>
+        <p>Program canlıya geçip ekibiniz kendi başına kullanana kadar yanınızdayız. Sonrasında telefon ve WhatsApp ile destek; güncellemeler program içinden gelir.</p></div>
     </div>
   </div>
 </section>
@@ -314,7 +330,7 @@
   <div class="kap">
     <div class="cagri">
       <h2>İşletmenizi IBY ERP ile yönetin</h2>
-      <p>30 gün ücretsiz deneyin. Beğenirseniz lisans için bize ulaşın.</p>
+      <p>30 gün ücretsiz deneyin; kurulum ve tanıtım görüşmesi için bize ulaşın.</p>
       <div class="dugmeler">
         <a class="dugme indir" data-goatcounter-click="indir-alt" href="/indir/">⬇ Ücretsiz İndir</a>
         <a class="dugme wa" data-goatcounter-click="whatsapp-alt" href="https://wa.me/905422846116?text=Merhaba%2C%20IBY%20ERP%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum.">💬 WhatsApp'tan Yazın</a>
@@ -328,10 +344,12 @@
     <div class="baslik"><h2>Sık sorulan sorular</h2></div>
     <div class="sss">
       <details><summary>Deneme gerçekten ücretsiz mi?</summary><p>Evet. İndirip kurduğunuz anda 30 günlük deneme başlar; tüm modülleri ücretsiz kullanırsınız. Anahtar, kayıt, kredi kartı veya ödeme bilgisi istenmez.</p></details>
-      <details><summary>Deneme bitince girdiğim veriler ne olur?</summary><p>Program lisans girilene kadar açılmaz ama verileriniz kendi bilgisayarınızdaki veritabanında kalır, hiçbir şey silinmez. Lisans anahtarını girdiğiniz anda kaldığınız yerden devam edersiniz.</p></details>
+      <details><summary>Deneme bitince girdiğim veriler ne olur?</summary><p>Program lisansa geçilene kadar açılmaz ama verileriniz kendi bilgisayarınızdaki veritabanında kalır, hiçbir şey silinmez. Lisansa geçtiğinizde kaldığınız yerden devam edersiniz.</p></details>
       <details><summary>Hangi bilgisayarlarda çalışır?</summary><p>Windows 10 ve Windows 11 (64 bit). Bilgisayarınızda SQL Server varsa o kullanılır, yoksa kurulum gerekli bileşenleri kendisi yükler.</p></details>
-      <details><summary>Birden fazla bilgisayarda kullanabilir miyim?</summary><p>Evet. Program ağda bir sunucu bilgisayara bağlanarak birden fazla kullanıcıyla aynı anda çalışabilir. Kurulum için bizimle iletişime geçin.</p></details>
-      <details><summary>Lisans fiyatı nedir?</summary><p>Kullanıcı sayısına ve ihtiyacınız olan modüllere göre değişir. WhatsApp veya e-posta ile ulaşın, size uygun teklifi iletelim.</p></details>
+      <details><summary>Birden fazla bilgisayarda kullanabilir miyim?</summary><p>Evet. Program şirket sunucusuna kurulur; ağdaki bütün bilgisayarlar ve sahadaki telefonlar (IBY ERP Mobil) aynı veritabanıyla, aynı anda çalışır. Sunucu kurulumunu biz yapıyoruz.</p></details>
+      <details><summary>Kurulumu ve eğitimi kim yapıyor?</summary><p>Biz. Şirketinize gelip sunucu kurulumunu, veri aktarımını ve kullanıcı eğitimlerini yerinde yapıyoruz; program canlıya geçip ekibiniz kendi başına kullanana kadar yanınızdayız.</p></details>
+      <details><summary>Mevcut verilerimi aktarabilir miyim?</summary><p>Evet. Ürün, cari hesap, açılış stoğu ve reçete listeleriniz Excel'den aktarılır. Eski programınızdan alınan Excel çıktıları da kullanılabilir; aktarımı birlikte yapıyoruz.</p></details>
+      <details><summary>Lisans fiyatı nedir?</summary><p>Kullanıcı sayısına, ihtiyacınız olan modüllere ve kurulum kapsamına göre değişir. Ön görüşmeden sonra size özel teklif hazırlıyoruz; WhatsApp veya e-posta ile ulaşabilirsiniz.</p></details>
     </div>
   </div>
 </section>
