@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  41,
+    "yama":  42,
     "sema":  "2026.10.23.2",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL41/IBY_ERP.exe",
-    "sha256":  "6ff1738750d647df1caf05a17e8c99cc772905832190d696812add02ae358d84",
-    "boyut":  53064043,
-    "notlar":  "PL41: IBY ERP Mobil - saha satis icin telefon uygulamasi (musteriler, yeni musteri, siparis ve teklif, depo/raf stok, barkod / el terminali). Araclar \u003e Mobil Sunucu ile acilir, ilk 30 gun ucretsiz.",
-    "tarih":  "2026-10-27 15:48"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL42/IBY_ERP.exe",
+    "sha256":  "433f7a6ac689c6bf19aa53d49e64c4dbc790b04866e5d08de1ce95fd705b19b3",
+    "boyut":  53081475,
+    "notlar":  "PL42: Bobin Takibi \u003e Tuketim ve Satin Alma Analizi - en cok kullanilan kagitlar, aylik tuketim, son 180 gune gore satin alma onerisi ve satinalma talebi, cok kullanilanlara otomatik kritik seviye. Excel aktariminda biten bobinler cikis olarak girer.",
+    "tarih":  "2026-10-28 10:48"
 }
