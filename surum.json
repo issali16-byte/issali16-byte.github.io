@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  44,
+    "yama":  45,
     "sema":  "2026.10.23.2",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL44/IBY_ERP.exe",
-    "sha256":  "2fef761073a69589e8497fd0e6e616732b44d15094f6a6ca94e028dccb442d34",
-    "boyut":  53080671,
-    "notlar":  "PL44: E-posta - gonderen adinda Turkce harf (I, S, G, C, O, U) olunca mail sunucusunun reddetmesi giderildi.",
-    "tarih":  "2026-10-28 13:02"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL45/IBY_ERP.exe",
+    "sha256":  "f88c536c3019029a5f488c243ccf922179000877a48ba4b56185ca38692786a2",
+    "boyut":  53083151,
+    "notlar":  "PL45: Oturum zaman asimi artik Yonetim \u003e Sistem Geneli Ayarlar\u0027dan ayarlanabilir (dakika; 0 = oturum kapanmaz).",
+    "tarih":  "2026-10-28 14:39"
 }
