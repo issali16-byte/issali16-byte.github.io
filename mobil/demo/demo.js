@@ -21,20 +21,20 @@
     { id: 6, kod: 'MUS00006', ad: 'Kuzey Yazılım ve Danışmanlık', sehir: 'Ankara', vkn: '6789012345', vergi_dairesi: 'Çankaya', yetkili: 'Elif Aydın', telefon: '0312 000 00 06', email: '', adres: 'Teknokent Çankaya/Ankara', limit: 100000, bakiye: 31200, geciken: 0, vade: 30, belgeler: [] }
   ];
   var URUN = [
-    { id: 11, kod: 'SSD-1TB-NVME', ad: 'SSD 1 TB NVMe M.2', birim: 'Adet', fiyat: 2450, kdv: 20, barkod: '8690000000017',
+    { id: 11, kod: 'SSD-1TB-NVME', ad: 'SSD 1 TB NVMe M.2', birim: 'Adet', fiyat: 2450, kdv: 20, barkod: '8690000000012',
       depolar: [['Merkez Depo', [['A-01-02', 'L2610', 64], ['A-01-03', 'L2614', 32]]], ['Mağaza', [['M-02', '', 8]]]] },
-    { id: 12, kod: 'RAM-16-DDR5', ad: 'RAM 16 GB DDR5 5600 MHz', birim: 'Adet', fiyat: 1850, kdv: 20, barkod: '8690000000024',
+    { id: 12, kod: 'RAM-16-DDR5', ad: 'RAM 16 GB DDR5 5600 MHz', birim: 'Adet', fiyat: 1850, kdv: 20, barkod: '8690000000029',
       depolar: [['Merkez Depo', [['A-02-01', 'L2598', 120]]], ['Mağaza', [['M-01', '', 14]]]] },
-    { id: 13, kod: 'CPU-I5-14400', ad: 'İşlemci Intel Core i5-14400', birim: 'Adet', fiyat: 7900, kdv: 20, barkod: '8690000000031',
+    { id: 13, kod: 'CPU-I5-14400', ad: 'İşlemci Intel Core i5-14400', birim: 'Adet', fiyat: 7900, kdv: 20, barkod: '8690000000036',
       depolar: [['Merkez Depo', [['B-01-01', '', 3]]]] },
-    { id: 14, kod: 'GPU-RTX4060', ad: 'Ekran Kartı RTX 4060 8 GB', birim: 'Adet', fiyat: 13500, kdv: 20, barkod: '8690000000048',
+    { id: 14, kod: 'GPU-RTX4060', ad: 'Ekran Kartı RTX 4060 8 GB', birim: 'Adet', fiyat: 13500, kdv: 20, barkod: '8690000000043',
       depolar: [['Merkez Depo', [['B-02-01', '', 18]]], ['Mağaza', [['M-03', '', 2]]]] },
-    { id: 15, kod: 'MON-24-IPS', ad: 'Monitör 24" IPS 165 Hz', birim: 'Adet', fiyat: 4200, kdv: 20, barkod: '8690000000055',
+    { id: 15, kod: 'MON-24-IPS', ad: 'Monitör 24" IPS 165 Hz', birim: 'Adet', fiyat: 4200, kdv: 20, barkod: '8690000000050',
       depolar: [['Merkez Depo', [['C-01', '', 26]]]] },
-    { id: 16, kod: 'PSU-650-BRZ', ad: 'Güç Kaynağı 650 W 80+ Bronze', birim: 'Adet', fiyat: 1650, kdv: 20, barkod: '8690000000062', depolar: [] },
-    { id: 17, kod: 'KLV-MEK-TRQ', ad: 'Mekanik Klavye Türkçe Q', birim: 'Adet', fiyat: 1250, kdv: 20, barkod: '8690000000079',
+    { id: 16, kod: 'PSU-650-BRZ', ad: 'Güç Kaynağı 650 W 80+ Bronze', birim: 'Adet', fiyat: 1650, kdv: 20, barkod: '8690000000067', depolar: [] },
+    { id: 17, kod: 'KLV-MEK-TRQ', ad: 'Mekanik Klavye Türkçe Q', birim: 'Adet', fiyat: 1250, kdv: 20, barkod: '8690000000074',
       depolar: [['Merkez Depo', [['D-01', '', 45]]], ['Mağaza', [['M-04', '', 6]]]] },
-    { id: 18, kod: 'MOU-KBS', ad: 'Kablosuz Mouse', birim: 'Adet', fiyat: 390, kdv: 20, barkod: '8690000000086',
+    { id: 18, kod: 'MOU-KBS', ad: 'Kablosuz Mouse', birim: 'Adet', fiyat: 390, kdv: 20, barkod: '8690000000081',
       depolar: [['Mağaza', [['M-04', '', 60]]]] }
   ];
   var siparisSay = 3, tutar = 148250, teklif = 5, sira = 141;
@@ -66,7 +66,7 @@
     'GET musteri': function (q) { var m = MUSTERI.filter(function (x) { return x.id === +q.id; })[0]; if (!m) hata('Müşteri bulunamadı.'); return mDetay(m); },
     'GET urunler': function (q) { return URUN.filter(ara(q.ara, ['ad', 'kod', 'barkod'])).map(uOzet); },
     'GET urun': function (q) { var u = URUN.filter(function (x) { return x.id === +q.id; })[0]; if (!u) hata('Ürün bulunamadı.'); return uDetay(u); },
-    'GET barkod': function (q) { var u = URUN.filter(function (x) { return x.barkod === q.kod || x.kod === q.kod; })[0]; if (!u) hata('Barkod bulunamadı: ' + q.kod + ' (demoda 8690000000017 deneyin)'); return uDetay(u); },
+    'GET barkod': function (q) { var u = URUN.filter(function (x) { return x.barkod === q.kod || x.kod === q.kod; })[0]; if (!u) hata('Barkod bulunamadı: ' + q.kod + ' (demoda 8690000000012 deneyin)'); return uDetay(u); },
     'POST giris': function (v) {
       if (!(v.kullanici || '').trim()) hata('Demo: herhangi bir kullanıcı adı ve şifre yazın.');
       return { jeton: 'demo', kullanici: KULLANICI };
