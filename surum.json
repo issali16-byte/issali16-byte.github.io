@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  52,
+    "yama":  53,
     "sema":  "2026.10.23.2",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL52/IBY_ERP.exe",
-    "sha256":  "93655f13b0b4f4375ce843645924c2d93decd56e7789342044a7b2baaeacbe72",
-    "boyut":  53281823,
-    "notlar":  "PL52: IBY ERP Mobil - kamerayla barkod okutma her telefonda (iPhone dahil). Disaridan erisim bagliyken ag uyarisi sadelesti.",
-    "tarih":  "2026-10-30 15:04"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL53/IBY_ERP.exe",
+    "sha256":  "4a53f4e638def8a6a8a8469ea62471e69c8eefa7273e8050360c3b14b6bd47cc",
+    "boyut":  53282885,
+    "notlar":  "PL53: IBY ERP Mobil - guncellemeden sonra telefonlar yeni surumu hemen alir.",
+    "tarih":  "2026-10-30 15:30"
 }
