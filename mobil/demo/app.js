@@ -214,7 +214,7 @@
     stokListeBagla(function (u) { durum.param.sec ? sepeteEkle(u) : git('urun', { id: u.id }); });
   };
   function barkodKutusu() {
-    var kamera = ('BarcodeDetector' in window) && window.isSecureContext;
+    var kamera = window.isSecureContext && navigator.mediaDevices && navigator.mediaDevices.getUserMedia;
     return '<form id="barkodForm" class="liste" style="gap:8px"><label class="ara" style="border:1px solid #DDE3EC">' + IK.barkod +
       '<span class="gizli">Barkod veya ürün ara</span><input id="araKutu" type="search" placeholder="Barkod okutun / ürün adı, kodu…" autocomplete="off" enterkeyhint="search"></label>' +
       (kamera ? '<button type="button" class="dugme ikincil" data-eylem="kamera">' + IK.barkod + 'Kamera ile Okut</button><video class="kamera" id="kamera" hidden playsinline muted></video>' : '') + '</form>';
@@ -241,19 +241,38 @@
     kutuEl.focus();       // el terminalinin okuyucusu klavye gibi yazar → Enter ile ürün açılır
     getir();
   }
+  // Kamerayla barkod: her telefonda (iPhone / Android) aynı okuyucu — zxing.min.js (ZXing, Apache-2.0), ilk kullanımda yüklenir.
+  var kameraOkuyucu = null;
+  function zxingYukle() {
+    if (window.ZXing) return Promise.resolve(window.ZXing);
+    return new Promise(function (tamam, hata) {
+      var s = document.createElement('script');
+      s.src = 'zxing.min.js';
+      s.onload = function () { window.ZXing ? tamam(window.ZXing) : hata(new Error('Barkod okuyucu yüklenemedi.')); };
+      s.onerror = function () { document.head.removeChild(s); hata(new Error('Barkod okuyucu yüklenemedi, bağlantıyı kontrol edin.')); };
+      document.head.appendChild(s);
+    });
+  }
+  function kameraKapat() {
+    if (kameraOkuyucu) { try { kameraOkuyucu.reset(); } catch (e) {} kameraOkuyucu = null; }
+    var v = document.getElementById('kamera'); if (v) v.hidden = true;
+  }
   function kameraOkut(bulunca) {
-    var v = document.getElementById('kamera'), akis;
-    var algila = new window.BarcodeDetector({ formats: ['ean_13', 'ean_8', 'code_128', 'code_39', 'qr_code', 'upc_a', 'upc_e', 'itf'] });
-    navigator.mediaDevices.getUserMedia({ video: { facingMode: 'environment' } }).then(function (a) {
-      akis = a; v.srcObject = a; v.hidden = false; v.play();
-      (function tara() {
-        if (!akis.active) return;
-        algila.detect(v).then(function (k) {
-          if (k.length) { akis.getTracks().forEach(function (t) { t.stop(); }); v.hidden = true; if (navigator.vibrate) navigator.vibrate(80); bulunca(k[0].rawValue); }
-          else requestAnimationFrame(tara);
-        }, function () { requestAnimationFrame(tara); });
-      })();
-    }, function () { bildir('Kameraya izin verilmedi.'); });
+    if (kameraOkuyucu) return kameraKapat();          // ikinci basış kamerayı kapatır
+    var v = document.getElementById('kamera');
+    zxingYukle().then(function (Z) {
+      // format ipucu verme: POSSIBLE_FORMATS/TRY_HARDER ile ZXing 0.21.3 canlı görüntüde EAN-13'ü okuyamıyor (denendi)
+      var okuyucu = kameraOkuyucu = new Z.BrowserMultiFormatReader(undefined, 250);
+      v.hidden = false;
+      return okuyucu.decodeFromConstraints({ video: { facingMode: 'environment' } }, v, function (sonuc) {
+        if (okuyucu !== kameraOkuyucu) return;
+        if (!document.body.contains(v)) return kameraKapat();          // başka ekrana geçildi
+        if (sonuc) { kameraKapat(); if (navigator.vibrate) navigator.vibrate(80); bulunca(sonuc.getText()); }
+      });
+    }).catch(function (e) {
+      kameraKapat();
+      bildir(e && /Permission|NotAllowed/i.test(e.name + e.message) ? 'Kameraya izin verilmedi.' : (e && e.message) || 'Kamera açılamadı.');
+    });
   }
 
   EKRAN.urun = function () {
