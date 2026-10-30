@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  51,
+    "yama":  52,
     "sema":  "2026.10.23.2",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL51/IBY_ERP.exe",
-    "sha256":  "51d25a2c54f05d17b87168690a251790a1a35732d0a3cb8f31d1a8a2466f2c8f",
-    "boyut":  53177338,
-    "notlar":  "PL51: IBY ERP Mobil - Disaridan Erisim: satisci sirket disindayken de baglanir (Araclar \u003e Mobil Sunucu \u003e Disaridan Erisim, guvenli tunel, port acmak gerekmez, https ile kamerayla barkod).",
-    "tarih":  "2026-10-30 12:22"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL52/IBY_ERP.exe",
+    "sha256":  "93655f13b0b4f4375ce843645924c2d93decd56e7789342044a7b2baaeacbe72",
+    "boyut":  53281823,
+    "notlar":  "PL52: IBY ERP Mobil - kamerayla barkod okutma her telefonda (iPhone dahil). Disaridan erisim bagliyken ag uyarisi sadelesti.",
+    "tarih":  "2026-10-30 15:04"
 }
