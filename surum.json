@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  66,
+    "yama":  67,
     "sema":  "2026.10.23.2",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL66/IBY_ERP.exe",
-    "sha256":  "e5dfb1c17f2b7d4137ef7935877290c761580a452fc59902ee6147cef8086e5d",
-    "boyut":  51716032,
-    "notlar":  "PL66: Moduler yapi - Ana sayfa, mobil sunucu penceresi, transfer ve fire/iade ekranlari ayri modullerde. Kullanicida degisiklik yok.",
-    "tarih":  "2026-11-02 17:09"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL67/IBY_ERP.exe",
+    "sha256":  "272668e1292532cf40616a1fff91c8b1c7b75dc213c26c0e42b2b8927369f720",
+    "boyut":  51647418,
+    "notlar":  "PL67: Lisans kodu tek yerde (core/lisans), Yonetim ayri modulde. Kullanicida degisiklik yok.",
+    "tarih":  "2026-11-02 17:38"
 }
