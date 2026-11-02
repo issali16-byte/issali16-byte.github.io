@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  57,
+    "yama":  58,
     "sema":  "2026.10.23.2",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL57/IBY_ERP.exe",
-    "sha256":  "89f1218f2811176738ecd79ed8a0f0b4a72e20a7949723fbb91fb1b1b0d20b60",
-    "boyut":  53275123,
-    "notlar":  "PL57: Moduler yapi - SQL baglanti kodu tek yerde. Kullanicida degisiklik yok.",
-    "tarih":  "2026-11-02 12:45"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL58/IBY_ERP.exe",
+    "sha256":  "b1fd605af6e2c34ed3aabc71d4eb22d8e6bd3b02e9767255dfc9c602d9d17030",
+    "boyut":  53024253,
+    "notlar":  "PL58: Moduler yapi - Kurulum ve veritabani guncellemesi ayri modulde. Kullanicida degisiklik yok.",
+    "tarih":  "2026-11-02 13:04"
 }
