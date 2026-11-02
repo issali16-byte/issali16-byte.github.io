@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  61,
+    "yama":  62,
     "sema":  "2026.10.23.2",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL61/IBY_ERP.exe",
-    "sha256":  "f66dd4190c023ab3621c3b5b77002df2cf422d60de8dd62faad79dfb0e84f128",
-    "boyut":  52781611,
-    "notlar":  "PL61: Moduler yapi - Satis/alis faturasi, e-Belge ve siparis/teklif ayri modullerde. Kullanicida degisiklik yok.",
-    "tarih":  "2026-11-02 15:49"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL62/IBY_ERP.exe",
+    "sha256":  "cae5ade3cc46fe89a836f519a845cb84dba866fec4c07ff2afa898469ea857d6",
+    "boyut":  52401108,
+    "notlar":  "PL62: Moduler yapi - Satinalma, Stok ve Depo ayri modullerde. Kullanicida degisiklik yok.",
+    "tarih":  "2026-11-02 16:14"
 }
