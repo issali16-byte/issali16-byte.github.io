@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  59,
+    "yama":  60,
     "sema":  "2026.10.23.2",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL59/IBY_ERP.exe",
-    "sha256":  "baaf35e5b40745e78de80a176a1ec45bf7469b19b568b5f714c71d2f41e270eb",
-    "boyut":  53046589,
-    "notlar":  "PL59: Banka mutabakati - Excel ekstre yukleme, otomatik eslestirme, masraf/faiz girisi, mutabakat kaydi ve gecmis. Havale/EFT\u0027de yon secimi.",
-    "tarih":  "2026-11-02 13:50"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL60/IBY_ERP.exe",
+    "sha256":  "33b1991b8e1496dc919870623653bb8f9b9d61e5098ce115cbcc18ac8b77757b",
+    "boyut":  52967874,
+    "notlar":  "PL60: Moduler yapi - Satis irsaliyesi ve e-Irsaliye ayri modulde. Kullanicida degisiklik yok.",
+    "tarih":  "2026-11-02 15:33"
 }
