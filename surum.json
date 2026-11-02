@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  56,
+    "yama":  57,
     "sema":  "2026.10.23.2",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL56/IBY_ERP.exe",
-    "sha256":  "73a886b571718aa4ad402677403994267ee5d0258b53fd3311e21709f39785a4",
-    "boyut":  53284819,
-    "notlar":  "PL56: Moduler yapi - Bankacilik modulu ayrildi (ekranlar + is kurallari + testler). Kullanicida degisiklik yok.",
-    "tarih":  "2026-11-02 11:28"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL57/IBY_ERP.exe",
+    "sha256":  "89f1218f2811176738ecd79ed8a0f0b4a72e20a7949723fbb91fb1b1b0d20b60",
+    "boyut":  53275123,
+    "notlar":  "PL57: Moduler yapi - SQL baglanti kodu tek yerde. Kullanicida degisiklik yok.",
+    "tarih":  "2026-11-02 12:45"
 }
