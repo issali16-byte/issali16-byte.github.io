@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  63,
+    "yama":  64,
     "sema":  "2026.10.23.2",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL63/IBY_ERP.exe",
-    "sha256":  "040de342005767314a0dbc22c534a1a6c0c7bfc19e4f1c85a5ae33a4b0067619",
-    "boyut":  52133812,
-    "notlar":  "PL63: Moduler yapi - Uretim, MRP, Kalite, Sevkiyat ve Kaynaklar ayri modullerde. Kullanicida degisiklik yok.",
-    "tarih":  "2026-11-02 16:32"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL64/IBY_ERP.exe",
+    "sha256":  "7c4494a255dbb9ffff75dfa1f9e676fa46647543c17a0cca2ab2ec8875b38d0c",
+    "boyut":  51946394,
+    "notlar":  "PL64: Moduler yapi - Raporlar, Finansallar, CRM ve Is Ortaklari ayri modullerde. Kullanicida degisiklik yok.",
+    "tarih":  "2026-11-02 16:49"
 }
