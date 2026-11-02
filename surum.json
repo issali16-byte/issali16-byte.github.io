@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  55,
+    "yama":  56,
     "sema":  "2026.10.23.2",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL55/IBY_ERP.exe",
-    "sha256":  "759eece4585dac28c775383d03808f55442fa22516a1c1a38504d0116436d150",
-    "boyut":  53322284,
-    "notlar":  "PL55: Bobin - Jumbo dilme: dilmeye cikis (otomatik dilme is emri + cikis etiketi), toplu dilme stok girisi (kalan m2, stok giris etiketleri), kalan jumbo / fire, dilme is emirleri listesi.",
-    "tarih":  "2026-11-02 10:33"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL56/IBY_ERP.exe",
+    "sha256":  "73a886b571718aa4ad402677403994267ee5d0258b53fd3311e21709f39785a4",
+    "boyut":  53284819,
+    "notlar":  "PL56: Moduler yapi - Bankacilik modulu ayrildi (ekranlar + is kurallari + testler). Kullanicida degisiklik yok.",
+    "tarih":  "2026-11-02 11:28"
 }
