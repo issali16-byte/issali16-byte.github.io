@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  67,
+    "yama":  68,
     "sema":  "2026.10.23.2",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL67/IBY_ERP.exe",
-    "sha256":  "272668e1292532cf40616a1fff91c8b1c7b75dc213c26c0e42b2b8927369f720",
-    "boyut":  51647418,
-    "notlar":  "PL67: Lisans kodu tek yerde (core/lisans), Yonetim ayri modulde. Kullanicida degisiklik yok.",
-    "tarih":  "2026-11-02 17:38"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL68/IBY_ERP.exe",
+    "sha256":  "835d65a196bec4c00b0dc0fda29807959630819a1de0123ad2897cea84231fcf",
+    "boyut":  51648966,
+    "notlar":  "Ana sayfa daha hizli aciliyor (grafikler arka planda yukleniyor); Lisans ekraninda dogru surum gorunuyor",
+    "tarih":  "2026-11-04 17:07"
 }
