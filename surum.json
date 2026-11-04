@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  68,
+    "yama":  69,
     "sema":  "2026.10.23.2",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL68/IBY_ERP.exe",
-    "sha256":  "835d65a196bec4c00b0dc0fda29807959630819a1de0123ad2897cea84231fcf",
-    "boyut":  51648966,
-    "notlar":  "Ana sayfa daha hizli aciliyor (grafikler arka planda yukleniyor); Lisans ekraninda dogru surum gorunuyor",
-    "tarih":  "2026-11-04 17:07"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL69/IBY_ERP.exe",
+    "sha256":  "f0083d3223581e5e25e8b94307281e1595c799afc49238143991977ab8411f81",
+    "boyut":  51650288,
+    "notlar":  "Mobil: telefonlarin baglanacagi sirket secilebiliyor; Durdur-Baslat hatali giris kilidini kaldiriyor",
+    "tarih":  "2026-11-04 17:23"
 }
