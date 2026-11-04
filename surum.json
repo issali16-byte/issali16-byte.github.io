@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  69,
+    "yama":  70,
     "sema":  "2026.10.23.2",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL69/IBY_ERP.exe",
-    "sha256":  "f0083d3223581e5e25e8b94307281e1595c799afc49238143991977ab8411f81",
-    "boyut":  51650288,
-    "notlar":  "Mobil: telefonlarin baglanacagi sirket secilebiliyor; Durdur-Baslat hatali giris kilidini kaldiriyor",
-    "tarih":  "2026-11-04 17:23"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL70/IBY_ERP.exe",
+    "sha256":  "b646fa25cf1e557d7ff3f0220e0c2846ada5176a1b9ab2fb3d4cb42c64ad36c6",
+    "boyut":  51653350,
+    "notlar":  "Irsaliye is kurallari ayri modulde (servis). Kullanicida degisiklik yok.",
+    "tarih":  "2026-11-04 17:49"
 }
