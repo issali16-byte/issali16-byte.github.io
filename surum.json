@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  70,
+    "yama":  71,
     "sema":  "2026.10.23.2",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL70/IBY_ERP.exe",
-    "sha256":  "b646fa25cf1e557d7ff3f0220e0c2846ada5176a1b9ab2fb3d4cb42c64ad36c6",
-    "boyut":  51653350,
-    "notlar":  "Irsaliye is kurallari ayri modulde (servis). Kullanicida degisiklik yok.",
-    "tarih":  "2026-11-04 17:49"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL71/IBY_ERP.exe",
+    "sha256":  "4775b65344fe2791b660c71dfe47951ae9da0d5bfdfb0a33cc77271b2b5a6665",
+    "boyut":  51657260,
+    "notlar":  "Satis faturasi is kurallari ayri modulde (servis). Kullanicida degisiklik yok.",
+    "tarih":  "2026-11-05 11:27"
 }
