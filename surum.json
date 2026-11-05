@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  77,
+    "yama":  78,
     "sema":  "2026.10.23.2",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL77/IBY_ERP.exe",
-    "sha256":  "32b1e20095fa7187169f168fe0728f2cebf3c19d1a74ce939495376d92cf7771",
-    "boyut":  51681891,
-    "notlar":  "Kullanim kilavuzu guncellendi (tarih, satis ayarlari); dugme yazim duzeltmeleri.",
-    "tarih":  "2026-11-05 15:22"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL78/IBY_ERP.exe",
+    "sha256":  "0c0d8d5ff53233974a91f046e3389618072d6da98957998b497d06eb4488f826",
+    "boyut":  51691558,
+    "notlar":  "Satisci sadece siparis girer; depo, miktar, tasiyici sevkiyat kokpitinde. Gonderilen siparis HAZIRLANIYOR gorunur. Il listesi, paket miktari esas.",
+    "tarih":  "2026-11-05 15:49"
 }
