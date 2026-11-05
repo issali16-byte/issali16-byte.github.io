@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  79,
+    "yama":  80,
     "sema":  "2026.11.05.1",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL79/IBY_ERP.exe",
-    "sha256":  "9596fc2cf866cff93925c69742966754ff9fd574c72aa49a698ffc7d0e1ff8a0",
-    "boyut":  51691048,
-    "notlar":  "Sirket veritabanlarinda eksik nakil sutunlari tamamlanir (Guncelleme Sihirbazi). Uyari metinleri duzeltildi.",
-    "tarih":  "2026-11-05 16:14"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL80/IBY_ERP.exe",
+    "sha256":  "c8b47fa86af57bc9135cb04c1d23e1873f97e1044d4d9c506f2cf465a82d438a",
+    "boyut":  51700838,
+    "notlar":  "Sevkiyat deposu zorunlu: Toplama \u003e Nakil Onay teslim alma \u003e Irsaliye Kes (teslim alinan miktarla).",
+    "tarih":  "2026-11-05 17:02"
 }
