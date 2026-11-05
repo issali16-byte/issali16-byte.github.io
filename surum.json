@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  80,
+    "yama":  81,
     "sema":  "2026.11.05.1",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL80/IBY_ERP.exe",
-    "sha256":  "c8b47fa86af57bc9135cb04c1d23e1873f97e1044d4d9c506f2cf465a82d438a",
-    "boyut":  51700838,
-    "notlar":  "Sevkiyat deposu zorunlu: Toplama \u003e Nakil Onay teslim alma \u003e Irsaliye Kes (teslim alinan miktarla).",
-    "tarih":  "2026-11-05 17:02"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL81/IBY_ERP.exe",
+    "sha256":  "8ea4e58e91aa3b07ba580ab647ff1b33c5338eb991cf9760a3ddcf472e9077e2",
+    "boyut":  51698348,
+    "notlar":  "Satistan dogrudan irsaliye kaldirildi; mal cikisi yalniz sevkiyat deposundan.",
+    "tarih":  "2026-11-05 17:25"
 }
