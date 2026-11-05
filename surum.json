@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  71,
+    "yama":  73,
     "sema":  "2026.10.23.2",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL71/IBY_ERP.exe",
-    "sha256":  "4775b65344fe2791b660c71dfe47951ae9da0d5bfdfb0a33cc77271b2b5a6665",
-    "boyut":  51657260,
-    "notlar":  "Satis faturasi is kurallari ayri modulde (servis). Kullanicida degisiklik yok.",
-    "tarih":  "2026-11-05 11:27"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL73/IBY_ERP.exe",
+    "sha256":  "63bdb1664e733b99127dead4b0beefd929da36b2e6e808ea4c559ab99ab3ce44",
+    "boyut":  51664431,
+    "notlar":  "Siparise %10 fazla sevk (ayarlanabilir), sevkli siparis duzenlenebilir, Ilave Siparis.",
+    "tarih":  "2026-11-05 13:21"
 }
