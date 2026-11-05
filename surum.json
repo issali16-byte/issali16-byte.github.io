@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  82,
+    "yama":  83,
     "sema":  "2026.11.05.1",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL82/IBY_ERP.exe",
-    "sha256":  "559264e1d63c9964517558c5239e2ecf7fb8ffa897cf5dc513a2d8a353c32ee3",
-    "boyut":  51701008,
-    "notlar":  "Guncelleme indirme daha saglam: gecici hatada yeniden dener, yedek adres; pencere donmaz.",
-    "tarih":  "2026-11-05 17:45"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL83/IBY_ERP.exe",
+    "sha256":  "82c56bdbe5cff79c4aeb9c49df75bbd9cd5784686e8025b4763d309facbee685",
+    "boyut":  51699895,
+    "notlar":  "Sevkiyat islemleri icin yazma yetkisi; satisciya kokpit onerilmez.",
+    "tarih":  "2026-11-05 17:58"
 }
