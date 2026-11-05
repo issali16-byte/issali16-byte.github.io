@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  75,
+    "yama":  76,
     "sema":  "2026.10.23.2",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL75/IBY_ERP.exe",
-    "sha256":  "83cd297bafcc3a205af1423b7ede6842dde604682925622a607d275650f50df6",
-    "boyut":  51674717,
-    "notlar":  "Sipariste fiyat urun kartindan, Sevk Et her acik sipariste, siparissiz irsaliyede acik siparis uyarisi.",
-    "tarih":  "2026-11-05 14:41"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL76/IBY_ERP.exe",
+    "sha256":  "2a72fbee0be1e3761b3cf84bebd210e271c288179393ae088f91001d6a95dbd1",
+    "boyut":  51681200,
+    "notlar":  "Tek sevkiyat akisi: siparis \u003e Sevkiyata Gonder \u003e Kokpit \u003e Irsaliye Kes \u003e Fatura. Satistan dogrudan irsaliye ayarla.",
+    "tarih":  "2026-11-05 15:05"
 }
