@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  78,
-    "sema":  "2026.10.23.2",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL78/IBY_ERP.exe",
-    "sha256":  "0c0d8d5ff53233974a91f046e3389618072d6da98957998b497d06eb4488f826",
-    "boyut":  51691558,
-    "notlar":  "Satisci sadece siparis girer; depo, miktar, tasiyici sevkiyat kokpitinde. Gonderilen siparis HAZIRLANIYOR gorunur. Il listesi, paket miktari esas.",
-    "tarih":  "2026-11-05 15:49"
+    "yama":  79,
+    "sema":  "2026.11.05.1",
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL79/IBY_ERP.exe",
+    "sha256":  "9596fc2cf866cff93925c69742966754ff9fd574c72aa49a698ffc7d0e1ff8a0",
+    "boyut":  51691048,
+    "notlar":  "Sirket veritabanlarinda eksik nakil sutunlari tamamlanir (Guncelleme Sihirbazi). Uyari metinleri duzeltildi.",
+    "tarih":  "2026-11-05 16:14"
 }
