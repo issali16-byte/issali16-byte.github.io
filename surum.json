@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  74,
+    "yama":  75,
     "sema":  "2026.10.23.2",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL74/IBY_ERP.exe",
-    "sha256":  "6a590659e3e9bcb0a586427294cc6eb1cb326bb8dafdf35e261431b102e3865a",
-    "boyut":  51673930,
-    "notlar":  "Tarihler gun.ay.yil, siparis ve malzeme fisinde takvim.",
-    "tarih":  "2026-11-05 13:50"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL75/IBY_ERP.exe",
+    "sha256":  "83cd297bafcc3a205af1423b7ede6842dde604682925622a607d275650f50df6",
+    "boyut":  51674717,
+    "notlar":  "Sipariste fiyat urun kartindan, Sevk Et her acik sipariste, siparissiz irsaliyede acik siparis uyarisi.",
+    "tarih":  "2026-11-05 14:41"
 }
