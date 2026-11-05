@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  73,
+    "yama":  74,
     "sema":  "2026.10.23.2",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL73/IBY_ERP.exe",
-    "sha256":  "63bdb1664e733b99127dead4b0beefd929da36b2e6e808ea4c559ab99ab3ce44",
-    "boyut":  51664431,
-    "notlar":  "Siparise %10 fazla sevk (ayarlanabilir), sevkli siparis duzenlenebilir, Ilave Siparis.",
-    "tarih":  "2026-11-05 13:21"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL74/IBY_ERP.exe",
+    "sha256":  "6a590659e3e9bcb0a586427294cc6eb1cb326bb8dafdf35e261431b102e3865a",
+    "boyut":  51673930,
+    "notlar":  "Tarihler gun.ay.yil, siparis ve malzeme fisinde takvim.",
+    "tarih":  "2026-11-05 13:50"
 }
