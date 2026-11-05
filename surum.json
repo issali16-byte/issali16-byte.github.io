@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  81,
+    "yama":  82,
     "sema":  "2026.11.05.1",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL81/IBY_ERP.exe",
-    "sha256":  "8ea4e58e91aa3b07ba580ab647ff1b33c5338eb991cf9760a3ddcf472e9077e2",
-    "boyut":  51698348,
-    "notlar":  "Satistan dogrudan irsaliye kaldirildi; mal cikisi yalniz sevkiyat deposundan.",
-    "tarih":  "2026-11-05 17:25"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL82/IBY_ERP.exe",
+    "sha256":  "559264e1d63c9964517558c5239e2ecf7fb8ffa897cf5dc513a2d8a353c32ee3",
+    "boyut":  51701008,
+    "notlar":  "Guncelleme indirme daha saglam: gecici hatada yeniden dener, yedek adres; pencere donmaz.",
+    "tarih":  "2026-11-05 17:45"
 }
