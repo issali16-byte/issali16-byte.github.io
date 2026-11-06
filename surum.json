@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  92,
+    "yama":  93,
     "sema":  "2026.11.05.1",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL92/IBY_ERP.exe",
-    "sha256":  "6102e1e8110a5d7b94570f93a2e9108d973258c65ee45a9b988c61e33f495bc7",
-    "boyut":  51699654,
-    "notlar":  "Fatura/siparis/teklif: 1.250 = bin iki yuz elli; okunamayan sayi ve tarih kaydi durdurur; urun fiyati yuvarlanmiyor",
-    "tarih":  "2026-11-06 17:20"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL93/IBY_ERP.exe",
+    "sha256":  "a0633925012b7056f88fbe21a5969b06e68362bef7a6380f338866f6557169f2",
+    "boyut":  51681575,
+    "notlar":  "Ic duzen: muhasebe ve alacak ekranlari ayri modulde (davranis ayni)",
+    "tarih":  "2026-11-06 17:39"
 }
