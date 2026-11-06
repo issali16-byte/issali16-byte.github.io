@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  86,
+    "yama":  87,
     "sema":  "2026.11.05.1",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL86/IBY_ERP.exe",
-    "sha256":  "8187a630b847cc980def4e862669763b80cfe22ae9c7112b4d8626c5fa12f49a",
-    "boyut":  51688529,
-    "notlar":  "Hazir roller (Satisci, Depocu, Sevkiyatci, Satinalmaci, Muhasebe, Uretim); satista siparis/fatura/iptal icin yazma yetkisi",
-    "tarih":  "2026-11-06 11:24"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL87/IBY_ERP.exe",
+    "sha256":  "b6ce5686fade706612c1e2f35937167ee4c229af9872fe5c14d6e6414ed86396",
+    "boyut":  51690009,
+    "notlar":  "Ana sayfa ve kisayollar yetkiye gore; menu disindan acilan ekranlar da yetki ister; kullanici penceresi Turkce harfli",
+    "tarih":  "2026-11-06 12:15"
 }
