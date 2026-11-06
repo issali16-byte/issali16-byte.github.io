@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  88,
+    "yama":  89,
     "sema":  "2026.11.05.1",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL88/IBY_ERP.exe",
-    "sha256":  "83ff9b0c99b02d5ccb61b3a9bb055803bfda4e9076cf8c4a53b07bbd5317f7dd",
-    "boyut":  51697023,
-    "notlar":  "Ana sayfa kartlarini admin belirler (Kullanici Tanimlari \u003e Ana Sayfa); Ana Sayfami Duzenle ve Aylik Yonetim Ozeti yalniz admin",
-    "tarih":  "2026-11-06 15:12"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL89/IBY_ERP.exe",
+    "sha256":  "7241120d9c54bbdffd074579fc4db99295c7371394fc9856c8daecb98f59ad20",
+    "boyut":  51696635,
+    "notlar":  "Bos tarih kutularinda da takvim; listelerde tarih gun.ay.yil; MRP termin yakin uyarisi duzeltildi",
+    "tarih":  "2026-11-06 16:15"
 }
