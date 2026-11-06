@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  93,
+    "yama":  94,
     "sema":  "2026.11.05.1",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL93/IBY_ERP.exe",
-    "sha256":  "a0633925012b7056f88fbe21a5969b06e68362bef7a6380f338866f6557169f2",
-    "boyut":  51681575,
-    "notlar":  "Ic duzen: muhasebe ve alacak ekranlari ayri modulde (davranis ayni)",
-    "tarih":  "2026-11-06 17:39"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL94/IBY_ERP.exe",
+    "sha256":  "c1803db61ef00b0bab2e6d73db696b06ad60d893299d2d7a8cd55b5b4c7170ca",
+    "boyut":  51621564,
+    "notlar":  "Ic duzen: depo adresleri ve malzeme talep / toplama ekranlari ayri modulde (davranis ayni)",
+    "tarih":  "2026-11-06 18:00"
 }
