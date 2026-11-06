@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  91,
+    "yama":  92,
     "sema":  "2026.11.05.1",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL91/IBY_ERP.exe",
-    "sha256":  "7151ac93593af2d332996e9b234a018efc662a8a3a73e3fa6948f839eb847450",
-    "boyut":  51698416,
-    "notlar":  "Sayi kutulari: 1.250,50 ve 1.250.000 gibi yazimlar artik dogru okunur (fatura, siparis, irsaliye, depo, uretim...)",
-    "tarih":  "2026-11-06 16:52"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL92/IBY_ERP.exe",
+    "sha256":  "6102e1e8110a5d7b94570f93a2e9108d973258c65ee45a9b988c61e33f495bc7",
+    "boyut":  51699654,
+    "notlar":  "Fatura/siparis/teklif: 1.250 = bin iki yuz elli; okunamayan sayi ve tarih kaydi durdurur; urun fiyati yuvarlanmiyor",
+    "tarih":  "2026-11-06 17:20"
 }
