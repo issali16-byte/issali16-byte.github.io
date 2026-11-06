@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  83,
+    "yama":  84,
     "sema":  "2026.11.05.1",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL83/IBY_ERP.exe",
-    "sha256":  "82c56bdbe5cff79c4aeb9c49df75bbd9cd5784686e8025b4763d309facbee685",
-    "boyut":  51699895,
-    "notlar":  "Sevkiyat islemleri icin yazma yetkisi; satisciya kokpit onerilmez.",
-    "tarih":  "2026-11-05 17:58"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL84/IBY_ERP.exe",
+    "sha256":  "c7d4d55a76a1719678dd4b02418f44c61e4a0560dd6be14ae54942ecb2bbe803",
+    "boyut":  51681117,
+    "notlar":  "Guncellemede acik pencere uyarisi; eski teslimat ekranlari kaldirildi, Sevkiyat Kokpiti dugmesi.",
+    "tarih":  "2026-11-06 08:54"
 }
