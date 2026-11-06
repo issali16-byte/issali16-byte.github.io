@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  85,
+    "yama":  86,
     "sema":  "2026.11.05.1",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL85/IBY_ERP.exe",
-    "sha256":  "4203952acb4e7263cbbaf5c709525c34d02c0813324dbef352429303623bad5a",
-    "boyut":  51684569,
-    "notlar":  "Her ekranda tarih kutusuna tiklayinca takvim; tarih yazimi esnek.",
-    "tarih":  "2026-11-06 09:29"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL86/IBY_ERP.exe",
+    "sha256":  "8187a630b847cc980def4e862669763b80cfe22ae9c7112b4d8626c5fa12f49a",
+    "boyut":  51688529,
+    "notlar":  "Hazir roller (Satisci, Depocu, Sevkiyatci, Satinalmaci, Muhasebe, Uretim); satista siparis/fatura/iptal icin yazma yetkisi",
+    "tarih":  "2026-11-06 11:24"
 }
