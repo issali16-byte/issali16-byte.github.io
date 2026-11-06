@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  87,
+    "yama":  88,
     "sema":  "2026.11.05.1",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL87/IBY_ERP.exe",
-    "sha256":  "b6ce5686fade706612c1e2f35937167ee4c229af9872fe5c14d6e6414ed86396",
-    "boyut":  51690009,
-    "notlar":  "Ana sayfa ve kisayollar yetkiye gore; menu disindan acilan ekranlar da yetki ister; kullanici penceresi Turkce harfli",
-    "tarih":  "2026-11-06 12:15"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL88/IBY_ERP.exe",
+    "sha256":  "83ff9b0c99b02d5ccb61b3a9bb055803bfda4e9076cf8c4a53b07bbd5317f7dd",
+    "boyut":  51697023,
+    "notlar":  "Ana sayfa kartlarini admin belirler (Kullanici Tanimlari \u003e Ana Sayfa); Ana Sayfami Duzenle ve Aylik Yonetim Ozeti yalniz admin",
+    "tarih":  "2026-11-06 15:12"
 }
