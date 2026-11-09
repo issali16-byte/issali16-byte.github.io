@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  100,
+    "yama":  101,
     "sema":  "2026.11.05.1",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL100/IBY_ERP.exe",
-    "sha256":  "12458ea900935d97e83ff7f0df2cb4520f98f388df21ffe60591ee2ca9ce9eac",
-    "boyut":  51335166,
-    "notlar":  "Menude Ara: 3 harf yazinca eslesen ekranlar listelenir, tiklayinca acilir",
-    "tarih":  "2026-11-09 13:26"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL101/IBY_ERP.exe",
+    "sha256":  "7c4b4b8a54ddb18a7832b7dfa807127c265efe7916830874adc492b8fd9f27f9",
+    "boyut":  51306838,
+    "notlar":  "Ic duzen: canli stok Excel, liste ciktisi ve ortak yardimcilar ayri modulde (davranis ayni)",
+    "tarih":  "2026-11-09 14:09"
 }
