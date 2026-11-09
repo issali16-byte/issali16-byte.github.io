@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  102,
+    "yama":  103,
     "sema":  "2026.11.05.1",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL102/IBY_ERP.exe",
-    "sha256":  "707e6d6ee7b2b173271e0e62ea06e4cb70a8cee8b3f359e4da25dc837a93d556",
-    "boyut":  51314594,
-    "notlar":  "Muhasebe: fiste borc=alacak zorunlu; mizan, gelir tablosu, bilanco duzeldi; hesap plani artik gercekten yukleniyor",
-    "tarih":  "2026-11-09 15:04"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL103/IBY_ERP.exe",
+    "sha256":  "dcd6636ce9e12045b140501deb33356b867827a58448375776d0a33ba45123fa",
+    "boyut":  51323045,
+    "notlar":  "Yeni: Stok Deger Raporu (agirlikli ortalama maliyet)",
+    "tarih":  "2026-11-09 15:50"
 }
