@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  96,
+    "yama":  97,
     "sema":  "2026.11.05.1",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL96/IBY_ERP.exe",
-    "sha256":  "27ac84f145693ed97d3941ed2b0b97cd31201fbb579a824f6d8245165aee025c",
-    "boyut":  51538206,
-    "notlar":  "Temizlik: kullanilmayan eski kod silindi (davranis ayni)",
-    "tarih":  "2026-11-09 09:59"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL97/IBY_ERP.exe",
+    "sha256":  "0a16102fd0d68e7a8946ad75d3a949a5f185986d2213966a90936ec63d8ce512",
+    "boyut":  51468506,
+    "notlar":  "Temizlik: kullanilmayan eski kutuphane dosyalari silindi (davranis ayni)",
+    "tarih":  "2026-11-09 10:34"
 }
