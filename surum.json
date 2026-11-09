@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  95,
+    "yama":  96,
     "sema":  "2026.11.05.1",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL95/IBY_ERP.exe",
-    "sha256":  "ae74ecb378ccfe1039772f6b56128deb550c44d22425954ecb2982a412e968a2",
-    "boyut":  51602555,
-    "notlar":  "Ic duzen: giris ve sirket ekranlari ayri modulde (davranis ayni)",
-    "tarih":  "2026-11-09 09:30"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL96/IBY_ERP.exe",
+    "sha256":  "27ac84f145693ed97d3941ed2b0b97cd31201fbb579a824f6d8245165aee025c",
+    "boyut":  51538206,
+    "notlar":  "Temizlik: kullanilmayan eski kod silindi (davranis ayni)",
+    "tarih":  "2026-11-09 09:59"
 }
