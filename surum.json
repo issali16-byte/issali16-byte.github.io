@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  99,
+    "yama":  100,
     "sema":  "2026.11.05.1",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL99/IBY_ERP.exe",
-    "sha256":  "8be6834ceeec1f08678f72e4d41023fe827843bd4e050811641a7ee7dd295341",
-    "boyut":  51332310,
-    "notlar":  "Ic duzen: sol menu, ust menu ve sekme sistemi ayri modulde (davranis ayni)",
-    "tarih":  "2026-11-09 13:19"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL100/IBY_ERP.exe",
+    "sha256":  "12458ea900935d97e83ff7f0df2cb4520f98f388df21ffe60591ee2ca9ce9eac",
+    "boyut":  51335166,
+    "notlar":  "Menude Ara: 3 harf yazinca eslesen ekranlar listelenir, tiklayinca acilir",
+    "tarih":  "2026-11-09 13:26"
 }
