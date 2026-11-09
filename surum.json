@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  101,
+    "yama":  102,
     "sema":  "2026.11.05.1",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL101/IBY_ERP.exe",
-    "sha256":  "7c4b4b8a54ddb18a7832b7dfa807127c265efe7916830874adc492b8fd9f27f9",
-    "boyut":  51306838,
-    "notlar":  "Ic duzen: canli stok Excel, liste ciktisi ve ortak yardimcilar ayri modulde (davranis ayni)",
-    "tarih":  "2026-11-09 14:09"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL102/IBY_ERP.exe",
+    "sha256":  "707e6d6ee7b2b173271e0e62ea06e4cb70a8cee8b3f359e4da25dc837a93d556",
+    "boyut":  51314594,
+    "notlar":  "Muhasebe: fiste borc=alacak zorunlu; mizan, gelir tablosu, bilanco duzeldi; hesap plani artik gercekten yukleniyor",
+    "tarih":  "2026-11-09 15:04"
 }
