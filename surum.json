@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  116,
-    "sema":  "2026.11.10.4",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL116/IBY_ERP.exe",
-    "sha256":  "2c9abd57a870bca2a48f66d365fb777c3382bf88b380386ddd10c19cc5df162d",
-    "boyut":  51406690,
-    "notlar":  "IK formlarinda Hesapla / Kaydet / Yazdir dugmeleri hep gorunur (pencereden tasiyordu).",
-    "tarih":  "2026-11-10 15:54"
+    "yama":  117,
+    "sema":  "2026.11.10.5",
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL117/IBY_ERP.exe",
+    "sha256":  "048fb1d5b5ecc7d194da39adce078c867bfba6648a99a7e544d883e5a5b97dbc",
+    "boyut":  51415549,
+    "notlar":  "Yillik izin: kideme gore hak, kalan bakiye, is gunu hesabi (resmi tatil/bayram), Izin Bakiyeleri raporu. Guncelleme Sihirbazi gerekir.",
+    "tarih":  "2026-11-10 16:21"
 }
