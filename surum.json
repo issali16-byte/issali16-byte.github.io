@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  109,
+    "yama":  110,
     "sema":  "2026.11.10.2",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL109/IBY_ERP.exe",
-    "sha256":  "0f1bf19117f1d2d49fc402e7d56e4ffc95c964a89b87129b751ae01f475fda5c",
-    "boyut":  51331965,
-    "notlar":  "Uretim maliyeti: is emri bitince malzeme maliyeti mamule aktarilir (710/711), yari mamul maliyeti mamule gecer, fire maliyete yedirilir. Guncelleme Sihirbazi gerekir.",
-    "tarih":  "2026-11-10 12:58"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL110/IBY_ERP.exe",
+    "sha256":  "df2dea94dbc4f6933246edb72393b33d023e307784b5c233bed6de82ba4759f1",
+    "boyut":  51338401,
+    "notlar":  "Donem kilidi: Finansallar \u003e Donem Kilidi ile kapatilan aya fatura, irsaliye, fis vb. kaydedilemez; yalniz yonetici degistirir.",
+    "tarih":  "2026-11-10 13:47"
 }
