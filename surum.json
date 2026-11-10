@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  120,
+    "yama":  121,
     "sema":  "2026.11.10.7",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL120/IBY_ERP.exe",
-    "sha256":  "22fe74d410e4131b68b57e51363b37a47cd388c52c750ed164c68aa200d4b073",
-    "boyut":  51382605,
-    "notlar":  "Satinalma talebi tek tusla siparise cevrilir. Siparis duzenlemede kalemler gelir, teslim alinan gorunur. Siparis Kapat / Yeniden Ac / Iptal Et. Mal kabul ve gelen irsaliyede tedarikci listesi duzeldi. Sema degisti: yonetici Guncelleme Sihirbazini calistirsin.",
-    "tarih":  "2026-11-10 17:29"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL121/IBY_ERP.exe",
+    "sha256":  "fece5782e9cb75d8ecb40bbca439665a286e2594b4e770d1d34452b3c5620bcd",
+    "boyut":  51389691,
+    "notlar":  "Uzun acilir listelerde (urun, musteri, tedarikci) yazinca suzulen arama: 2 harf yazin, eslesenler altta listelenir; asagi ok ile inin, Enter ile secin. Kelime sirasi ve Turkce harf farki onemsiz.",
+    "tarih":  "2026-11-10 17:41"
 }
