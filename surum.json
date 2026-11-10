@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  118,
+    "yama":  119,
     "sema":  "2026.11.10.6",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL118/IBY_ERP.exe",
-    "sha256":  "2c913264542ff73bb403c0bd658e3673b48434dc0c006e7c46105cd936326d4e",
-    "boyut":  51432344,
-    "notlar":  "Isten cikis: kidem ve ihbar tazminati, kullanilmayan izin, SGK cikis kodu, cikis hesap pusulasi ve muhasebe fisi; kidem tavani parametrelerde. Guncelleme Sihirbazi gerekir.",
-    "tarih":  "2026-11-10 16:40"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL119/IBY_ERP.exe",
+    "sha256":  "e2c551070393dbf94cf5a4b004a1dc6c6155ae09ceeb2beaa5cf4af510c0b840",
+    "boyut":  51366739,
+    "notlar":  "Musteri silme: kaydi olan musteri yalniz pasif yapilir. Satinalma siparisi mal kabulden Kismi Teslim / Teslim Alindi olur, MRP yoldaki dogru. Onayli mal kabul degistirilemez. Ana sayfa uretim ve siparis sayilari duzeldi. Eski kullanilmayan kod temizlendi.",
+    "tarih":  "2026-11-10 17:06"
 }
