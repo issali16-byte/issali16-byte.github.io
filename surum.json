@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  119,
-    "sema":  "2026.11.10.6",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL119/IBY_ERP.exe",
-    "sha256":  "e2c551070393dbf94cf5a4b004a1dc6c6155ae09ceeb2beaa5cf4af510c0b840",
-    "boyut":  51366739,
-    "notlar":  "Musteri silme: kaydi olan musteri yalniz pasif yapilir. Satinalma siparisi mal kabulden Kismi Teslim / Teslim Alindi olur, MRP yoldaki dogru. Onayli mal kabul degistirilemez. Ana sayfa uretim ve siparis sayilari duzeldi. Eski kullanilmayan kod temizlendi.",
-    "tarih":  "2026-11-10 17:06"
+    "yama":  120,
+    "sema":  "2026.11.10.7",
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL120/IBY_ERP.exe",
+    "sha256":  "22fe74d410e4131b68b57e51363b37a47cd388c52c750ed164c68aa200d4b073",
+    "boyut":  51382605,
+    "notlar":  "Satinalma talebi tek tusla siparise cevrilir. Siparis duzenlemede kalemler gelir, teslim alinan gorunur. Siparis Kapat / Yeniden Ac / Iptal Et. Mal kabul ve gelen irsaliyede tedarikci listesi duzeldi. Sema degisti: yonetici Guncelleme Sihirbazini calistirsin.",
+    "tarih":  "2026-11-10 17:29"
 }
