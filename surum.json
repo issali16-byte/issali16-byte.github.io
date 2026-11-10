@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  112,
+    "yama":  113,
     "sema":  "2026.11.10.2",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL112/IBY_ERP.exe",
-    "sha256":  "b1c36629b65ce3c54045aa20860b4410b834adb7742cf2b276b659135f5dbb28",
-    "boyut":  51350043,
-    "notlar":  "Yil sonu kapanis ve acilis: Finansallar \u003e Yil Sonu Kapanis (690-692-590/591, bilanco kapanis, yeni yil acilis fisi).",
-    "tarih":  "2026-11-10 14:14"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL113/IBY_ERP.exe",
+    "sha256":  "e7b697b7533d1b78da0fff23cd052c0bdf43ac6d235db6156e40f4e0671d5011",
+    "boyut":  51363537,
+    "notlar":  "KDV Raporu: KDV-1 beyanname hazirligi ve GIB formatinda Indirilecek KDV / Satis Faturalari listeleri (Excel).",
+    "tarih":  "2026-11-10 14:36"
 }
