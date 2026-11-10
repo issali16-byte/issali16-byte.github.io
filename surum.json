@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  106,
+    "yama":  107,
     "sema":  "2026.11.05.1",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL106/IBY_ERP.exe",
-    "sha256":  "be1fe0bdaa144761dcee6191dc8ceb4c2eeabe5875c8187d962f35acea739d24",
-    "boyut":  51338149,
-    "notlar":  "Sevkiyat menusu: Yeni Sevkiyat, Siparisten Sevkiyat, Toplama, Paketleme Masasi, Irsaliye Kes ayri satirlar; Paketleme Masasi kendi sekmesinde, kokpite donus dugmesi.",
-    "tarih":  "2026-11-10 11:14"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL107/IBY_ERP.exe",
+    "sha256":  "2b77923fd8cc8eaa732080b640c2714cadfa74bf47943e2d77ab123a3faeec28",
+    "boyut":  51326641,
+    "notlar":  "Sayim farki muhasebeye yazilir; malzeme giris/cikis fisinde Giris/Cikis Tipi (fire, hurda, numune, iade...) ve tipe gore muhasebe kaydi.",
+    "tarih":  "2026-11-10 11:49"
 }
