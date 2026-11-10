@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  104,
+    "yama":  105,
     "sema":  "2026.11.05.1",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL104/IBY_ERP.exe",
-    "sha256":  "7acabe6c36b54e72e0cbf5c63de93c32e7487639d1e1c8a170920c992f586061",
-    "boyut":  51332640,
-    "notlar":  "KDV Raporu artik faturalardan dolar (satis, alis, iade, iptal); onceki aydan devreden KDV dusulur; muhasebe 391/191 karsilastirmasi.",
-    "tarih":  "2026-11-09 18:12"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL105/IBY_ERP.exe",
+    "sha256":  "6ed74b9afd341bb158a8455c539d517b9fe27d13e04ac52dc605d7ba0945efc8",
+    "boyut":  51335157,
+    "notlar":  "Satis irsaliyesinde satilan malin maliyeti muhasebeye otomatik yazilir (621/153, numune 760); iptal ve iadede ters kayit.",
+    "tarih":  "2026-11-10 10:22"
 }
