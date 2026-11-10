@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  115,
+    "yama":  116,
     "sema":  "2026.11.10.4",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL115/IBY_ERP.exe",
-    "sha256":  "cc28dd573e6821077169f81e9e7fac35ab9bdd63cfa9869d64f4fbb63d7289ad",
-    "boyut":  51406009,
-    "notlar":  "Bordro: toplu bordro, onay + muhasebe, banka ile odeme, odeme listesi; duzenle/sil/iptal ve sag tik menusu; yazdir duzeldi; yil ortasi devreden matrah. Guncelleme Sihirbazi gerekir.",
-    "tarih":  "2026-11-10 15:26"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL116/IBY_ERP.exe",
+    "sha256":  "2c9abd57a870bca2a48f66d365fb777c3382bf88b380386ddd10c19cc5df162d",
+    "boyut":  51406690,
+    "notlar":  "IK formlarinda Hesapla / Kaydet / Yazdir dugmeleri hep gorunur (pencereden tasiyordu).",
+    "tarih":  "2026-11-10 15:54"
 }
