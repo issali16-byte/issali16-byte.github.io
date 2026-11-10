@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  111,
+    "yama":  112,
     "sema":  "2026.11.10.2",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL111/IBY_ERP.exe",
-    "sha256":  "59a685c9b4594d623c4be7cbaf799be9a4634b404498503a32770b618800f807",
-    "boyut":  51337959,
-    "notlar":  "Dovizli banka hesabi: muhasebe kaydi TL karsiligiyla (TCMB doviz alis); dovizli hesaba TL tahsilat/odeme/cek yazilmaz.",
-    "tarih":  "2026-11-10 14:01"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL112/IBY_ERP.exe",
+    "sha256":  "b1c36629b65ce3c54045aa20860b4410b834adb7742cf2b276b659135f5dbb28",
+    "boyut":  51350043,
+    "notlar":  "Yil sonu kapanis ve acilis: Finansallar \u003e Yil Sonu Kapanis (690-692-590/591, bilanco kapanis, yeni yil acilis fisi).",
+    "tarih":  "2026-11-10 14:14"
 }
