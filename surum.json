@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  105,
+    "yama":  106,
     "sema":  "2026.11.05.1",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL105/IBY_ERP.exe",
-    "sha256":  "6ed74b9afd341bb158a8455c539d517b9fe27d13e04ac52dc605d7ba0945efc8",
-    "boyut":  51335157,
-    "notlar":  "Satis irsaliyesinde satilan malin maliyeti muhasebeye otomatik yazilir (621/153, numune 760); iptal ve iadede ters kayit.",
-    "tarih":  "2026-11-10 10:22"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL106/IBY_ERP.exe",
+    "sha256":  "be1fe0bdaa144761dcee6191dc8ceb4c2eeabe5875c8187d962f35acea739d24",
+    "boyut":  51338149,
+    "notlar":  "Sevkiyat menusu: Yeni Sevkiyat, Siparisten Sevkiyat, Toplama, Paketleme Masasi, Irsaliye Kes ayri satirlar; Paketleme Masasi kendi sekmesinde, kokpite donus dugmesi.",
+    "tarih":  "2026-11-10 11:14"
 }
