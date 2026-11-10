@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  113,
-    "sema":  "2026.11.10.2",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL113/IBY_ERP.exe",
-    "sha256":  "e7b697b7533d1b78da0fff23cd052c0bdf43ac6d235db6156e40f4e0671d5011",
-    "boyut":  51363537,
-    "notlar":  "KDV Raporu: KDV-1 beyanname hazirligi ve GIB formatinda Indirilecek KDV / Satis Faturalari listeleri (Excel).",
-    "tarih":  "2026-11-10 14:36"
+    "yama":  114,
+    "sema":  "2026.11.10.3",
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL114/IBY_ERP.exe",
+    "sha256":  "80aed336495be266e742dde3cb7ddac90207e2c1794f8919eb6461732b2d11c9",
+    "boyut":  51386559,
+    "notlar":  "Bordro hesabi: SGK, issizlik, kumulatif gelir vergisi, asgari ucret istisnalari, isveren maliyeti; Bordro Parametreleri (2026); calisan kartina TC/SGK/IBAN. Guncelleme Sihirbazi gerekir.",
+    "tarih":  "2026-11-10 14:59"
 }
