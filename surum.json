@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  123,
-    "sema":  "2026.11.11.1",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL123/IBY_ERP.exe",
-    "sha256":  "347fd1fbef43f421bf9b1aba569bd6a615584e13cb5b1723ac38df1caa80c231",
-    "boyut":  51416611,
-    "notlar":  "CRM, Servis, Proje, Kaynaklar ve Kalite listelerine Sil / Iptal dugmesi: kullanilmamis kayit silinir; baska kayda bagli ya da isi bitmis kayit silinmez, Iptal / Pasif yapilir.",
-    "tarih":  "2026-11-11 10:13"
+    "yama":  124,
+    "sema":  "2026.11.11.2",
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL124/IBY_ERP.exe",
+    "sha256":  "15ceaecd5ac74700bf91614304ca1dca3b3e8bb52d2a0ce957c426ddf238ec50",
+    "boyut":  51440164,
+    "notlar":  "Servis: CRM cagrisindan servis siparisi; parca satirlari ve iscilik; Tamamla ile parcalar stoktan duser, Faturala ile satis faturasi kesilir; Iptal Et stoku geri alir. Sema degisti: yonetici Guncelleme Sihirbazini calistirsin.",
+    "tarih":  "2026-11-11 10:31"
 }
