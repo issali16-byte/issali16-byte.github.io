@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  130,
+    "yama":  131,
     "sema":  "2026.11.11.4",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL130/IBY_ERP.exe",
-    "sha256":  "92a5c14516a28a8c394a09b4e7ba49ec0b4895ef7502fecf75318a425493e28f",
-    "boyut":  51473158,
-    "notlar":  "Dovizli alis faturasi: para birimi ve TCMB kuru, tedarikci borcunda doviz, tedarikci kartinda para birimi. Gelen dovizli e-Fatura artik kendi para birimi ve kuruyla alinir.",
-    "tarih":  "2026-11-11 16:17"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL131/IBY_ERP.exe",
+    "sha256":  "6c41bd7923bab990bcef38ae73243966fd07e0c65f766b224e3d47f03eb229bd",
+    "boyut":  51482838,
+    "notlar":  "Dovizli tahsilat ve odeme: para birimi ve kur, cari ortalama defter kuruyla kapanir, kur farki otomatik 646 / 656. Alacak / borc listelerinde doviz sutunu ve acik doviz bakiyeleri.",
+    "tarih":  "2026-11-11 16:57"
 }
