@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  131,
-    "sema":  "2026.11.11.4",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL131/IBY_ERP.exe",
-    "sha256":  "6c41bd7923bab990bcef38ae73243966fd07e0c65f766b224e3d47f03eb229bd",
-    "boyut":  51482838,
-    "notlar":  "Dovizli tahsilat ve odeme: para birimi ve kur, cari ortalama defter kuruyla kapanir, kur farki otomatik 646 / 656. Alacak / borc listelerinde doviz sutunu ve acik doviz bakiyeleri.",
-    "tarih":  "2026-11-11 16:57"
+    "yama":  132,
+    "sema":  "2026.11.11.5",
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL132/IBY_ERP.exe",
+    "sha256":  "30c8b5786b1c8ff38d297773b0d14d9120be1123ce452dc9add7043f1b823e5c",
+    "boyut":  51483273,
+    "notlar":  "Dovizli faturanin iadesi: faturanin para birimi ve kuruyla kesilir, cari fatura kuruyla duser. Sema degisti: yonetici Guncelleme Sihirbazini calistirsin.",
+    "tarih":  "2026-11-11 17:10"
 }
