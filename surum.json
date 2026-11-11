@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  128,
-    "sema":  "2026.11.11.3",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL128/IBY_ERP.exe",
-    "sha256":  "1ca8e7b481108601c93ae724766005026ecda2cdb24f37b6b6e039ae7a91dd77",
-    "boyut":  51459502,
-    "notlar":  "MUHSGK donem kutusu gecersiz ay icin uyari verir (duzeltme).",
-    "tarih":  "2026-11-11 13:01"
+    "yama":  129,
+    "sema":  "2026.11.11.4",
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL129/IBY_ERP.exe",
+    "sha256":  "cf4fe9940c872744acfb52a9c460c07ceae2a6b596de42fd86f1b9693d511b59",
+    "boyut":  51469093,
+    "notlar":  "Dovizli satis faturasi: para birimi ve TCMB kuru, dovizli siparisten dovizli fatura, cikti doviz + TL karsiligi, yurt disi satis 601, musteri kartinda para birimi. GIB Entegrator Ayarlari yalniz E-Belge menusunde. Sema degisti: yonetici Guncelleme Sihirbazini calistirsin.",
+    "tarih":  "2026-11-11 13:30"
 }
