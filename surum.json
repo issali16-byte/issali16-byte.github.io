@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  127,
+    "yama":  128,
     "sema":  "2026.11.11.3",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL127/IBY_ERP.exe",
-    "sha256":  "f20a1f9212bf51171addbca452ec74352e82e70d256d38d0ecba3f023d144fe3",
-    "boyut":  51460168,
-    "notlar":  "IK: MUHSGK hazirlik ozeti ve sigortali listesi (Excel) Bordro ekraninda; calisan kartina SGK meslek kodu. Sema degisti: yonetici Guncelleme Sihirbazini calistirsin.",
-    "tarih":  "2026-11-11 11:56"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL128/IBY_ERP.exe",
+    "sha256":  "1ca8e7b481108601c93ae724766005026ecda2cdb24f37b6b6e039ae7a91dd77",
+    "boyut":  51459502,
+    "notlar":  "MUHSGK donem kutusu gecersiz ay icin uyari verir (duzeltme).",
+    "tarih":  "2026-11-11 13:01"
 }
