@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  132,
-    "sema":  "2026.11.11.5",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL132/IBY_ERP.exe",
-    "sha256":  "30c8b5786b1c8ff38d297773b0d14d9120be1123ce452dc9add7043f1b823e5c",
-    "boyut":  51483273,
-    "notlar":  "Dovizli faturanin iadesi: faturanin para birimi ve kuruyla kesilir, cari fatura kuruyla duser. Sema degisti: yonetici Guncelleme Sihirbazini calistirsin.",
-    "tarih":  "2026-11-11 17:10"
+    "yama":  133,
+    "sema":  "2026.11.11.6",
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL133/IBY_ERP.exe",
+    "sha256":  "72e553e7ec1c522181e00517e68b89151bdeb6111edbf39b74affd2c31e359ee",
+    "boyut":  51497264,
+    "notlar":  "FAZ 4.3: Ay sonu kur degerlemesi (Finansallar \u003e Kur Degerlemesi; 646/656 fisi, geri alma). Dovizli kasa bakiyesi TL. Guncelleme Sihirbazi gerekir.",
+    "tarih":  "2026-11-11 17:33"
 }
