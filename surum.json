@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  121,
-    "sema":  "2026.11.10.7",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL121/IBY_ERP.exe",
-    "sha256":  "fece5782e9cb75d8ecb40bbca439665a286e2594b4e770d1d34452b3c5620bcd",
-    "boyut":  51389691,
-    "notlar":  "Uzun acilir listelerde (urun, musteri, tedarikci) yazinca suzulen arama: 2 harf yazin, eslesenler altta listelenir; asagi ok ile inin, Enter ile secin. Kelime sirasi ve Turkce harf farki onemsiz.",
-    "tarih":  "2026-11-10 17:41"
+    "yama":  122,
+    "sema":  "2026.11.11.1",
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL122/IBY_ERP.exe",
+    "sha256":  "e1530a18da7d42683f3cda000e6e9973a43691c64b2b1ae2eb930b18472de350",
+    "boyut":  51406538,
+    "notlar":  "CRM: firsattan teklif hazirla, teklifte urun listeden secilir (fiyat ve KDV karttan), teklif yazdir, Gonderildi / Onayla / Reddet, tek tusla siparise cevir (firsat Kazanildi olur). Sema degisti: yonetici Guncelleme Sihirbazini calistirsin.",
+    "tarih":  "2026-11-11 09:47"
 }
