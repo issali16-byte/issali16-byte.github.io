@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  122,
+    "yama":  123,
     "sema":  "2026.11.11.1",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL122/IBY_ERP.exe",
-    "sha256":  "e1530a18da7d42683f3cda000e6e9973a43691c64b2b1ae2eb930b18472de350",
-    "boyut":  51406538,
-    "notlar":  "CRM: firsattan teklif hazirla, teklifte urun listeden secilir (fiyat ve KDV karttan), teklif yazdir, Gonderildi / Onayla / Reddet, tek tusla siparise cevir (firsat Kazanildi olur). Sema degisti: yonetici Guncelleme Sihirbazini calistirsin.",
-    "tarih":  "2026-11-11 09:47"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL123/IBY_ERP.exe",
+    "sha256":  "347fd1fbef43f421bf9b1aba569bd6a615584e13cb5b1723ac38df1caa80c231",
+    "boyut":  51416611,
+    "notlar":  "CRM, Servis, Proje, Kaynaklar ve Kalite listelerine Sil / Iptal dugmesi: kullanilmamis kayit silinir; baska kayda bagli ya da isi bitmis kayit silinmez, Iptal / Pasif yapilir.",
+    "tarih":  "2026-11-11 10:13"
 }
