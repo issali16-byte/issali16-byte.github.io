@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  124,
+    "yama":  125,
     "sema":  "2026.11.11.2",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL124/IBY_ERP.exe",
-    "sha256":  "15ceaecd5ac74700bf91614304ca1dca3b3e8bb52d2a0ce957c426ddf238ec50",
-    "boyut":  51440164,
-    "notlar":  "Servis: CRM cagrisindan servis siparisi; parca satirlari ve iscilik; Tamamla ile parcalar stoktan duser, Faturala ile satis faturasi kesilir; Iptal Et stoku geri alir. Sema degisti: yonetici Guncelleme Sihirbazini calistirsin.",
-    "tarih":  "2026-11-11 10:31"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL125/IBY_ERP.exe",
+    "sha256":  "ef4601d63f75778c5124d504dfbe305afbe98228ea4e9787f7cc24e270c76ce6",
+    "boyut":  51441982,
+    "notlar":  "Ters Islem duzeltildi: cikis hareketini geri almak artik stogu dogru artirir, bir hareket bir kez geri alinir, belgeye ait hareket belgenin iptaliyle duzeltilir. Barkod Cikis artik stogu dusuruyor (yetmezse kaydetmez).",
+    "tarih":  "2026-11-11 11:15"
 }
