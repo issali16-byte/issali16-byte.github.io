@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  129,
+    "yama":  130,
     "sema":  "2026.11.11.4",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL129/IBY_ERP.exe",
-    "sha256":  "cf4fe9940c872744acfb52a9c460c07ceae2a6b596de42fd86f1b9693d511b59",
-    "boyut":  51469093,
-    "notlar":  "Dovizli satis faturasi: para birimi ve TCMB kuru, dovizli siparisten dovizli fatura, cikti doviz + TL karsiligi, yurt disi satis 601, musteri kartinda para birimi. GIB Entegrator Ayarlari yalniz E-Belge menusunde. Sema degisti: yonetici Guncelleme Sihirbazini calistirsin.",
-    "tarih":  "2026-11-11 13:30"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL130/IBY_ERP.exe",
+    "sha256":  "92a5c14516a28a8c394a09b4e7ba49ec0b4895ef7502fecf75318a425493e28f",
+    "boyut":  51473158,
+    "notlar":  "Dovizli alis faturasi: para birimi ve TCMB kuru, tedarikci borcunda doviz, tedarikci kartinda para birimi. Gelen dovizli e-Fatura artik kendi para birimi ve kuruyla alinir.",
+    "tarih":  "2026-11-11 16:17"
 }
