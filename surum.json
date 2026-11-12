@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  141,
+    "yama":  142,
     "sema":  "2026.11.12.6",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL141/IBY_ERP.exe",
-    "sha256":  "7f30680df6ece5e1dcd6def8a7c5a6e5795952f2c71a851e4200859250d6958c",
-    "boyut":  51602883,
-    "notlar":  "Mobil siparis / teklif masaustuyle ayni kurallardan gecer (teklif Taslak); siparis no onerisi gunun en buyugu + 1, kayitta cakismaz.",
-    "tarih":  "2026-11-12 15:45"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL142/IBY_ERP.exe",
+    "sha256":  "c4ee092c14bb7d9d458983111ec880a17df1b518b1191c16ebcdc214088bfb37",
+    "boyut":  51610396,
+    "notlar":  "Ay sonu KDV mahsup fisi (KDV Raporu altinda: 391 / 191 kapanir, fark 360.03 odenecek ya da 190 devreden; Mahsubu Geri Al).",
+    "tarih":  "2026-11-12 16:31"
 }
