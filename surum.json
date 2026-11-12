@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  138,
-    "sema":  "2026.11.12.5",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL138/IBY_ERP.exe",
-    "sha256":  "2fd82e69e589e084178510658a711003477b7fc23c6817a6c25117cba00b8cd6",
-    "boyut":  51585498,
-    "notlar":  "FAZ 5.2: Duran varlik cikisi (Duran Varliklar \u003e Cikis: satis faturasiyla ya da hurda; kar 679 / zarar 689; Cikisi Geri Al). Guncelleme Sihirbazi gerekir.",
-    "tarih":  "2026-11-12 14:21"
+    "yama":  139,
+    "sema":  "2026.11.12.6",
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL139/IBY_ERP.exe",
+    "sha256":  "94b8af6e5b41ee2b2a5c7d2d14e5184c3f036c9d1195ed178768e779191fb303",
+    "boyut":  51595343,
+    "notlar":  "FAZ 5.3: Duran varlik zimmet gecmisi + zimmet tutanagi, sayim listesi, yillik hareket raporu (Duran Varliklar ikinci satir). Duran varlik modulu tamam. Guncelleme Sihirbazi gerekir.",
+    "tarih":  "2026-11-12 14:40"
 }
