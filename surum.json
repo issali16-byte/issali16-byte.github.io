@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  137,
-    "sema":  "2026.11.12.4",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL137/IBY_ERP.exe",
-    "sha256":  "3eed541974babe9310596366f8e483b24732f416e77c33b76549eab93db9b0d5",
-    "boyut":  51574378,
-    "notlar":  "FAZ 5.1: Duran varliklar (Finansallar \u003e Duran Varliklar: makine / kalip / demirbas karti, devir ya da alis faturasindan aktiflestirme) + Amortisman (aylik ya da yillik, normal / azalan, gideri maliyet merkezine). Guncelleme Sihirbazi gerekir.",
-    "tarih":  "2026-11-12 13:49"
+    "yama":  138,
+    "sema":  "2026.11.12.5",
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL138/IBY_ERP.exe",
+    "sha256":  "2fd82e69e589e084178510658a711003477b7fc23c6817a6c25117cba00b8cd6",
+    "boyut":  51585498,
+    "notlar":  "FAZ 5.2: Duran varlik cikisi (Duran Varliklar \u003e Cikis: satis faturasiyla ya da hurda; kar 679 / zarar 689; Cikisi Geri Al). Guncelleme Sihirbazi gerekir.",
+    "tarih":  "2026-11-12 14:21"
 }
