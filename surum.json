@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  139,
+    "yama":  140,
     "sema":  "2026.11.12.6",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL139/IBY_ERP.exe",
-    "sha256":  "94b8af6e5b41ee2b2a5c7d2d14e5184c3f036c9d1195ed178768e779191fb303",
-    "boyut":  51595343,
-    "notlar":  "FAZ 5.3: Duran varlik zimmet gecmisi + zimmet tutanagi, sayim listesi, yillik hareket raporu (Duran Varliklar ikinci satir). Duran varlik modulu tamam. Guncelleme Sihirbazi gerekir.",
-    "tarih":  "2026-11-12 14:40"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL140/IBY_ERP.exe",
+    "sha256":  "1822a3cf013b90d858f4d7a3ca8119467ad7ea6da15459be2d7f33acabc7f19b",
+    "boyut":  51600850,
+    "notlar":  "Paketleme Masasi sevkiyata baglandi: paketlenen miktar irsaliyeye gider, Paketle \u0026 Kapat sevkiyati Paketlendi yapar; tanimsiz barkod / sevkiyatta olmayan / teslim alinandan fazla urun paketlenmez.",
+    "tarih":  "2026-11-12 15:29"
 }
