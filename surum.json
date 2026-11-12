@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  134,
-    "sema":  "2026.11.12.1",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL134/IBY_ERP.exe",
-    "sha256":  "fcdaeee3e177f882465ddc324da4b2fb5f8917fb735201790f8aa5e6b3c3f31d",
-    "boyut":  51515595,
-    "notlar":  "FAZ 4.4a: Maliyet merkezleri + proje boyutu (yevmiye satirinda), Maliyet Merkezi Raporu, projede muhasebeden gerceklesen gider. Guncelleme Sihirbazi gerekir.",
-    "tarih":  "2026-11-12 09:28"
+    "yama":  135,
+    "sema":  "2026.11.12.2",
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL135/IBY_ERP.exe",
+    "sha256":  "0de2f4f3874698b8096e7b6d5ffbf33f7ea3fbb26a247558c6529eda464dde33",
+    "boyut":  51521129,
+    "notlar":  "FAZ 4.4b: Alis / satis faturasinda maliyet merkezi + proje, bordro gideri departman merkezine, iptaller ayni merkezden duser. Guncelleme Sihirbazi gerekir.",
+    "tarih":  "2026-11-12 12:02"
 }
