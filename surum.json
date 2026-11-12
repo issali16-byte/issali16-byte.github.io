@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  143,
-    "sema":  "2026.11.12.6",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL143/IBY_ERP.exe",
-    "sha256":  "4509a583d7fef67853fa9e1ed44d04f85aa266a615452fbf21ba8d08115dad29",
-    "boyut":  51625912,
-    "notlar":  "Yasal defter dokumleri: Finansallar \u003e Buyuk Defter (kebir / muavin, devir + yuruyen bakiye) ve Yevmiye Defteri \u003e Defter Dokumu (madde no + nakli yekun).",
-    "tarih":  "2026-11-12 16:58"
+    "yama":  144,
+    "sema":  "2026.11.12.7",
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL144/IBY_ERP.exe",
+    "sha256":  "be12b5a996bcd6728b9fc99c67d83b5640b020fa5a998c0d4c803afb993812ce",
+    "boyut":  51633784,
+    "notlar":  "Stok maliyeti mal kabule bagli alis faturasindan (depo fiyat bilmese de dogru); dovizli satinalma siparisi ve mal kabul (para birimi + kur), mal kabulden faturaya doviz fiyat. Guncelleme Sihirbazi gerekir.",
+    "tarih":  "2026-11-12 17:22"
 }
