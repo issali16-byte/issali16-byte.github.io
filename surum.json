@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  133,
-    "sema":  "2026.11.11.6",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL133/IBY_ERP.exe",
-    "sha256":  "72e553e7ec1c522181e00517e68b89151bdeb6111edbf39b74affd2c31e359ee",
-    "boyut":  51497264,
-    "notlar":  "FAZ 4.3: Ay sonu kur degerlemesi (Finansallar \u003e Kur Degerlemesi; 646/656 fisi, geri alma). Dovizli kasa bakiyesi TL. Guncelleme Sihirbazi gerekir.",
-    "tarih":  "2026-11-11 17:33"
+    "yama":  134,
+    "sema":  "2026.11.12.1",
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL134/IBY_ERP.exe",
+    "sha256":  "fcdaeee3e177f882465ddc324da4b2fb5f8917fb735201790f8aa5e6b3c3f31d",
+    "boyut":  51515595,
+    "notlar":  "FAZ 4.4a: Maliyet merkezleri + proje boyutu (yevmiye satirinda), Maliyet Merkezi Raporu, projede muhasebeden gerceklesen gider. Guncelleme Sihirbazi gerekir.",
+    "tarih":  "2026-11-12 09:28"
 }
