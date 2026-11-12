@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  135,
-    "sema":  "2026.11.12.2",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL135/IBY_ERP.exe",
-    "sha256":  "0de2f4f3874698b8096e7b6d5ffbf33f7ea3fbb26a247558c6529eda464dde33",
-    "boyut":  51521129,
-    "notlar":  "FAZ 4.4b: Alis / satis faturasinda maliyet merkezi + proje, bordro gideri departman merkezine, iptaller ayni merkezden duser. Guncelleme Sihirbazi gerekir.",
-    "tarih":  "2026-11-12 12:02"
+    "yama":  136,
+    "sema":  "2026.11.12.3",
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL136/IBY_ERP.exe",
+    "sha256":  "e7e3b04dc0141f6f9419f48fa0a2d498b788b3a954009f3563e1cba4070331f7",
+    "boyut":  51537603,
+    "notlar":  "FAZ 4.4c: Ay sonu gider dagitimi (Finansallar \u003e Gider Dagitimi; anahtar %, dagit / geri al). FAZ 4 tamam. Guncelleme Sihirbazi gerekir.",
+    "tarih":  "2026-11-12 13:01"
 }
