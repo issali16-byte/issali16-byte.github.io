@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  149,
+    "yama":  150,
     "sema":  "2026.11.13.1",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL149/IBY_ERP.exe",
-    "sha256":  "71a649c2ae1f74070129e911310963cbd7695de19f001b3e7d928e78b2c80c5b",
-    "boyut":  51649178,
-    "notlar":  "MRP hafta hafta hesap: stok once en erken terminli siparise ayrilir, eksik haftalara bolunur; Satinalma Listesinde Haftalara Dagilim sutunu, talep notunda dagilim.",
-    "tarih":  "2026-11-13 14:52"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL150/IBY_ERP.exe",
+    "sha256":  "06aea4eeada92080897aa34318ddfe6d2a65f629dc6a64124301a024b066f83e",
+    "boyut":  51652479,
+    "notlar":  "MRP\u0027ye satis tahmini: Tahmin Bazli Plan bu ay ve sonrasi ihtiyaca girer (tahmin - gerceklesen - o aya terminli acik siparis); hammadde/yari mamul tahmini sayilmaz.",
+    "tarih":  "2026-11-13 16:13"
 }
