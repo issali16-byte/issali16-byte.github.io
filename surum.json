@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  148,
+    "yama":  149,
     "sema":  "2026.11.13.1",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL148/IBY_ERP.exe",
-    "sha256":  "cd54b0a899c89763e7cd3dc6a09d875e1e93f17eaf101b58980d4448624e27c9",
-    "boyut":  51644140,
-    "notlar":  "MRP satinalma listesinden tek tikla satinalma talebi (MRP miktari, en gec siparis gunu notu); acik talepteki miktar MRP\u0027de sayilir, ayni eksik tekrar onerilmez.",
-    "tarih":  "2026-11-13 12:15"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL149/IBY_ERP.exe",
+    "sha256":  "71a649c2ae1f74070129e911310963cbd7695de19f001b3e7d928e78b2c80c5b",
+    "boyut":  51649178,
+    "notlar":  "MRP hafta hafta hesap: stok once en erken terminli siparise ayrilir, eksik haftalara bolunur; Satinalma Listesinde Haftalara Dagilim sutunu, talep notunda dagilim.",
+    "tarih":  "2026-11-13 14:52"
 }
