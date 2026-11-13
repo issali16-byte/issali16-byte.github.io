@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  146,
+    "yama":  147,
     "sema":  "2026.11.13.1",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL146/IBY_ERP.exe",
-    "sha256":  "572a32a25b1f450556061d44111e0b011a8ef54a1c44a2243cabf9675e2a849d",
-    "boyut":  51638513,
-    "notlar":  "Dovizli e-Fatura / e-Iade (doviz + kur, GIB kontrolunden gecer); birim fiyatlar 6 hane (0,0125 artik kesilmez); fatura toplami e-Fatura ile ayni yuvarlama. Guncelleme Sihirbazi gerekir.",
-    "tarih":  "2026-11-13 11:15"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL147/IBY_ERP.exe",
+    "sha256":  "9c9ef069e19ebcd340698781fe917da00b353b80ca8e9b0f9cfc6c189539bd23",
+    "boyut":  51643181,
+    "notlar":  "MRP zamanlama: siparis teslim tarihinden geriye dogru planlama (urun kartindaki temin suresiyle en gec baslama / siparis gunu; gecikmis / acil uyarisi; satinalma listesi en acil ustte).",
+    "tarih":  "2026-11-13 11:53"
 }
