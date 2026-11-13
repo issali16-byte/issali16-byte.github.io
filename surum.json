@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  151,
+    "yama":  152,
     "sema":  "2026.11.13.1",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL151/IBY_ERP.exe",
-    "sha256":  "8de40fa0fad585f34dcf2213154402e89d8b6ae1c10c575718b572bdee126a3c",
-    "boyut":  51666187,
-    "notlar":  "MRP kapasite kontrolu: is merkezi x hafta yuk / kapasite (Kapasite Plani, Vardiya Plani, is merkezi karti); AŞIM / Yogun / Uygun; rota setup is emri basina, islem birim basina.",
-    "tarih":  "2026-11-13 16:35"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL152/IBY_ERP.exe",
+    "sha256":  "34e8f6778c23c1b832082bafe547124ab2ef927115368e32654619bd4625d441",
+    "boyut":  51667136,
+    "notlar":  "Uretim akisi: is emri bitince mamul MAMUL deposuna transfer (sevkiyat deposuna otomatik atma kalkti), sevkiyat oradan toplar; recete kaynak deposu bossa stoklu depo; satinalma siparisi / mal kabul no gunluk sira. Depo Tipi listesine MAMUL eklendi.",
+    "tarih":  "2026-11-13 17:06"
 }
