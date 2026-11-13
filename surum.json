@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  152,
+    "yama":  153,
     "sema":  "2026.11.13.1",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL152/IBY_ERP.exe",
-    "sha256":  "34e8f6778c23c1b832082bafe547124ab2ef927115368e32654619bd4625d441",
-    "boyut":  51667136,
-    "notlar":  "Uretim akisi: is emri bitince mamul MAMUL deposuna transfer (sevkiyat deposuna otomatik atma kalkti), sevkiyat oradan toplar; recete kaynak deposu bossa stoklu depo; satinalma siparisi / mal kabul no gunluk sira. Depo Tipi listesine MAMUL eklendi.",
-    "tarih":  "2026-11-13 17:06"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL153/IBY_ERP.exe",
+    "sha256":  "0b6bfe62ed1def99832217333bf761db20eae74b7af6bc1b0368fa8e2baf8b46",
+    "boyut":  51668270,
+    "notlar":  "MRP siparis listesinde isaret kutusu (tikla sec / birak, Ctrl+A ya da baslik hepsi); Yeni Uretim formundaki bos arama kutusu kaldirildi.",
+    "tarih":  "2026-11-13 18:20"
 }
