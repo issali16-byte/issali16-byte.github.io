@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  156,
+    "yama":  157,
     "sema":  "2026.11.13.1",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL156/IBY_ERP.exe",
-    "sha256":  "d95191e7fc31dc3cfbe3348af99f6353413aa39e71615700968dbbc82f9a6f6d",
-    "boyut":  50270037,
-    "notlar":  "Ornek sirkette 5 ornek is, ilk kurulumda ayri IBY Demo sirketi, varsayilan tema Okyanus",
-    "tarih":  "2026-11-14 15:08"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL157/IBY_ERP.exe",
+    "sha256":  "a99d77c1938a633871c62ac13b0a7e8ea5bceb45074359d958755220c62ca37b",
+    "boyut":  50272663,
+    "notlar":  "Is emri iptali, mal kabul formunda sayi ve tarih uyarilari, mamul transferinde stok kontrolu",
+    "tarih":  "2026-11-14 18:08"
 }
