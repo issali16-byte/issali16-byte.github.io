@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  155,
+    "yama":  156,
     "sema":  "2026.11.13.1",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL155/IBY_ERP.exe",
-    "sha256":  "268d2d544da17174553f98f713d38c15f89604536137022dcd77a097d1ef2e70",
-    "boyut":  50255663,
-    "notlar":  "Uretim, depo, mal kabul ve irsaliye kurallari servis katmanina tasindi",
-    "tarih":  "2026-11-14 14:57"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL156/IBY_ERP.exe",
+    "sha256":  "d95191e7fc31dc3cfbe3348af99f6353413aa39e71615700968dbbc82f9a6f6d",
+    "boyut":  50270037,
+    "notlar":  "Ornek sirkette 5 ornek is, ilk kurulumda ayri IBY Demo sirketi, varsayilan tema Okyanus",
+    "tarih":  "2026-11-14 15:08"
 }
