@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  159,
+    "yama":  160,
     "sema":  "2026.11.13.1",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL159/IBY_ERP.exe",
-    "sha256":  "5fbbe007933e040571b9dda5417d082291f5818843ff329b223e372742617b79",
-    "boyut":  50276234,
-    "notlar":  "Malzeme fisi: cikista stok kontrolu, lotlu rafta cift dusus duzeltildi",
-    "tarih":  "2026-11-14 19:09"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL160/IBY_ERP.exe",
+    "sha256":  "48effe922418fe5f244e2f51630828984e441c15117a648131899585108d35d5",
+    "boyut":  50285957,
+    "notlar":  "Giris islemleri: Excel aktarimi da kalite kontrole duser, kalite red iptali duzeltildi",
+    "tarih":  "2026-11-14 19:43"
 }
