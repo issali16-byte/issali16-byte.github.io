@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  154,
+    "yama":  155,
     "sema":  "2026.11.13.1",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL154/IBY_ERP.exe",
-    "sha256":  "93b7c4dffea0e4e6e6047d4a7b8dfbaf569e4406efe545229028d48cc5f4bde9",
-    "boyut":  50243759,
-    "notlar":  "Kalite, Kaynaklar, Proje duzeltmeleri",
-    "tarih":  "2026-11-14 14:18"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL155/IBY_ERP.exe",
+    "sha256":  "268d2d544da17174553f98f713d38c15f89604536137022dcd77a097d1ef2e70",
+    "boyut":  50255663,
+    "notlar":  "Uretim, depo, mal kabul ve irsaliye kurallari servis katmanina tasindi",
+    "tarih":  "2026-11-14 14:57"
 }
