@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  153,
+    "yama":  154,
     "sema":  "2026.11.13.1",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL153/IBY_ERP.exe",
-    "sha256":  "0b6bfe62ed1def99832217333bf761db20eae74b7af6bc1b0368fa8e2baf8b46",
-    "boyut":  51668270,
-    "notlar":  "MRP siparis listesinde isaret kutusu (tikla sec / birak, Ctrl+A ya da baslik hepsi); Yeni Uretim formundaki bos arama kutusu kaldirildi.",
-    "tarih":  "2026-11-13 18:20"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL154/IBY_ERP.exe",
+    "sha256":  "93b7c4dffea0e4e6e6047d4a7b8dfbaf569e4406efe545229028d48cc5f4bde9",
+    "boyut":  50243759,
+    "notlar":  "Kalite, Kaynaklar, Proje duzeltmeleri",
+    "tarih":  "2026-11-14 14:18"
 }
