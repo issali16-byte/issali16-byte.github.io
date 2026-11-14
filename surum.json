@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  157,
+    "yama":  158,
     "sema":  "2026.11.13.1",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL157/IBY_ERP.exe",
-    "sha256":  "a99d77c1938a633871c62ac13b0a7e8ea5bceb45074359d958755220c62ca37b",
-    "boyut":  50272663,
-    "notlar":  "Is emri iptali, mal kabul formunda sayi ve tarih uyarilari, mamul transferinde stok kontrolu",
-    "tarih":  "2026-11-14 18:08"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL158/IBY_ERP.exe",
+    "sha256":  "42c873f7b07e1a0ac407c3ceaaeef999a8fadab03e989b54e97e187d2b3cdc1a",
+    "boyut":  50274129,
+    "notlar":  "Toplu Tasi: her satir kendi lotundan tasinir, bir satir olmazsa hicbiri yapilmaz",
+    "tarih":  "2026-11-14 18:22"
 }
