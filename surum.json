@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  173,
-    "sema":  "2026.11.16.6",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL173/IBY_ERP.exe",
-    "sha256":  "d869c67f43f6fa0f14ba634ae155197a0ead0567193412b5252fbd33cee58060",
-    "boyut":  51908748,
-    "notlar":  "Yeni: Yonetim \u003e Belge Gorunumu - logo, ust yazi, belgeye gore alt yazi (fatura, irsaliye, teklif, satinalma formu). Onaylar menusu kapali acilir. Veritabani guncellemesi gerekir.",
-    "tarih":  "2026-11-16 16:02"
+    "yama":  174,
+    "sema":  "2026.11.16.7",
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL174/IBY_ERP.exe",
+    "sha256":  "d6ab11ae962cb26075c8e7957c618937bdc13e9933a39a98cb2e032826f011c7",
+    "boyut":  51924440,
+    "notlar":  "Yeni: Parti takibi - kartta Parti Numarasi secili urunde parti zorunlu (mal kabul, giris, malzeme fisi), son kullanma tarihi, Stok \u003e Parti / Son Kullanma raporu. Duzeltme: mal kabul stogu partisiyle girer, kalite geri yuklenir. Veritabani guncellemesi gerekir.",
+    "tarih":  "2026-11-16 16:28"
 }
