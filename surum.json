@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  167,
-    "sema":  "2026.11.16.2",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL167/IBY_ERP.exe",
-    "sha256":  "15b5f408463df873ab5e5a8aa16f2fea5c581f3d42906d3d27b8f4610b6f32e7",
-    "boyut":  51816140,
-    "notlar":  "Hiz ve kararlilik: ayni anda siparis kaydinda kilitlenme giderildi; cok urunlu firmada Stok Deger Raporu duzeldi; Kur Degerlemesi bankaciliksiz sirkette aciliyor; Stok Durumu buyuk listede hizli.",
-    "tarih":  "2026-11-16 13:06"
+    "yama":  168,
+    "sema":  "2026.11.16.3",
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL168/IBY_ERP.exe",
+    "sha256":  "8d6dd41ea27eb7a13401c0d86590d39a4e536c482c6aba65bc350cda2fc42458",
+    "boyut":  51843106,
+    "notlar":  "Yeni: Onaylar menusu - satis siparisi onay kurallari (tutar / iskonto / kredi limiti), Onay Bekleyenler (onayla / reddet), onay yetkisi Kullanici Tanimlari \u003e Onaylar (Yazma). Kural yoksa degisiklik yok. Veritabani guncellemesi gerekir.",
+    "tarih":  "2026-11-16 14:09"
 }
