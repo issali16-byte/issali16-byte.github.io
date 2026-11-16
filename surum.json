@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  172,
-    "sema":  "2026.11.16.5",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL172/IBY_ERP.exe",
-    "sha256":  "5291a3c3bc821b3736829298abcde64c4af79a2303a548f03d074bfb30efefcb",
-    "boyut":  51897366,
-    "notlar":  "Yeni: Raporlar \u003e Rapor Tasarlayici - kaynak sec, sutun isaretle, suzgec ekle, ozetle (grupla + topla), Excel, raporu kaydet. Kullanici tanimli alanlar dahil. Veritabani guncellemesi gerekir.",
-    "tarih":  "2026-11-16 15:44"
+    "yama":  173,
+    "sema":  "2026.11.16.6",
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL173/IBY_ERP.exe",
+    "sha256":  "d869c67f43f6fa0f14ba634ae155197a0ead0567193412b5252fbd33cee58060",
+    "boyut":  51908748,
+    "notlar":  "Yeni: Yonetim \u003e Belge Gorunumu - logo, ust yazi, belgeye gore alt yazi (fatura, irsaliye, teklif, satinalma formu). Onaylar menusu kapali acilir. Veritabani guncellemesi gerekir.",
+    "tarih":  "2026-11-16 16:02"
 }
