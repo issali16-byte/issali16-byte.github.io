@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  174,
-    "sema":  "2026.11.16.7",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL174/IBY_ERP.exe",
-    "sha256":  "d6ab11ae962cb26075c8e7957c618937bdc13e9933a39a98cb2e032826f011c7",
-    "boyut":  51924440,
-    "notlar":  "Yeni: Parti takibi - kartta Parti Numarasi secili urunde parti zorunlu (mal kabul, giris, malzeme fisi), son kullanma tarihi, Stok \u003e Parti / Son Kullanma raporu. Duzeltme: mal kabul stogu partisiyle girer, kalite geri yuklenir. Veritabani guncellemesi gerekir.",
-    "tarih":  "2026-11-16 16:28"
+    "yama":  175,
+    "sema":  "2026.11.16.8",
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL175/IBY_ERP.exe",
+    "sha256":  "c5817d1abd611d3862485a74c8c86e2ed9e444e0828c6a604e1d8985712bc247",
+    "boyut":  51934339,
+    "notlar":  "Yeni: Stok cikislari FIFO / son kullanma sirasiyla, parti depolar arasi korunur, Parti Gecmisi (hangi musteriye / hangi uretime gitti), parti takipli mamul is emri no ile partilenir. Depo Is Emirleri bosken aciklama. Veritabani guncellemesi gerekir.",
+    "tarih":  "2026-11-16 16:50"
 }
