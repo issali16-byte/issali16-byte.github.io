@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  175,
+    "yama":  176,
     "sema":  "2026.11.16.8",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL175/IBY_ERP.exe",
-    "sha256":  "c5817d1abd611d3862485a74c8c86e2ed9e444e0828c6a604e1d8985712bc247",
-    "boyut":  51934339,
-    "notlar":  "Yeni: Stok cikislari FIFO / son kullanma sirasiyla, parti depolar arasi korunur, Parti Gecmisi (hangi musteriye / hangi uretime gitti), parti takipli mamul is emri no ile partilenir. Depo Is Emirleri bosken aciklama. Veritabani guncellemesi gerekir.",
-    "tarih":  "2026-11-16 16:50"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL176/IBY_ERP.exe",
+    "sha256":  "81a6246b9cb85b11df1d93d46d313bf418c80af353b9324294b69b77ab5d59f0",
+    "boyut":  51937073,
+    "notlar":  "Yeni: Toplama ekranlarinda parti - is emri toplama penceresi ve depo is emri fisinde raf + parti + son kullanma, onerilen parti isaretli, depocu baska parti secebilir; sevkiyat toplamasinda parti secimi.",
+    "tarih":  "2026-11-16 17:24"
 }
