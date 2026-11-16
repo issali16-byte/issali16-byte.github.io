@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  169,
+    "yama":  170,
     "sema":  "2026.11.16.3",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL169/IBY_ERP.exe",
-    "sha256":  "9f68c946d7e54492b5679389ee043e4cb800050ce4bd1b8c3b7c11a77bc1e630",
-    "boyut":  51851552,
-    "notlar":  "Yeni: Satinalma siparisi onayi (tutar esigi ornek 10.000 TL / talepsiz alim), Siparis Formu (tedarikciye; onaylanmadan cikmaz), onaysiz siparise mal kabul yok.",
-    "tarih":  "2026-11-16 14:28"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL170/IBY_ERP.exe",
+    "sha256":  "c3028220fb556ebee4539d0cb893908ee512ffbb206034070fb99261ad117a61",
+    "boyut":  51851951,
+    "notlar":  "Yeni: Urun karti fiyatini yalniz yonetici / Yonetim yetkilisi degistirir; satis siparisinde kart fiyatinin % esik altina inen kalem onaya duser (Onay Kurallari).",
+    "tarih":  "2026-11-16 14:45"
 }
