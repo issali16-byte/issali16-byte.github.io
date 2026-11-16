@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  162,
-    "sema":  "2026.11.16.1",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL162/IBY_ERP.exe",
-    "sha256":  "760dd39c870966881424bc95429bc09a892583a7042c43f9d0bf35855cf01afd",
-    "boyut":  51762769,
-    "notlar":  "Is emrinde kaynak depo bossa program depo onerir (stok \u003e son mal kabul \u003e ana depo); depocu toplama penceresinde \u0027Depo\u0027 kutusundan baska depodan verebilir. Ilk kurulumda IBY Demo ornek sirketi varsayilan kurulur.",
-    "tarih":  "2026-11-16 10:48"
+    "yama":  163,
+    "sema":  "2026.11.16.2",
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL163/IBY_ERP.exe",
+    "sha256":  "bfc0dc4d356b8b73fc1ee53ffcce060abb7ede480f62cdf4da35bff89bcb8f4e",
+    "boyut":  51784375,
+    "notlar":  "Yeni: Yonetim \u003e Degisiklik Gecmisi - kartlarda ve belgelerde kim, ne zaman, hangi alani neden neye degistirdi (ekleme / degisiklik / silme, mobil dahil). Veritabani guncellemesi gerekir (Guncelleme Sihirbazi).",
+    "tarih":  "2026-11-16 11:18"
 }
