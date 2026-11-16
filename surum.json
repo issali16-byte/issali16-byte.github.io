@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  160,
-    "sema":  "2026.11.13.1",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL160/IBY_ERP.exe",
-    "sha256":  "48effe922418fe5f244e2f51630828984e441c15117a648131899585108d35d5",
-    "boyut":  50285957,
-    "notlar":  "Giris islemleri: Excel aktarimi da kalite kontrole duser, kalite red iptali duzeltildi",
-    "tarih":  "2026-11-14 19:43"
+    "yama":  161,
+    "sema":  "2026.11.16.1",
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL161/IBY_ERP.exe",
+    "sha256":  "12d1bf53b60910e74edadf9f2aa1847c4fa7727491fcd231f9db04c231346710",
+    "boyut":  51759671,
+    "notlar":  "Yeni: Yonetim \u003e Yedekleme - Simdi Yedekle (dogrulamali), program acikken her gun otomatik yedek (14 gun doner), yedek gecmisi, admin hatirlatmasi. Veritabani guncellemesi gerekir (Guncelleme Sihirbazi).",
+    "tarih":  "2026-11-16 09:16"
 }
