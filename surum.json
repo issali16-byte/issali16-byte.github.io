@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  176,
-    "sema":  "2026.11.16.8",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL176/IBY_ERP.exe",
-    "sha256":  "81a6246b9cb85b11df1d93d46d313bf418c80af353b9324294b69b77ab5d59f0",
-    "boyut":  51937073,
-    "notlar":  "Yeni: Toplama ekranlarinda parti - is emri toplama penceresi ve depo is emri fisinde raf + parti + son kullanma, onerilen parti isaretli, depocu baska parti secebilir; sevkiyat toplamasinda parti secimi.",
-    "tarih":  "2026-11-16 17:24"
+    "yama":  177,
+    "sema":  "2026.11.16.9",
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL177/IBY_ERP.exe",
+    "sha256":  "0acb96480a735d69f181cbbcbc208683a98563569487fbacf96cf696a7a731b7",
+    "boyut":  51941724,
+    "notlar":  "Yeni: Seri numarasi takibi - kartta Seri Numarasi secili urunde giriste seri no zorunlu (adet kadar, tekrar yok), her seri ayri izlenir, Parti Gecmisi ile hangi musteriye gittigi gorulur. Veritabani guncellemesi gerekir.",
+    "tarih":  "2026-11-16 17:51"
 }
