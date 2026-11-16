@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  163,
+    "yama":  164,
     "sema":  "2026.11.16.2",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL163/IBY_ERP.exe",
-    "sha256":  "bfc0dc4d356b8b73fc1ee53ffcce060abb7ede480f62cdf4da35bff89bcb8f4e",
-    "boyut":  51784375,
-    "notlar":  "Yeni: Yonetim \u003e Degisiklik Gecmisi - kartlarda ve belgelerde kim, ne zaman, hangi alani neden neye degistirdi (ekleme / degisiklik / silme, mobil dahil). Veritabani guncellemesi gerekir (Guncelleme Sihirbazi).",
-    "tarih":  "2026-11-16 11:18"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL164/IBY_ERP.exe",
+    "sha256":  "393e363d4e43f4d1004aa2f9bd0940afdb25f70893eb14e4c85088e95ccce65e",
+    "boyut":  51794650,
+    "notlar":  "Yeni: Beklenmeyen hatada uyari penceresi + hata kodu, yarim kalan islem geri alinir; hatalar bilgisayarda kaydedilir, Yardim \u003e Hata Raporu Gonder (e-posta / WhatsApp, sirket bilgisi yok).",
+    "tarih":  "2026-11-16 11:34"
 }
