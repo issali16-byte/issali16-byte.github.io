@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  166,
+    "yama":  167,
     "sema":  "2026.11.16.2",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL166/IBY_ERP.exe",
-    "sha256":  "69b739228d5b4eb96b3bde662d97b034b9162de0a18509f3e628271070731b2b",
-    "boyut":  51814904,
-    "notlar":  "Yeni: Yonetim \u003e Yedekleme - Canliyi Bu Yedekle Degistir (once canlinin yedegi alinir, yalniz ayni sirketin yedegi, GERI YUKLE onayi, bitince program kapanir).",
-    "tarih":  "2026-11-16 12:46"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL167/IBY_ERP.exe",
+    "sha256":  "15b5f408463df873ab5e5a8aa16f2fea5c581f3d42906d3d27b8f4610b6f32e7",
+    "boyut":  51816140,
+    "notlar":  "Hiz ve kararlilik: ayni anda siparis kaydinda kilitlenme giderildi; cok urunlu firmada Stok Deger Raporu duzeldi; Kur Degerlemesi bankaciliksiz sirkette aciliyor; Stok Durumu buyuk listede hizli.",
+    "tarih":  "2026-11-16 13:06"
 }
