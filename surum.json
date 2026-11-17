@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  189,
-    "sema":  "2026.11.17.6",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL189/IBY_ERP.exe",
-    "sha256":  "5ae40dfb43eb43fead0b903af05dbc50f2b13c69e921b2e14741f4c0ba9fe363",
-    "boyut":  52059789,
-    "notlar":  "Yeni: Is emrine termin tarihi ve oncelik (siparisten termin gelir); Is Emirleri\u0027nde Geciken secimi, termin durumu, zamaninda teslim orani; ana sayfada geciken is emri sayisi. Veritabani guncellemesi gerekir.",
-    "tarih":  "2026-11-17 15:53"
+    "yama":  190,
+    "sema":  "2026.11.17.7",
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL190/IBY_ERP.exe",
+    "sha256":  "0a2972107126d79f8336acf81d6e060c135e8d6dca579ad0f2e33b493c8b212d",
+    "boyut":  52069850,
+    "notlar":  "Yeni: Is emrine kismi uretim bildirimi (vardiya / parti sonunda saglam + fire girilir, mamul hemen stoga girer, hammadde recete payi kadar duser, maliyet yazilir); Bitir kalanla ya da 0 ile kapatir; detayda Bildirimler; MRP uretilmemis kismi bekler. Veritabani guncellemesi gerekir.",
+    "tarih":  "2026-11-17 16:15"
 }
