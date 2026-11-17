@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  192,
+    "yama":  193,
     "sema":  "2026.11.17.8",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL192/IBY_ERP.exe",
-    "sha256":  "3ddb5ddbcfde0175fcbbf2cf35f7e735cdf49ce5ae4beaab599ecc0314fac7a6",
-    "boyut":  52086296,
-    "notlar":  "Yeni: Cok katli urun agaci - yari mamuller icin stokta eksik kadar alt is emri (ana no .1 / .1.1, termin bir gun once); formda onizleme, Is Emirleri\u0027nde Ust Is Emri, ana is emri bitirilirken acik alt is emri uyarisi. Veritabani guncellemesi gerekir.",
-    "tarih":  "2026-11-17 16:52"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL193/IBY_ERP.exe",
+    "sha256":  "88596b0ecfffa75a6bbfbcf09ccb8bd188c6c2e6564b20f2fd33f5bc05098df7",
+    "boyut":  52099284,
+    "notlar":  "Yeni: Uretim \u003e Uretim Performansi (plan / gercek): verim, fire orani, zamaninda teslim, birim maliyet, receteye gore malzeme sapmasi; mamul ozeti; Excel.",
+    "tarih":  "2026-11-17 17:18"
 }
