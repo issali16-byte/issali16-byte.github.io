@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  179,
-    "sema":  "2026.11.17.2",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL179/IBY_ERP.exe",
-    "sha256":  "dfa8b795d22886ef37a2dc10fdea43266da79d2a6ebb37cd04aa99e6374d633f",
-    "boyut":  51965428,
-    "notlar":  "Yeni: Finansallar \u003e Musavir Aktarimi - yevmiye fis satirlari, cari ve hesap listesi Excel olarak (musavirin programina aktarim icin), musavir hesap kodu eslemesi. Veritabani guncellemesi gerekir.",
-    "tarih":  "2026-11-17 09:12"
+    "yama":  180,
+    "sema":  "2026.11.17.3",
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL180/IBY_ERP.exe",
+    "sha256":  "16b2c9996ef9ca6578da1d4ad2a6d7e4e5fcc29b61439441c9e5b23b43d48ea3",
+    "boyut":  51986327,
+    "notlar":  "Musavir Aktarimi: fatura listesi (her fatura bir satir, KDV orani basina matrah/KDV - Zirve Fatura Excel tipi) ve ayarlanabilir aktarim sablonlari (sutun, CSV/Excel, tarih bicimi; .json ile paylasim). Veritabani guncellemesi gerekir.",
+    "tarih":  "2026-11-17 09:44"
 }
