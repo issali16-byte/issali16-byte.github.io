@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  184,
-    "sema":  "2026.11.17.3",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL184/IBY_ERP.exe",
-    "sha256":  "c145c2dab74ff1ac5c86d8b01558e0b6f831bfcd0648df4eaf2dc04d05673fca",
-    "boyut":  52016741,
-    "notlar":  "Yeni: Gelen e-Irsaliyeler - Entegratorden Cek (Uyumsoft gelen kutusundan gelen irsaliye arsivine, ayni ETTN tekrar alinmaz); otomatik cekim fatura ve irsaliyeyi birlikte ceker.",
-    "tarih":  "2026-11-17 10:44"
+    "yama":  185,
+    "sema":  "2026.11.17.4",
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL185/IBY_ERP.exe",
+    "sha256":  "9114b590c73d6b1b383f4fddae55c769b96d91cc106f01b3aa226e9bab21d39f",
+    "boyut":  52024078,
+    "notlar":  "Yeni: Gelen ticari e-Faturaya Kabul / Red yaniti (8 gun icinde, red nedeniyle; reddedilen fatura iptal edilir). Veritabani guncellemesi gerekir.",
+    "tarih":  "2026-11-17 11:17"
 }
