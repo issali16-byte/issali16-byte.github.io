@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  182,
+    "yama":  183,
     "sema":  "2026.11.17.3",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL182/IBY_ERP.exe",
-    "sha256":  "cae9fc9f42d252f7a953ca8de49b273af7a43d5fbc91438cb5abb9481a03c0f1",
-    "boyut":  52007789,
-    "notlar":  "Yeni: Gelen e-Faturalar - Entegratorden Cek (Uyumsoft gelen kutusundan taslak alis faturasi; ayni ETTN tekrar alinmaz, reddedilenler alinmaz).",
-    "tarih":  "2026-11-17 10:15"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL183/IBY_ERP.exe",
+    "sha256":  "284a66e914a930d9b73642ebf7bf8212a2f6788c04e2d1290c64d349107ff2d1",
+    "boyut":  52012533,
+    "notlar":  "Yeni: Gelen e-Faturalar otomatik cekilir (GIB Entegrator Ayarlari: Gelen Otomatik Cek = 1, aralik dk); arka planda, tek bilgisayar ceker, yeni fatura durum cubugunda bildirilir.",
+    "tarih":  "2026-11-17 10:24"
 }
