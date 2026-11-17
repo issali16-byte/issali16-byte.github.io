@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  187,
+    "yama":  188,
     "sema":  "2026.11.17.5",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL187/IBY_ERP.exe",
-    "sha256":  "2c136d018cb787c9e4a5b256d2e74fc6b91d238c2f1b84420b1568ceec96a18d",
-    "boyut":  52043254,
-    "notlar":  "Yeni: Entegrator listeden secilir (Uyumsoft dogrudan, digerleri dosya ile), baglanti testi; Gelen e-Irsaliyeye yanit (kabul / red / eksik / fazla). Veritabani guncellemesi gerekir.",
-    "tarih":  "2026-11-17 14:31"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL188/IBY_ERP.exe",
+    "sha256":  "ea56b60c38a70144181f3c2ff00c60b041630839c94f2249dd1ddc4c305d7334",
+    "boyut":  52052177,
+    "notlar":  "Yeni: Uretim \u003e Is Emirleri listesi (Acik / Tamamlanan / Iptal / Tumu, tarih ve arama, malzeme toplama durumu, uretilen / fire / maliyet, Excel); detayda hammadde gereken / toplanan / tuketilen.",
+    "tarih":  "2026-11-17 15:21"
 }
