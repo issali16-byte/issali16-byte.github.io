@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  178,
-    "sema":  "2026.11.17.1",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL178/IBY_ERP.exe",
-    "sha256":  "ef1fffe878fe856565cd006c7fb24f1aaa7bfaeef9c72975f44a7bbb85e3d0f6",
-    "boyut":  51945759,
-    "notlar":  "Muhasebe: yevmiye satirlarina cari (musteri / tedarikci) bilgisi yazilir - musavir aktarimi icin hazirlik. Veritabani guncellemesi gerekir.",
-    "tarih":  "2026-11-17 08:49"
+    "yama":  179,
+    "sema":  "2026.11.17.2",
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL179/IBY_ERP.exe",
+    "sha256":  "dfa8b795d22886ef37a2dc10fdea43266da79d2a6ebb37cd04aa99e6374d633f",
+    "boyut":  51965428,
+    "notlar":  "Yeni: Finansallar \u003e Musavir Aktarimi - yevmiye fis satirlari, cari ve hesap listesi Excel olarak (musavirin programina aktarim icin), musavir hesap kodu eslemesi. Veritabani guncellemesi gerekir.",
+    "tarih":  "2026-11-17 09:12"
 }
