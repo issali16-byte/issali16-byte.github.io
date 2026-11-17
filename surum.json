@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  183,
+    "yama":  184,
     "sema":  "2026.11.17.3",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL183/IBY_ERP.exe",
-    "sha256":  "284a66e914a930d9b73642ebf7bf8212a2f6788c04e2d1290c64d349107ff2d1",
-    "boyut":  52012533,
-    "notlar":  "Yeni: Gelen e-Faturalar otomatik cekilir (GIB Entegrator Ayarlari: Gelen Otomatik Cek = 1, aralik dk); arka planda, tek bilgisayar ceker, yeni fatura durum cubugunda bildirilir.",
-    "tarih":  "2026-11-17 10:24"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL184/IBY_ERP.exe",
+    "sha256":  "c145c2dab74ff1ac5c86d8b01558e0b6f831bfcd0648df4eaf2dc04d05673fca",
+    "boyut":  52016741,
+    "notlar":  "Yeni: Gelen e-Irsaliyeler - Entegratorden Cek (Uyumsoft gelen kutusundan gelen irsaliye arsivine, ayni ETTN tekrar alinmaz); otomatik cekim fatura ve irsaliyeyi birlikte ceker.",
+    "tarih":  "2026-11-17 10:44"
 }
