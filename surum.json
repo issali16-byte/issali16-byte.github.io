@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  193,
+    "yama":  194,
     "sema":  "2026.11.17.8",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL193/IBY_ERP.exe",
-    "sha256":  "88596b0ecfffa75a6bbfbcf09ccb8bd188c6c2e6564b20f2fd33f5bc05098df7",
-    "boyut":  52099284,
-    "notlar":  "Yeni: Uretim \u003e Uretim Performansi (plan / gercek): verim, fire orani, zamaninda teslim, birim maliyet, receteye gore malzeme sapmasi; mamul ozeti; Excel.",
-    "tarih":  "2026-11-17 17:18"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL194/IBY_ERP.exe",
+    "sha256":  "003382fb1192088a692d5047b5120e255509b58cefbbd04b75bc0727255ffe74",
+    "boyut":  52103733,
+    "notlar":  "Yeni: Standart demo sirket IBY YAZILIM DANISMANLIK - 5 ornek is yeni uretim ozellikleriyle (siparisten is emri, alt is emri, vardiya bildirimi, geciken acil is emri); alt is emrinde yari mamul toplamasi mamul deposundan.",
+    "tarih":  "2026-11-17 17:38"
 }
