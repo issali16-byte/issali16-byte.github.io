@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  188,
-    "sema":  "2026.11.17.5",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL188/IBY_ERP.exe",
-    "sha256":  "ea56b60c38a70144181f3c2ff00c60b041630839c94f2249dd1ddc4c305d7334",
-    "boyut":  52052177,
-    "notlar":  "Yeni: Uretim \u003e Is Emirleri listesi (Acik / Tamamlanan / Iptal / Tumu, tarih ve arama, malzeme toplama durumu, uretilen / fire / maliyet, Excel); detayda hammadde gereken / toplanan / tuketilen.",
-    "tarih":  "2026-11-17 15:21"
+    "yama":  189,
+    "sema":  "2026.11.17.6",
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL189/IBY_ERP.exe",
+    "sha256":  "5ae40dfb43eb43fead0b903af05dbc50f2b13c69e921b2e14741f4c0ba9fe363",
+    "boyut":  52059789,
+    "notlar":  "Yeni: Is emrine termin tarihi ve oncelik (siparisten termin gelir); Is Emirleri\u0027nde Geciken secimi, termin durumu, zamaninda teslim orani; ana sayfada geciken is emri sayisi. Veritabani guncellemesi gerekir.",
+    "tarih":  "2026-11-17 15:53"
 }
