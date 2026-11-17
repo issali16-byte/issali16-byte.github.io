@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  177,
-    "sema":  "2026.11.16.9",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL177/IBY_ERP.exe",
-    "sha256":  "0acb96480a735d69f181cbbcbc208683a98563569487fbacf96cf696a7a731b7",
-    "boyut":  51941724,
-    "notlar":  "Yeni: Seri numarasi takibi - kartta Seri Numarasi secili urunde giriste seri no zorunlu (adet kadar, tekrar yok), her seri ayri izlenir, Parti Gecmisi ile hangi musteriye gittigi gorulur. Veritabani guncellemesi gerekir.",
-    "tarih":  "2026-11-16 17:51"
+    "yama":  178,
+    "sema":  "2026.11.17.1",
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL178/IBY_ERP.exe",
+    "sha256":  "ef1fffe878fe856565cd006c7fb24f1aaa7bfaeef9c72975f44a7bbb85e3d0f6",
+    "boyut":  51945759,
+    "notlar":  "Muhasebe: yevmiye satirlarina cari (musteri / tedarikci) bilgisi yazilir - musavir aktarimi icin hazirlik. Veritabani guncellemesi gerekir.",
+    "tarih":  "2026-11-17 08:49"
 }
