@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  181,
+    "yama":  182,
     "sema":  "2026.11.17.3",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL181/IBY_ERP.exe",
-    "sha256":  "996d8e8e5900c3bdcdc20fa173cc75b526520f81ced75c1b29ab754a8a429199",
-    "boyut":  51995628,
-    "notlar":  "Yeni: Musavir Aktarimi\u0027na banka listesi; IK Bordro\u0027da Banka Odeme Dosyasi - bankanin istedigi duzende toplu maas dosyasi (sablon), IBAN / TC kontrolu.",
-    "tarih":  "2026-11-17 09:59"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL182/IBY_ERP.exe",
+    "sha256":  "cae9fc9f42d252f7a953ca8de49b273af7a43d5fbc91438cb5abb9481a03c0f1",
+    "boyut":  52007789,
+    "notlar":  "Yeni: Gelen e-Faturalar - Entegratorden Cek (Uyumsoft gelen kutusundan taslak alis faturasi; ayni ETTN tekrar alinmaz, reddedilenler alinmaz).",
+    "tarih":  "2026-11-17 10:15"
 }
