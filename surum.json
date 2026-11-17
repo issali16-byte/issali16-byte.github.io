@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  185,
-    "sema":  "2026.11.17.4",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL185/IBY_ERP.exe",
-    "sha256":  "9114b590c73d6b1b383f4fddae55c769b96d91cc106f01b3aa226e9bab21d39f",
-    "boyut":  52024078,
-    "notlar":  "Yeni: Gelen ticari e-Faturaya Kabul / Red yaniti (8 gun icinde, red nedeniyle; reddedilen fatura iptal edilir). Veritabani guncellemesi gerekir.",
-    "tarih":  "2026-11-17 11:17"
+    "yama":  187,
+    "sema":  "2026.11.17.5",
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL187/IBY_ERP.exe",
+    "sha256":  "2c136d018cb787c9e4a5b256d2e74fc6b91d238c2f1b84420b1568ceec96a18d",
+    "boyut":  52043254,
+    "notlar":  "Yeni: Entegrator listeden secilir (Uyumsoft dogrudan, digerleri dosya ile), baglanti testi; Gelen e-Irsaliyeye yanit (kabul / red / eksik / fazla). Veritabani guncellemesi gerekir.",
+    "tarih":  "2026-11-17 14:31"
 }
