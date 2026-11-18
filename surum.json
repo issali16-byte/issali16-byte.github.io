@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  198,
+    "yama":  199,
     "sema":  "2026.11.18.2",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL198/IBY_ERP.exe",
-    "sha256":  "8f31aca21191ed4b89f79dc575431ff45ce844fca34ba2c0dbc5e640e7fc3558",
-    "boyut":  52139147,
-    "notlar":  "Atolye Ekrani: operator icin buyuk kartlar; operasyon basla / durdur (neden) / devam / bitir, sure calisilan dakika, duruslar kaydedilir, uretim bildirimi.",
-    "tarih":  "2026-11-18 12:50"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL199/IBY_ERP.exe",
+    "sha256":  "1940702e645c4540e39e81ecfce815fd1535b86e2055efbaebab9a024422a93e",
+    "boyut":  52145075,
+    "notlar":  "IBY ERP Mobil: tablette atolye - uretim yetkili operator girer; basla / durdur (neden) / uretim bildir / operasyon bitir, programdaki Atolye Ekrani ile ayni kurallar.",
+    "tarih":  "2026-11-18 13:51"
 }
