@@ -68,3 +68,22 @@ video.kamera{width:100%;border-radius:12px;background:#000;max-height:260px;obje
 .gizli{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
 .fiyat-yok{border-color:#E8A33D !important;background:#FFF8EC !important}
 .alt-menu button{min-width:0;font-size:clamp(9px,3.1vw,11px)}
+/* PL199 atölye (tablet / makine ekranı) */
+body.genis #uygulama{max-width:1180px}
+.secim{height:46px;border:0;border-radius:10px;padding:0 12px;font-size:16px;background:#fff;color:var(--yazi);max-width:420px}
+.secim.acik{border:1px solid #C5CFDC;max-width:none;width:100%}
+.kartlar{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,420px),1fr));gap:12px}
+.kart.is{display:flex;flex-direction:column;gap:6px}
+.is-bas{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;font-size:14px}
+.is-no{font-size:19px}
+.is-mamul{font-size:16px}
+.is-miktar{font-size:17px;font-weight:700;color:var(--lacivert)}
+.is-op{font-size:15px;font-weight:600}
+.is-uyari{font-size:14px;font-weight:600;color:var(--turuncu)}
+.is-uyari.kirmizi{color:var(--kirmizi)}
+.etk2{color:var(--soluk);font-size:13px}
+.is-dugmeler{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:8px;margin-top:6px}
+.is-dugmeler .dugme{height:58px;font-size:17px}
+.dugme.yesil-d{background:#2E7D32}.dugme.turuncu-d{background:#EF6C00}.dugme.gri-d{background:#546E7A}
+.perde .izgara2 .dugme{height:58px;font-size:16px}
+body.genis .sayfa-alt{max-width:640px}
