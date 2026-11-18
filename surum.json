@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  196,
-    "sema":  "2026.11.17.8",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL196/IBY_ERP.exe",
-    "sha256":  "0a6181bf66e3249b83b29c4645cf022495b718ddfec0f02306b4a5695394c3e4",
-    "boyut":  52104954,
-    "notlar":  "Duzeltme: Cikis / sirket degistirince arka plan isleri eski sirkete baglanmaz; giris ekranina donuste ana veritabani ayardan okunur.",
-    "tarih":  "2026-11-18 09:14"
+    "yama":  197,
+    "sema":  "2026.11.18.1",
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL197/IBY_ERP.exe",
+    "sha256":  "1135624a9ded8236651bc02e8bf5574048355d051e5b232578a24f8d05886b01",
+    "boyut":  52117065,
+    "notlar":  "Toplu Stok Yukleme: acilis stogu muhasebe fisi (153/500 ya da sayim farki), Excel\u0027de birim maliyet, hareket gercek farki yazar, hatali satirlar listelenir.",
+    "tarih":  "2026-11-18 11:13"
 }
