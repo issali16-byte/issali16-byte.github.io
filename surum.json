@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  199,
+    "yama":  200,
     "sema":  "2026.11.18.2",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL199/IBY_ERP.exe",
-    "sha256":  "1940702e645c4540e39e81ecfce815fd1535b86e2055efbaebab9a024422a93e",
-    "boyut":  52145075,
-    "notlar":  "IBY ERP Mobil: tablette atolye - uretim yetkili operator girer; basla / durdur (neden) / uretim bildir / operasyon bitir, programdaki Atolye Ekrani ile ayni kurallar.",
-    "tarih":  "2026-11-18 13:51"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL200/IBY_ERP.exe",
+    "sha256":  "04da974a17ba837be83b715a71f92a82bfd3a8a9060f3fae2d40fe166557a4ca",
+    "boyut":  52146241,
+    "notlar":  "Mobil Sunucu penceresi: tabletten atolye (Uretim yetkili operator) de anlatiliyor.",
+    "tarih":  "2026-11-18 15:41"
 }
