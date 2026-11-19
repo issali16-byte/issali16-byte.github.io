@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  207,
+    "yama":  208,
     "sema":  "2026.11.19.2",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL207/IBY_ERP.exe",
-    "sha256":  "554bc1d1e4d252f59278eca33e9e3e06953cb5d31880710dde345c8cb5a61029",
-    "boyut":  52187210,
-    "notlar":  "Ic duzenleme: depo ekranlari konu konu ayri dosyalara bolundu (kullanicida degisiklik yok).",
-    "tarih":  "2026-11-19 15:11"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL208/IBY_ERP.exe",
+    "sha256":  "7c1dfbe88207d793c4614432ed631346affd9a64bc2e1ad6201cdb633240a529",
+    "boyut":  52200233,
+    "notlar":  "Ic duzenleme: uretim ekranlari konu konu ayri dosyalara bolundu (kullanicida degisiklik yok).",
+    "tarih":  "2026-11-19 15:45"
 }
