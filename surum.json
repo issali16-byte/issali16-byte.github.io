@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  210,
+    "yama":  211,
     "sema":  "2026.11.19.2",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL210/IBY_ERP.exe",
-    "sha256":  "fa3a490ad3745d19039bf521270f78c0ef42b882d94153116f4596f892006dd2",
-    "boyut":  52213364,
-    "notlar":  "Ana sayfa grafikleri: Urun Stok Dagilimi\u0027nda kucuk urunler \u0027Diger\u0027de toplanir, yazilar ust uste binmez, yuzdeler tum stoktan; grup grafiginde adlar kesilmez. Ic duzenleme: stok ekranlari bolundu.",
-    "tarih":  "2026-11-19 16:16"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL211/IBY_ERP.exe",
+    "sha256":  "d0d1d4efe1bef5e8b031dad788f3e31438896c203d556301682da35c0b81b155",
+    "boyut":  52227908,
+    "notlar":  "Ic duzenleme: kurulum / veritabani semasi kodu konu konu ayri dosyalara bolundu; sema birebir ayni (kullanicida degisiklik yok).",
+    "tarih":  "2026-11-19 17:02"
 }
