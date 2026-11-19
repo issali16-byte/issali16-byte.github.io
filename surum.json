@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  200,
+    "yama":  201,
     "sema":  "2026.11.18.2",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL200/IBY_ERP.exe",
-    "sha256":  "04da974a17ba837be83b715a71f92a82bfd3a8a9060f3fae2d40fe166557a4ca",
-    "boyut":  52146241,
-    "notlar":  "Mobil Sunucu penceresi: tabletten atolye (Uretim yetkili operator) de anlatiliyor.",
-    "tarih":  "2026-11-18 15:41"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL201/IBY_ERP.exe",
+    "sha256":  "c9e291dc149135cc35cf0778025a9d405232f1b0d43a0e36d2c4f7a7ee37679e",
+    "boyut":  52160873,
+    "notlar":  "Uretim \u003e Atolye Raporu: is merkezine gore plan / gercek sure, sapma, calisma orani, durus nedenleri (ariza, mola, malzeme...) ve suren duruslar; Excel\u0027e aktarma.",
+    "tarih":  "2026-11-19 08:55"
 }
