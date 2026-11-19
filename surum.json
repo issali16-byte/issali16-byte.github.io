@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  204,
-    "sema":  "2026.11.19.1",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL204/IBY_ERP.exe",
-    "sha256":  "548439be5ef9ee973b9d20cb470dbe7973b6f6606750c88ab425437f308cfa40",
-    "boyut":  52170790,
-    "notlar":  "Garanti takibi: urun kartinda garanti suresi (ay); seri takipli urun satilinca her seri icin otomatik ekipman karti (musteri, irsaliye, garanti bitisi); iptalde kart Iptal.",
-    "tarih":  "2026-11-19 11:47"
+    "yama":  205,
+    "sema":  "2026.11.19.2",
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL205/IBY_ERP.exe",
+    "sha256":  "81b9ad4ad3423fe2837899c5230ade21d7951c6805764f31a8fbb6ef564f999a",
+    "boyut":  52177449,
+    "notlar":  "Servis cagrisinda seri no sorgusu: urun, musteri, satis irsaliyesi ve garanti durumu (garantide / bitti); musteri karttan gelir, servis siparisi notuna yazilir.",
+    "tarih":  "2026-11-19 12:52"
 }
