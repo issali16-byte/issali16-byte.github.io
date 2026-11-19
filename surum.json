@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  203,
-    "sema":  "2026.11.18.2",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL203/IBY_ERP.exe",
-    "sha256":  "e97ec0779dbd042da6df2822b2d9885b04b10ef33b8909fbe279e5da3493152d",
-    "boyut":  52166731,
-    "notlar":  "Irsaliye / e-Irsaliye / fatura ciktisinda kalem altinda seri no ve parti listesi; \u0027Irsaliye yerine gecer\u0027 artik yalniz faturali irsaliyede.",
-    "tarih":  "2026-11-19 11:06"
+    "yama":  204,
+    "sema":  "2026.11.19.1",
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL204/IBY_ERP.exe",
+    "sha256":  "548439be5ef9ee973b9d20cb470dbe7973b6f6606750c88ab425437f308cfa40",
+    "boyut":  52170790,
+    "notlar":  "Garanti takibi: urun kartinda garanti suresi (ay); seri takipli urun satilinca her seri icin otomatik ekipman karti (musteri, irsaliye, garanti bitisi); iptalde kart Iptal.",
+    "tarih":  "2026-11-19 11:47"
 }
