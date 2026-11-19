@@ -166,6 +166,54 @@
   .mobil-telefon img { width: 100%; height: auto; display: block; border-radius: 32px; }
   @media (max-width: 900px) { .mobil-bolum .kap { grid-template-columns: minmax(0, 1fr); text-align: center; } .mobil-bolum ul { text-align: left; max-width: 440px; margin: 0 auto 28px; } }
 
+  /* Videolar */
+  .videolar-bolum { background: var(--kart); }
+  .videolar { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 26px; }
+  .video-kart { background: var(--zemin); border: 1px solid var(--cizgi); border-radius: 16px; overflow: hidden; }
+  .video-kart video { width: 100%; height: auto; aspect-ratio: 16 / 9; display: block; background: #16263a; }
+  .video-kart div { padding: 16px 20px 20px; }
+  .video-kart h3 { font-size: 18px; color: var(--lacivert); margin-bottom: 4px; }
+  .video-kart p { color: var(--gri); font-size: 15px; }
+  .video-not { text-align: center; color: var(--gri); font-size: 14px; margin-top: 22px; }
+
+  /* Neden IBY ERP */
+  .neden { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 22px; }
+  .neden .kart b { display: block; font-size: 30px; font-weight: 800; color: var(--mavi); line-height: 1.1; margin-bottom: 8px; }
+
+  /* Firmaya özel */
+  .ozel { display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, .7fr); gap: 30px; align-items: center;
+          background: linear-gradient(135deg, #eaf3fc, #f7fbff); border: 1px solid var(--cizgi); border-radius: 24px; padding: 44px 46px; }
+  .ozel h2 { font-size: 30px; color: var(--lacivert); margin-bottom: 10px; }
+  .ozel p { color: var(--gri); font-size: 16.5px; }
+  .ozel ul { margin: 14px 0 0 0; list-style: none; display: grid; gap: 6px; color: var(--metin); font-size: 15px; }
+  .ozel li::before { content: "✓"; color: var(--yesil); font-weight: 800; margin-right: 10px; }
+  .ozel .dugmeler { justify-content: flex-end; }
+
+  /* Paketler */
+  .paketler-bolum { background: linear-gradient(180deg, var(--zemin), #e8f0f9); }
+  .paketler { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 22px; }
+  .paket { background: var(--kart); border: 1px solid var(--cizgi); border-radius: 18px; padding: 30px 24px 26px; text-align: center;
+           display: flex; flex-direction: column; transition: box-shadow .2s, transform .2s; }
+  .paket:hover { box-shadow: 0 16px 40px rgba(31, 78, 121, .15); transform: translateY(-3px); }
+  .paket .kisi { font-size: 46px; font-weight: 800; color: var(--lacivert); line-height: 1; }
+  .paket .birim { color: var(--gri); font-size: 15px; margin: 6px 0 18px; }
+  .paket ul { list-style: none; text-align: left; display: grid; gap: 7px; font-size: 14.5px; color: var(--metin); margin-bottom: 24px; flex: 1; }
+  .paket li::before { content: "✓"; color: var(--yesil); font-weight: 800; margin-right: 9px; }
+  .paket .dugme { justify-content: center; padding: 13px 20px; font-size: 16px; }
+  .paket-not { text-align: center; color: var(--gri); font-size: 15px; margin-top: 26px; }
+  .paket-not a { color: var(--mavi); font-weight: 600; }
+
+  @media (max-width: 900px) {
+    .videolar { grid-template-columns: minmax(0, 1fr); }
+    .neden, .paketler { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .ozel { grid-template-columns: minmax(0, 1fr); padding: 32px 26px; text-align: center; }
+    .ozel ul { text-align: left; max-width: 460px; margin-left: auto; margin-right: auto; }
+    .ozel .dugmeler { justify-content: center; }
+  }
+  @media (max-width: 600px) {
+    .neden, .paketler { grid-template-columns: minmax(0, 1fr); }
+  }
+
   footer { background: var(--koyu); color: #9fb7cf; padding: 40px 0; font-size: 14px; }
   footer .kap { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 16px; }
   footer a { color: #cfe3f5; }
@@ -203,9 +251,9 @@
     <a class="marka" href="#"><img src="img/apple-touch-icon.png" alt="IBY ERP logosu">IBY ERP</a>
     <nav>
       <a href="#moduller">Modüller</a>
-      <a href="#ekranlar">Ekranlar</a>
+      <a href="#videolar">Videolar</a>
+      <a href="#paketler">Paketler</a>
       <a href="/mobil/">📱 Mobil</a>
-      <a href="#nasil">Nasıl Başlarım</a>
       <a href="#sss">Sorular</a>
       <a class="dugme indir" data-goatcounter-click="indir-menu" href="/indir/">İndir</a>
     </nav>
@@ -221,6 +269,7 @@
       <p class="alt">IBY ERP; stok takibi, depo yönetimi, lojistik ve sevkiyat, üretim, satış, satınalma ve finansı birbirine bağlayan Türkçe ERP programıdır.</p>
       <div class="dugmeler">
         <a class="dugme indir" data-goatcounter-click="indir-ust" href="/indir/">⬇ 30 Gün Ücretsiz Dene</a>
+        <a class="dugme cerceve" data-goatcounter-click="video-ust" href="#videolar">▶ Videoları İzle</a>
         <a class="dugme cerceve" data-goatcounter-click="whatsapp-ust" href="https://wa.me/905422846116?text=Merhaba%2C%20IBY%20ERP%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum.">💬 Bilgi Al</a>
       </div>
       <div class="not">Windows 10 / 11 · Anahtar ve kredi kartı gerekmez · İndir, hemen kullan</div>
@@ -232,8 +281,8 @@
 <div class="serit">
   <div class="kap">
     <div><b>30 gün</b><span>ücretsiz deneme</span></div>
-    <div><b>18+ modül</b><span>tek veritabanında</span></div>
-    <div><b>Çok kullanıcılı</b><span>ağda birlikte çalışma</span></div>
+    <div><b>20 modül</b><span>tek veritabanında</span></div>
+      <div><b>200+ güncelleme</b><span>program içinden gelir</span></div>
     <div><b>%100 Türkçe</b><span>yerli destek</span></div>
     <div id="indirme" hidden><b id="indirme-sayi"></b><span>kez indirildi</span></div>
   </div>
@@ -246,22 +295,75 @@
       <p>Depodan sevkiyata, üretimden faturaya kadar tüm süreçler birbirine bağlı çalışır; aynı bilgiyi iki kez girmezsiniz.</p>
     </div>
     <div class="izgara">
-      <div class="kart"><div class="ikon">📦</div><h3>Stok Takibi</h3><p>Anlık stok, minimum/maksimum seviyeler, ürün kartları, barkod, dövizli fiyatlar.</p></div>
-      <div class="kart"><div class="ikon">🏭</div><h3>Depo Yönetimi</h3><p>Çoklu depo, raf ve adres takibi, mal kabul, depolar arası transfer.</p></div>
-      <div class="kart"><div class="ikon">🚛</div><h3>Lojistik ve Sevkiyat</h3><p>Sevkiyat kokpiti, paketleme, irsaliye, plaka ve teslimat takibi.</p></div>
-      <div class="kart"><div class="ikon">⚙️</div><h3>Üretim ve MRP</h3><p>Üretim emirleri, reçeteler, iş merkezleri ve malzeme ihtiyaç planlaması (MRP).</p></div>
-      <div class="kart"><div class="ikon">📈</div><h3>Satış ve Satınalma</h3><p>Teklif, sipariş, irsaliye ve fatura akışı; tedarikçi ve müşteri yönetimi.</p></div>
-      <div class="kart"><div class="ikon">💰</div><h3>Finans</h3><p>Cari hesaplar, kasa, banka, çek/senet, tahsilat ve ödemeler, TCMB döviz kurları.</p></div>
+      <div class="kart"><div class="ikon">📦</div><h3>Stok Takibi</h3><p>Anlık stok, kritik seviye, barkod; parti, seri numarası ve son kullanma takibi; ağırlıklı ortalama maliyet.</p></div>
+      <div class="kart"><div class="ikon">🏭</div><h3>Depo Yönetimi</h3><p>Çoklu depo, raf adresi, mal kabul ve giriş kalite kontrol, depolar arası transfer, sayım.</p></div>
+      <div class="kart"><div class="ikon">🚛</div><h3>Lojistik ve Sevkiyat</h3><p>Sevkiyat kokpiti, toplama ve paketleme, irsaliye ve e-İrsaliye, araç ve teslimat takibi.</p></div>
+      <div class="kart"><div class="ikon">⚙️</div><h3>Üretim ve MRP</h3><p>İş emri, reçete ve rota; tablette atölye ekranı, süre ve duruş raporu; malzeme ihtiyaç planlaması (MRP).</p></div>
+      <div class="kart"><div class="ikon">📈</div><h3>Satış ve Satınalma</h3><p>Teklif, sipariş, irsaliye ve fatura akışı; onay kuralları, müşteriye özel fiyat, tedarikçi yönetimi.</p></div>
+      <div class="kart"><div class="ikon">💰</div><h3>Finans ve Muhasebe</h3><p>Belgeden otomatik yevmiye, mizan, bilanço, KDV; cari, kasa, banka, çek/senet, döviz, müşavire aktarım.</p></div>
     </div>
     <div class="ekler">
-      <span>🏛 E-Belge</span><span>🤝 CRM</span><span>🔧 Servis</span><span>✅ Kalite</span>
-      <span>👔 İnsan Kaynakları</span><span>📋 Proje Yönetimi</span><span>📊 Rapor Merkezi</span>
-      <span>🏢 Çok Şirket</span><span>🔐 Kullanıcı Yetkileri</span><span>🔄 Otomatik Güncelleme</span>
+      <span>🏛 e-Fatura / e-İrsaliye</span><span>🤝 CRM</span><span>🔧 Servis ve Garanti</span><span>✅ Kalite</span>
+        <span>👔 İK ve Bordro</span><span>📋 Proje Yönetimi</span><span>📊 Rapor Tasarlayıcı</span>
+        <span>✏️ Kullanıcı Tanımlı Alanlar</span><span>✔ Onay Süreçleri</span><span>💾 Otomatik Yedek</span>
+        <span>📜 Değişiklik Geçmişi</span><span>🏢 Çok Şirket</span><span>🔐 Kullanıcı Yetkileri</span>
+        <span>🔄 Otomatik Güncelleme</span>
     </div>
   </div>
 </section>
 
-<section id="ekranlar" class="ekranlar-bolum">
+    <section id="videolar" class="videolar-bolum">
+      <div class="kap">
+        <div class="baslik">
+          <h2>Programı çalışırken görün</h2>
+          <p>Kısa ekran turları; örnek şirket verileriyle, programın kendi ekranlarından.</p>
+        </div>
+        <div class="videolar">
+        <div class="video-kart">
+          <video controls preload="none" playsinline poster="video/atolye.jpg" data-goatcounter-click="video-atolye">
+            <source src="video/atolye.mp4" type="video/mp4">
+          </video>
+          <div><h3>Atölye takibi</h3><p>Operatör işi tabletten başlatır, durdurur, üretim bildirir; süre ve duruşlar raporlanır.</p></div>
+        </div>
+        <div class="video-kart">
+          <video controls preload="none" playsinline poster="video/satis.jpg" data-goatcounter-click="video-satis">
+            <source src="video/satis.mp4" type="video/mp4">
+          </video>
+          <div><h3>Satıştan faturaya</h3><p>Sipariş, sevkiyat kokpiti, irsaliye ve fatura — bilgi bir kez girilir.</p></div>
+        </div>
+        <div class="video-kart">
+          <video controls preload="none" playsinline poster="video/stok.jpg" data-goatcounter-click="video-stok">
+            <source src="video/stok.mp4" type="video/mp4">
+          </video>
+          <div><h3>Stok ve depo</h3><p>Raf raf stok, parti ve son kullanma, stok değeri ve ihtiyaç planlama.</p></div>
+        </div>
+        <div class="video-kart">
+          <video controls preload="none" playsinline poster="video/finans.jpg" data-goatcounter-click="video-finans">
+            <source src="video/finans.mp4" type="video/mp4">
+          </video>
+          <div><h3>Finans ve muhasebe</h3><p>Her belge yevmiyesini yazar; mizan, bilanço ve KDV her an hazır.</p></div>
+        </div>
+        </div>
+        <p class="video-not">Daha fazlası için programı indirip 30 gün ücretsiz deneyin — örnek şirketle birlikte gelir.</p>
+      </div>
+    </section>
+
+    <section id="neden">
+      <div class="kap">
+        <div class="baslik">
+          <h2>Neden IBY ERP?</h2>
+          <p>Türk işletmesinin gerçek iş akışına göre yazıldı; her hafta gelişiyor.</p>
+        </div>
+        <div class="neden">
+          <div class="kart"><b>%100</b><h3>Türkiye'ye göre</h3><p>e-Fatura ve e-İrsaliye, KDV ve mahsup, tek düzen hesap planı, bordro ve MUHSGK programın içinde.</p></div>
+          <div class="kart"><b>200+</b><h3>Sürekli gelişiyor</h3><p>Bugüne kadar 200'den fazla güncelleme; her biri 570'ten fazla otomatik testten geçer, program içinden tek tıkla gelir.</p></div>
+          <div class="kart"><b>1:1</b><h3>Anahtar teslim</h3><p>Kurulum, veri aktarımı ve kullanıcı eğitimini şirketinizde yapıyoruz; canlıya geçene kadar yanınızdayız.</p></div>
+          <div class="kart"><b>🔐</b><h3>Verileriniz sizde</h3><p>Kendi sunucunuzda çalışır; otomatik günlük yedek, değişiklik geçmişi ve kullanıcı yetkileri.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="ekranlar" class="ekranlar-bolum">
   <div class="kap">
     <div class="baslik">
       <h2>Programdan ekranlar</h2>
@@ -288,6 +390,7 @@
         <li>Müşteri bakiyesi, risk limiti ve son belgeler</li>
         <li>Sahada yeni müşteri, sipariş ve teklif</li>
         <li>Depo ve raf bazında stok, barkod / el terminali</li>
+          <li>Tablette atölye: operatör işi başlatır, durdurur, üretim bildirir</li>
       </ul>
       <div class="dugmeler"><a class="dugme indir" data-goatcounter-click="mobil-demo" href="/mobil/">📱 Canlı Demoyu Deneyin</a></div>
     </div>
@@ -301,7 +404,65 @@
   <p></p>
 </dialog>
 
-<section id="nasil" class="adimlar-bolum">
+    <section id="ozel" style="padding-bottom: 0">
+      <div class="kap">
+        <div class="ozel">
+          <div>
+            <h2>Firmanıza özel bir ihtiyaç mı var?</h2>
+            <p>IBY ERP standart bir üründür; böylece her güncelleme herkese sorunsuz gelir. Firmanıza özel ihtiyaçları
+              programı bozmadan karşılıyoruz:</p>
+            <ul>
+              <li>Ayarlar ve onay kuralları</li>
+              <li>Kullanıcı tanımlı alanlar ve rapor tasarlayıcı</li>
+              <li>Ek modül (örnek: bobin takibi)</li>
+            </ul>
+          </div>
+          <div class="dugmeler">
+            <a class="dugme wa" data-goatcounter-click="whatsapp-ozel" href="https://wa.me/905422846116?text=Merhaba%2C%20IBY%20ERP%20i%C3%A7in%20firmam%C4%B1za%20%C3%B6zel%20bir%20ihtiyac%C4%B1m%C4%B1z%20var.">💬 İhtiyacınızı Yazın</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="paketler" class="paketler-bolum">
+      <div class="kap">
+        <div class="baslik">
+          <h2>Paketler</h2>
+          <p>Her pakette tüm modüller var; paketler aynı anda çalışan kullanıcı sayısına göre ayrılır.
+            Fiyat, kurulum kapsamına göre size özel hazırlanır.</p>
+        </div>
+        <div class="paketler">
+          <div class="paket">
+            <div class="kisi">25</div>
+            <div class="birim">kullanıcı</div>
+            <ul><li>Tüm modüller</li><li>Ağda aynı anda 25 kullanıcı</li><li>Örnek şirket ve Excel'den veri aktarımı</li><li>Güncellemeler program içinden</li><li>Anahtar teslim kurulum ve eğitim</li></ul>
+            <a class="dugme wa" data-goatcounter-click="teklif-25" href="https://wa.me/905422846116?text=Merhaba%2C%20IBY%20ERP%2025%20kullan%C4%B1c%C4%B1%20paketi%20i%C3%A7in%20teklif%20almak%20istiyorum.">💬 Teklif Al</a>
+          </div>
+          <div class="paket">
+            <div class="kisi">50</div>
+            <div class="birim">kullanıcı</div>
+            <ul><li>Tüm modüller</li><li>Ağda aynı anda 50 kullanıcı</li><li>Örnek şirket ve Excel'den veri aktarımı</li><li>Güncellemeler program içinden</li><li>Anahtar teslim kurulum ve eğitim</li></ul>
+            <a class="dugme wa" data-goatcounter-click="teklif-50" href="https://wa.me/905422846116?text=Merhaba%2C%20IBY%20ERP%2050%20kullan%C4%B1c%C4%B1%20paketi%20i%C3%A7in%20teklif%20almak%20istiyorum.">💬 Teklif Al</a>
+          </div>
+          <div class="paket">
+            <div class="kisi">75</div>
+            <div class="birim">kullanıcı</div>
+            <ul><li>Tüm modüller</li><li>Ağda aynı anda 75 kullanıcı</li><li>Örnek şirket ve Excel'den veri aktarımı</li><li>Güncellemeler program içinden</li><li>Anahtar teslim kurulum ve eğitim</li></ul>
+            <a class="dugme wa" data-goatcounter-click="teklif-75" href="https://wa.me/905422846116?text=Merhaba%2C%20IBY%20ERP%2075%20kullan%C4%B1c%C4%B1%20paketi%20i%C3%A7in%20teklif%20almak%20istiyorum.">💬 Teklif Al</a>
+          </div>
+          <div class="paket">
+            <div class="kisi">100</div>
+            <div class="birim">kullanıcı</div>
+            <ul><li>Tüm modüller</li><li>Ağda aynı anda 100 kullanıcı</li><li>Örnek şirket ve Excel'den veri aktarımı</li><li>Güncellemeler program içinden</li><li>Anahtar teslim kurulum ve eğitim</li></ul>
+            <a class="dugme wa" data-goatcounter-click="teklif-100" href="https://wa.me/905422846116?text=Merhaba%2C%20IBY%20ERP%20100%20kullan%C4%B1c%C4%B1%20paketi%20i%C3%A7in%20teklif%20almak%20istiyorum.">💬 Teklif Al</a>
+          </div>
+        </div>
+        <p class="paket-not">IBY ERP Mobil (telefon / tablet) ek lisansla eklenir · 100'den fazla kullanıcı için
+          <a data-goatcounter-click="teklif-buyuk" href="https://wa.me/905422846116?text=Merhaba%2C%20IBY%20ERP%20i%C3%A7in%20100%20kullan%C4%B1c%C4%B1dan%20b%C3%BCy%C3%BCk%20bir%20paket%20istiyoruz.">bize yazın</a></p>
+      </div>
+    </section>
+
+    <section id="nasil" class="adimlar-bolum">
   <div class="kap">
     <div class="baslik">
       <h2>Denemeden canlıya, anahtar teslim</h2>
@@ -349,7 +510,12 @@
       <details><summary>Birden fazla bilgisayarda kullanabilir miyim?</summary><p>Evet. Program şirket sunucusuna kurulur; ağdaki bütün bilgisayarlar ve sahadaki telefonlar (IBY ERP Mobil) aynı veritabanıyla, aynı anda çalışır. Sunucu kurulumunu biz yapıyoruz.</p></details>
       <details><summary>Kurulumu ve eğitimi kim yapıyor?</summary><p>Biz. Şirketinize gelip sunucu kurulumunu, veri aktarımını ve kullanıcı eğitimlerini yerinde yapıyoruz; program canlıya geçip ekibiniz kendi başına kullanana kadar yanınızdayız.</p></details>
       <details><summary>Mevcut verilerimi aktarabilir miyim?</summary><p>Evet. Ürün, cari hesap, açılış stoğu ve reçete listeleriniz Excel'den aktarılır. Eski programınızdan alınan Excel çıktıları da kullanılabilir; aktarımı birlikte yapıyoruz.</p></details>
-      <details><summary>Lisans fiyatı nedir?</summary><p>Kullanıcı sayısına, ihtiyacınız olan modüllere ve kurulum kapsamına göre değişir. Ön görüşmeden sonra size özel teklif hazırlıyoruz; WhatsApp veya e-posta ile ulaşabilirsiniz.</p></details>
+      <details><summary>Lisans fiyatı nedir?</summary><p>Paketler aynı anda çalışan kullanıcı sayısına göredir
+          (25, 50, 75, 100); her pakette tüm modüller vardır. Fiyat, kurulum ve eğitim kapsamına göre size özel hazırlanır —
+          <a href="#paketler" style="color:var(--mavi);font-weight:600">Paketler</a> bölümünden ya da WhatsApp'tan teklif isteyin.</p></details>
+        <details><summary>Verilerim nerede durur, yedek alınıyor mu?</summary><p>Verileriniz kendi sunucunuzdaki veritabanında
+          durur. Program her gün otomatik yedek alır (klasör, saat ve kaç gün saklanacağı ayarlanır); istediğiniz an
+          'Şimdi Yedekle' ile elle de yedeklenir. Kim neyi ne zaman değiştirdi, değişiklik geçmişinde görünür.</p></details>
     </div>
   </div>
 </section>
