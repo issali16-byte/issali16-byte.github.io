@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  206,
+    "yama":  207,
     "sema":  "2026.11.19.2",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL206/IBY_ERP.exe",
-    "sha256":  "a297bec5f6094625e494d04936d4cd7d0e9d0894f488a7377327284cfcbdb807",
-    "boyut":  52176797,
-    "notlar":  "Duzeltmeler: Depo Adresler/Raflar listesinde bos alanlar \u0027None\u0027 yazmiyor; ana sayfada Son Hareketler / Dusuk Stok kutularinin \u0027Yukleniyor\u0027da kalmasi giderildi.",
-    "tarih":  "2026-11-19 14:26"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL207/IBY_ERP.exe",
+    "sha256":  "554bc1d1e4d252f59278eca33e9e3e06953cb5d31880710dde345c8cb5a61029",
+    "boyut":  52187210,
+    "notlar":  "Ic duzenleme: depo ekranlari konu konu ayri dosyalara bolundu (kullanicida degisiklik yok).",
+    "tarih":  "2026-11-19 15:11"
 }
