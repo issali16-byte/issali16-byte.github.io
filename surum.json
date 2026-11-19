@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  212,
-    "sema":  "2026.11.19.2",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL212/IBY_ERP.exe",
-    "sha256":  "ee317d7cdf4cc5dbc2b8cb457f221cd910b963c1c8d4ba73b572ef327e8cb7ca",
-    "boyut":  52228424,
-    "notlar":  "Ic guvence: ana ve yeni sirket veritabani semasi her yayinda otomatik karsilastiriliyor (kullanicida degisiklik yok).",
-    "tarih":  "2026-11-19 17:31"
+    "yama":  213,
+    "sema":  "2026.11.19.3",
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL213/IBY_ERP.exe",
+    "sha256":  "c693d1d7c38af9b112a977c15bdcf90cd3b51f2b33e8bc289941316a7a80e008",
+    "boyut":  52232961,
+    "notlar":  "Veritabani yapisi esitlendi: urunlerde ayni kod+ad iki kez girilemez ve barkod aramasi hizli (kopya varsa yoneticiye liste), islem gunlugu uzun aciklama tasir; tum sirketler ayni yapida.",
+    "tarih":  "2026-11-19 18:15"
 }
