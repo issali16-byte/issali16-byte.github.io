@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  201,
+    "yama":  202,
     "sema":  "2026.11.18.2",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL201/IBY_ERP.exe",
-    "sha256":  "c9e291dc149135cc35cf0778025a9d405232f1b0d43a0e36d2c4f7a7ee37679e",
-    "boyut":  52160873,
-    "notlar":  "Uretim \u003e Atolye Raporu: is merkezine gore plan / gercek sure, sapma, calisma orani, durus nedenleri (ariza, mola, malzeme...) ve suren duruslar; Excel\u0027e aktarma.",
-    "tarih":  "2026-11-19 08:55"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL202/IBY_ERP.exe",
+    "sha256":  "6362e0780f3d8c9ae6f01887520b1018343d959ee1012fac4092d6372caad842",
+    "boyut":  52163776,
+    "notlar":  "Seri takipli mamul: uretim bildiriminde her birime seri no (elle ya da otomatik is emri no-001...), stokta her seri 1 adet.",
+    "tarih":  "2026-11-19 10:01"
 }
