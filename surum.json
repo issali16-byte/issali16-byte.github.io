@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  215,
-    "sema":  "2026.11.19.3",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL215/IBY_ERP.exe",
-    "sha256":  "25762cb86d3a493545311c83bec897a5acb1c35b35c4c3b175947518bb53582a",
-    "boyut":  52234817,
-    "notlar":  "Tablette seri no (bos: otomatik) ve bildirim sonrasi seri listesi; e-Fatura / e-Irsaliye XML\u0027inde kalemin seri ve parti numaralari.",
-    "tarih":  "2026-11-20 09:45"
+    "yama":  216,
+    "sema":  "2026.11.20.1",
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL216/IBY_ERP.exe",
+    "sha256":  "291692cbfca94ff0eee80ea983cb49ce2c6be672c8b966b051b0537836b45b47",
+    "boyut":  52234912,
+    "notlar":  "PL216: Malzeme fişi tabloları artık şirket kurulurken oluşuyor (yeni şirkette ekran açılmadan fire / zayi fişi hata veriyordu)",
+    "tarih":  "2026-11-20 10:43"
 }
