@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  225,
-    "sema":  "2026.11.20.4",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL225/IBY_ERP.exe",
-    "sha256":  "34a8268ba1afb681764ec69cd09b5ffe36ba67cf6828098bc6ddcc19066a5ade",
-    "boyut":  52339012,
-    "notlar":  "PL223-225: Fason şlemleri modülü (fason siparişi, fasona gönder + işlem etiketi, dönüş - kaplama / yarı mamulden boyalı mamul, işçilik maliyete, fatura kontrolü, fasoncu ekstresi ve performansı); irsaliyelerde para bilgisi gösterilmez; koli yönetimi menüden kalktı, paketler Sevkiyat altında",
-    "tarih":  "2026-11-20 15:20"
+    "yama":  227,
+    "sema":  "2026.11.20.6",
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL227/IBY_ERP.exe",
+    "sha256":  "1fb42bba446a7dc315abf86c506e1b94d50af75fef25b5bb4908dbec8bf0916c",
+    "boyut":  52347214,
+    "notlar":  "PL226-227: Fason - ham parça partisi kaplı / boyalı ürüne taşınır, dönüşte kalite kontrol (ölçüm, sertifika, şartlı kabul / red); alış faturasında KDV tevkifatı (360.05 sorumlu sıfatıyla KDV); tevkifatlı gelen e-Faturada dengesiz fiş hatası giderildi",
+    "tarih":  "2026-11-20 16:15"
 }
