@@ -169,6 +169,7 @@
   /* Videolar */
   .videolar-bolum { background: var(--kart); }
   .videolar { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 26px; }
+  .video-kart:last-child:nth-child(odd) { grid-column: 1 / -1; justify-self: center; width: calc(50% - 13px); }
   .video-kart { background: var(--zemin); border: 1px solid var(--cizgi); border-radius: 16px; overflow: hidden; }
   .video-kart video { width: 100%; height: auto; aspect-ratio: 16 / 9; display: block; background: #16263a; }
   .video-kart div { padding: 16px 20px 20px; }
@@ -205,6 +206,7 @@
 
   @media (max-width: 900px) {
     .videolar { grid-template-columns: minmax(0, 1fr); }
+    .video-kart:last-child:nth-child(odd) { width: 100%; }
     .neden, .paketler { grid-template-columns: repeat(2, minmax(0, 1fr)); }
     .ozel { grid-template-columns: minmax(0, 1fr); padding: 32px 26px; text-align: center; }
     .ozel ul { text-align: left; max-width: 460px; margin-left: auto; margin-right: auto; }
@@ -332,16 +334,34 @@
           <div><h3>Satıştan faturaya</h3><p>Sipariş, sevkiyat kokpiti, irsaliye ve fatura — bilgi bir kez girilir.</p></div>
         </div>
         <div class="video-kart">
+          <video controls preload="none" playsinline poster="video/onay.jpg" data-goatcounter-click="video-onay">
+            <source src="video/onay.mp4" type="video/mp4">
+          </video>
+          <div><h3>Onay, seri no ve servis</h3><p>Büyük sipariş müdür onayına düşer; satılan cihazın seri numarası, garantisi ve servisi izlenir.</p></div>
+        </div>
+        <div class="video-kart">
           <video controls preload="none" playsinline poster="video/stok.jpg" data-goatcounter-click="video-stok">
             <source src="video/stok.mp4" type="video/mp4">
           </video>
           <div><h3>Stok ve depo</h3><p>Raf raf stok, parti ve son kullanma, stok değeri ve ihtiyaç planlama.</p></div>
         </div>
         <div class="video-kart">
+          <video controls preload="none" playsinline poster="video/bordro.jpg" data-goatcounter-click="video-bordro">
+            <source src="video/bordro.mp4" type="video/mp4">
+          </video>
+          <div><h3>İK ve bordro</h3><p>Personel, Kasım bordrosu, pusula, MUHSGK hazırlığı ve maaş / SGK / muhtasar ödemesi.</p></div>
+        </div>
+        <div class="video-kart">
           <video controls preload="none" playsinline poster="video/finans.jpg" data-goatcounter-click="video-finans">
             <source src="video/finans.mp4" type="video/mp4">
           </video>
           <div><h3>Finans ve muhasebe</h3><p>Her belge yevmiyesini yazar; mizan, bilanço ve KDV her an hazır.</p></div>
+        </div>
+        <div class="video-kart">
+          <video controls preload="none" playsinline poster="video/aysonu.jpg" data-goatcounter-click="video-aysonu">
+            <source src="video/aysonu.mp4" type="video/mp4">
+          </video>
+          <div><h3>Ay sonu kapanış</h3><p>Kur değerlemesi, KDV mahsubu, stok değeri = muhasebe, müşavir aktarımı ve dönem kilidi.</p></div>
         </div>
         </div>
         <p class="video-not">Daha fazlası için programı indirip 30 gün ücretsiz deneyin — örnek şirketle birlikte gelir.</p>
