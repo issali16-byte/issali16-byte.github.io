@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  222,
-    "sema":  "2026.11.20.2",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL222/IBY_ERP.exe",
-    "sha256":  "07f162c1c16cb61ab7671616b91b878752f0a20e71fa0421892e35309ce6e497",
-    "boyut":  52281444,
-    "notlar":  "PL219-222: Çek / senet muhasebesi düzeltildi (cari kapanır, ciro / karşılıksız / iade, devir); müşteri / tedarikçi ve personel Excel aktarımı; cari açılış bakiyesi (dövizli dahil); ürün şablonunda garanti süresi; ekranlarda bağlantı meşgul hatası giderildi",
-    "tarih":  "2026-11-20 14:13"
+    "yama":  225,
+    "sema":  "2026.11.20.4",
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL225/IBY_ERP.exe",
+    "sha256":  "34a8268ba1afb681764ec69cd09b5ffe36ba67cf6828098bc6ddcc19066a5ade",
+    "boyut":  52339012,
+    "notlar":  "PL223-225: Fason şlemleri modülü (fason siparişi, fasona gönder + işlem etiketi, dönüş - kaplama / yarı mamulden boyalı mamul, işçilik maliyete, fatura kontrolü, fasoncu ekstresi ve performansı); irsaliyelerde para bilgisi gösterilmez; koli yönetimi menüden kalktı, paketler Sevkiyat altında",
+    "tarih":  "2026-11-20 15:20"
 }
