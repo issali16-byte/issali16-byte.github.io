@@ -397,17 +397,27 @@
         '<label class="alan">Fire<input name="fire" inputmode="decimal" value="0"></label></div>' +
         '<label class="alan">Fire nedeni (fire varsa)<select name="fire_nedeni" class="secim acik"><option value=""></option>' +
         durum.atolye.fire_nedenleri.map(function (n) { return '<option>' + h(n) + '</option>'; }).join('') + '</select></label>' +
-        '<label class="alan">Not (vardiya, makine…)<input name="aciklama"></label><div id="perdeHata"></div>' +
+        '<label class="alan">Not (vardiya, makine…)<input name="aciklama"></label>' +
+        (x.seri_takipli ? '<label class="alan">Seri no (boş: otomatik ' + h(x.uretim_no) + '-001…)<input name="seriler" ' +
+          'placeholder="virgülle ya da boşlukla ayırın"></label>' : '') + '<div id="perdeHata"></div>' +
         '<button class="dugme tam" type="submit" style="height:56px;font-size:17px">Bildir</button></form>');
       document.getElementById('bildirForm').onsubmit = function (e) {
         e.preventDefault();
         var f = e.target;
-        atolyeGonder({ eylem: 'bildir', uretim_id: x.id, miktar: f.miktar.value, fire: f.fire.value, fire_nedeni: f.fire_nedeni.value, aciklama: f.aciklama.value },
+        atolyeGonder({ eylem: 'bildir', uretim_id: x.id, miktar: f.miktar.value, fire: f.fire.value, fire_nedeni: f.fire_nedeni.value, aciklama: f.aciklama.value,
+                       seriler: f.seriler ? f.seriler.value : '' },
           'Bildirim kaydedildi', f.querySelector('button[type=submit]')).then(function (r) {
           if (r && r.planlanan && r.bildirilen >= r.planlanan) bildir(r.uretim_no + ': planlanan miktara ulaşıldı — iş emrini planlama kapatır');
+          if (r && r.seriler && r.seriler.length) seriListesi(r);       // PL214: etiket yazmak için kalıcı liste
         });
       };
     }
+  }
+  function seriListesi(r) {
+    perdeAc('Seri numaraları', r.uretim_no + ' · ' + r.seriler.length + ' adet', '<div class="liste" id="seriListe">' +
+      r.seriler.map(function (s, i) { return '<div class="oge" style="cursor:default"><span class="ad">' + h(s) + '</span>' +
+        '<span class="bilgi" style="margin-left:auto">' + (i + 1) + '</span></div>'; }).join('') + '</div>' +
+      '<button class="dugme tam" type="button" data-eylem="perdeKapat" style="height:56px;font-size:17px;margin-top:12px">Tamam</button>');
   }
   function perdeAc(baslik, alt, govde) {
     perdeKapat();
