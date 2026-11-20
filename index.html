@@ -166,6 +166,27 @@
   .mobil-telefon img { width: 100%; height: auto; display: block; border-radius: 32px; }
   @media (max-width: 900px) { .mobil-bolum .kap { grid-template-columns: minmax(0, 1fr); text-align: center; } .mobil-bolum ul { text-align: left; max-width: 440px; margin: 0 auto 28px; } }
 
+  /* Fason takibi */
+  .fason-bolum .kap > .fason-ust { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.05fr); gap: 44px; align-items: center; }
+  .fason-bolum .rozet { margin-bottom: 14px; color: var(--mavi); background: #e8f3fd; border-color: #b9dcf8; }
+  .fason-bolum h2 { font-size: 34px; font-weight: 800; color: var(--lacivert); line-height: 1.2; margin-bottom: 14px; }
+  .fason-bolum .fason-ust > div > p { color: var(--gri); font-size: 17px; margin-bottom: 18px; }
+  .fason-bolum ul.tik { list-style: none; display: grid; gap: 9px; color: var(--metin); font-size: 15.5px; }
+  .fason-bolum ul.tik li { position: relative; padding-left: 24px; }
+  .fason-bolum ul.tik li::before { content: "✓"; position: absolute; left: 0; color: #1A9E55; font-weight: 800; }
+  .fason-video { border-radius: 16px; overflow: hidden; border: 1px solid var(--cizgi); box-shadow: 0 18px 44px rgba(16, 38, 58, .18); }
+  .fason-video video { width: 100%; height: auto; aspect-ratio: 16 / 9; display: block; background: #16263a; }
+  .fason-akis { margin-top: 44px; display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 14px; counter-reset: fa; }
+  .fason-akis div { position: relative; background: var(--kart); border: 1px solid var(--cizgi); border-radius: 14px; padding: 18px 16px 16px; }
+  .fason-akis div::before { counter-increment: fa; content: counter(fa); display: inline-grid; place-items: center; width: 28px; height: 28px; border-radius: 50%; background: var(--mavi); color: #fff; font-weight: 800; font-size: 14px; margin-bottom: 8px; }
+  .fason-akis b { display: block; color: var(--lacivert); font-size: 15.5px; margin-bottom: 4px; }
+  .fason-akis span { color: var(--gri); font-size: 13.5px; line-height: 1.45; display: block; }
+  @media (max-width: 900px) {
+    .fason-bolum .kap > .fason-ust { grid-template-columns: minmax(0, 1fr); }
+    .fason-akis { grid-template-columns: 1fr 1fr; }
+  }
+  @media (max-width: 600px) { .fason-akis { grid-template-columns: minmax(0, 1fr); } .fason-bolum h2 { font-size: 27px; } }
+
   /* Videolar */
   .videolar-bolum { background: var(--kart); }
   .videolar { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 26px; }
@@ -253,6 +274,7 @@
     <a class="marka" href="#"><img src="img/apple-touch-icon.png" alt="IBY ERP logosu">IBY ERP</a>
     <nav>
       <a href="#moduller">Modüller</a>
+      <a href="#fason">Fason</a>
       <a href="#videolar">Videolar</a>
       <a href="#paketler">Paketler</a>
       <a href="/mobil/">📱 Mobil</a>
@@ -305,7 +327,7 @@
       <div class="kart"><div class="ikon">💰</div><h3>Finans ve Muhasebe</h3><p>Belgeden otomatik yevmiye, mizan, bilanço, KDV; cari, kasa, banka, çek/senet, döviz, müşavire aktarım.</p></div>
     </div>
     <div class="ekler">
-      <span>🏛 e-Fatura / e-İrsaliye</span><span>🤝 CRM</span><span>🔧 Servis ve Garanti</span><span>✅ Kalite</span>
+      <span>🏛 e-Fatura / e-İrsaliye</span><span>🤝 CRM</span><span>🔧 Servis ve Garanti</span><span>✅ Kalite</span><span>🎨 Fason Takibi</span>
         <span>👔 İK ve Bordro</span><span>📋 Proje Yönetimi</span><span>📊 Rapor Tasarlayıcı</span>
         <span>✏️ Kullanıcı Tanımlı Alanlar</span><span>✔ Onay Süreçleri</span><span>💾 Otomatik Yedek</span>
         <span>📜 Değişiklik Geçmişi</span><span>🏢 Çok Şirket</span><span>🔐 Kullanıcı Yetkileri</span>
@@ -313,6 +335,40 @@
     </div>
   </div>
 </section>
+
+    <section id="fason" class="fason-bolum">
+      <div class="kap">
+        <div class="fason-ust">
+          <div>
+            <div class="rozet">Yeni · Fason İşlemleri</div>
+            <h2>Kaplamacıdaki, boyacıdaki malınız gözünüzün önünde</h2>
+            <p>Kaplama, boya, ısıl işlem, lazer, dikim ya da onarım: dışarıda yaptırdığınız her iş siparişten faturaya
+               tek akışta izlenir. Hangi fasoncuda ne kadar malınız var, ne zaman dönecek, kaçı fire, işçilik ne tuttu —
+               tek ekranda.</p>
+            <ul class="tik">
+              <li>Fason irsaliyesi ve kaleme özel fason etiketi ("12 mikron çinko kaplama")</li>
+              <li>İrsaliyede fiyat yok; işçilik bedeli yalnız faturada</li>
+              <li>Yarı mamul gider, boyalı / kaplı mamul döner; fire ve parti izi korunur</li>
+              <li>Dönüşte kalite ölçümü: sınır dışıysa şartlı kabul ya da red</li>
+              <li>İşçilik faturası ürün maliyetine yansır; KDV tevkifatı hazır</li>
+              <li>Fasoncu ekstresi ve performansı: zamanında teslim, fire oranı</li>
+            </ul>
+          </div>
+          <div class="fason-video">
+            <video controls preload="none" playsinline poster="video/fason.jpg" data-goatcounter-click="video-fason">
+              <source src="video/fason.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+        <div class="fason-akis">
+          <div><b>Fason siparişi</b><span>Fasoncu, işlem, anlaşılan işçilik, termin ve kalite ölçüsü.</span></div>
+          <div><b>Gönderim</b><span>Fason irsaliyesi + etiket; mal fasoncunun deposuna geçer.</span></div>
+          <div><b>Dönüş ve kalite</b><span>Fasoncunun irsaliyesiyle giriş; ölçüm, fire, parti.</span></div>
+          <div><b>İşçilik faturası</b><span>Siparişle karşılaştırılır; fiyat farkı uyarısı.</span></div>
+          <div><b>Maliyet</b><span>İşçilik ürün maliyetine eklenir; muhasebe kendiliğinden.</span></div>
+        </div>
+      </div>
+    </section>
 
     <section id="videolar" class="videolar-bolum">
       <div class="kap">
@@ -376,7 +432,7 @@
         </div>
         <div class="neden">
           <div class="kart"><b>%100</b><h3>Türkiye'ye göre</h3><p>e-Fatura ve e-İrsaliye, KDV ve mahsup, tek düzen hesap planı, bordro ve MUHSGK programın içinde.</p></div>
-          <div class="kart"><b>200+</b><h3>Sürekli gelişiyor</h3><p>Bugüne kadar 200'den fazla güncelleme; her biri 570'ten fazla otomatik testten geçer, program içinden tek tıkla gelir.</p></div>
+          <div class="kart"><b>200+</b><h3>Sürekli gelişiyor</h3><p>Bugüne kadar 200'den fazla güncelleme; her biri 600'den fazla otomatik testten geçer, program içinden tek tıkla gelir.</p></div>
           <div class="kart"><b>1:1</b><h3>Anahtar teslim</h3><p>Kurulum, veri aktarımı ve kullanıcı eğitimini şirketinizde yapıyoruz; canlıya geçene kadar yanınızdayız.</p></div>
           <div class="kart"><b>🔐</b><h3>Verileriniz sizde</h3><p>Kendi sunucunuzda çalışır; otomatik günlük yedek, değişiklik geçmişi ve kullanıcı yetkileri.</p></div>
         </div>
@@ -533,6 +589,10 @@
       <details><summary>Lisans fiyatı nedir?</summary><p>Paketler aynı anda çalışan kullanıcı sayısına göredir
           (25, 50, 75, 100); her pakette tüm modüller vardır. Fiyat, kurulum ve eğitim kapsamına göre size özel hazırlanır —
           <a href="#paketler" style="color:var(--mavi);font-weight:600">Paketler</a> bölümünden ya da WhatsApp'tan teklif isteyin.</p></details>
+        <details><summary>Fason (kaplama, boya, işçilik) takibi var mı?</summary><p>Evet. Fason siparişi açılır, mal
+          fason irsaliyesi ve fason etiketiyle fasoncunun deposuna gönderilir; dönüşte kalite ölçülür, fire ve parti
+          izlenir, işçilik faturası ürün maliyetine yansır. Fasoncu ekstresi ve performans raporu hazırdır. Otomotiv yan
+          sanayinin yanı sıra tekstil (dikim, baskı, yıkama) gibi işlerde de kullanılır.</p></details>
         <details><summary>Verilerim nerede durur, yedek alınıyor mu?</summary><p>Verileriniz kendi sunucunuzdaki veritabanında
           durur. Program her gün otomatik yedek alır (klasör, saat ve kaç gün saklanacağı ayarlanır); istediğiniz an
           'Şimdi Yedekle' ile elle de yedeklenir. Kim neyi ne zaman değiştirdi, değişiklik geçmişinde görünür.</p></details>
