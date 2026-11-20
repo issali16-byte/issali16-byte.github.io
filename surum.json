@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  227,
+    "yama":  228,
     "sema":  "2026.11.20.6",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL227/IBY_ERP.exe",
-    "sha256":  "1fb42bba446a7dc315abf86c506e1b94d50af75fef25b5bb4908dbec8bf0916c",
-    "boyut":  52347214,
-    "notlar":  "PL226-227: Fason - ham parça partisi kaplı / boyalı ürüne taşınır, dönüşte kalite kontrol (ölçüm, sertifika, şartlı kabul / red); alış faturasında KDV tevkifatı (360.05 sorumlu sıfatıyla KDV); tevkifatlı gelen e-Faturada dengesiz fiş hatası giderildi",
-    "tarih":  "2026-11-20 16:15"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL228/IBY_ERP.exe",
+    "sha256":  "853f15767161b79c34a799e744156a84b92b4f7d3323bb6bdbc26ded3e4d9b41",
+    "boyut":  52355247,
+    "notlar":  "PL228: Demo şirkete finans açılışları, K/bordro, fason örnekleri ve tevkifatlı fatura eklendi; yeni şirket Tekdüzen hesap planıyla açılır (fason faturası 730 hatası giderildi)",
+    "tarih":  "2026-11-20 17:15"
 }
