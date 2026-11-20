@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  218,
-    "sema":  "2026.11.20.1",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL218/IBY_ERP.exe",
-    "sha256":  "e743b856135ce20374d2dae32b92da3552bfe3cb3ede8d390f9d5be7026f78c3",
-    "boyut":  52245357,
-    "notlar":  "PL217: Stok Değer Raporu\u0027nda \u0027Farkı muhasebeleştir\u0027 (153 ay sonunda stok değerine eşitlenir). PL218: Banka / kasa açılış bakiyesi muhasebeye açılış fişiyle işlenir (102 / 100 - 500); banka hesabı düzenlenirken bakiye değişmez",
-    "tarih":  "2026-11-20 11:20"
+    "yama":  222,
+    "sema":  "2026.11.20.2",
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL222/IBY_ERP.exe",
+    "sha256":  "07f162c1c16cb61ab7671616b91b878752f0a20e71fa0421892e35309ce6e497",
+    "boyut":  52281444,
+    "notlar":  "PL219-222: Çek / senet muhasebesi düzeltildi (cari kapanır, ciro / karşılıksız / iade, devir); müşteri / tedarikçi ve personel Excel aktarımı; cari açılış bakiyesi (dövizli dahil); ürün şablonunda garanti süresi; ekranlarda bağlantı meşgul hatası giderildi",
+    "tarih":  "2026-11-20 14:13"
 }
