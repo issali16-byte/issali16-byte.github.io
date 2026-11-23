@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  245,
-    "sema":  "2026.11.23.4",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL245/IBY_ERP.exe",
-    "sha256":  "b047bdb7dc3e27748da979c2b9420e9b9e9056b7a8bae41a360e78a92708a6b8",
-    "boyut":  52451507,
-    "notlar":  "PL245: Rapor tasarlayıcıya stok durumu, cari hareketler, iş emirleri, fason, irsaliye ve banka kaynakları; yazdırma ve grafik",
-    "tarih":  "2026-11-23 17:20"
+    "yama":  246,
+    "sema":  "2026.11.23.5",
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL246/IBY_ERP.exe",
+    "sha256":  "881c7b8914247384c6c9d9f300be91eb64deafc8b5428f7d27d0e4ce7002b226",
+    "boyut":  52476088,
+    "notlar":  "PL246: Fiyat listesi motoru - müşteriye fiyat listesi, miktar kademesi, sipariş ve faturada fiyatın listeden gelmesi",
+    "tarih":  "2026-11-23 17:39"
 }
