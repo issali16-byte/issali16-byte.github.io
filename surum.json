@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  242,
-    "sema":  "2026.11.23.3",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL242/IBY_ERP.exe",
-    "sha256":  "dc43b05921a2ffc7c4538f168de7b67c3404d0d5953e242e375df77f0c70e4e7",
-    "boyut":  52432556,
-    "notlar":  "PL241-242: Toplu reçete aktarımında fire yüzdesi ve hata kontrolü; MRP\u0027den fason siparişi açma; fasona gönderilmemiş bileşen MRP ihtiyacında",
-    "tarih":  "2026-11-23 15:08"
+    "yama":  244,
+    "sema":  "2026.11.23.4",
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL244/IBY_ERP.exe",
+    "sha256":  "250e0d7a5004fbcd81f0574275b25d8a274a947840aa00d22521eae336cf2d79",
+    "boyut":  52442931,
+    "notlar":  "PL243-244: Tam tevkifat kodları 801-825; tekstil fasonunda çoklu girdi ve tüketim oranı (kumaş, düğme, etiket)",
+    "tarih":  "2026-11-23 15:37"
 }
