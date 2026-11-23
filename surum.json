@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  230,
+    "yama":  233,
     "sema":  "2026.11.23.2",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL230/IBY_ERP.exe",
-    "sha256":  "5ef790a40430657e90194ec5d628de11cabceeb9aef848b147fe8f0fde18d7a5",
-    "boyut":  52363823,
-    "notlar":  "PL230: Tevkifat tamamlandı — irsaliyeden tevkifatlı fatura, tevkifatlı faturanın iadesi; demo şirkete tevkifatlı satış örneği",
-    "tarih":  "2026-11-23 10:00"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL233/IBY_ERP.exe",
+    "sha256":  "f8bcb0477addb67a65acd8960be5343b7300e43577037e9b630870f332584a82",
+    "boyut":  52380623,
+    "notlar":  "PL231-233: Bankanın MT940 / camt.053 ekstreleri, izlenen ekstre klasörü; program eski kalınca internetten güncelleme",
+    "tarih":  "2026-11-23 11:02"
 }
