@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  229,
-    "sema":  "2026.11.23.1",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL229/IBY_ERP.exe",
-    "sha256":  "53905d7b14870a57ea1f36fda4151994432660f3251a34a14cf9b660163cb4cc",
-    "boyut":  52362083,
-    "notlar":  "PL229: Satış faturasında KDV tevkifatı (GB kodları 601-627, e-Fatura TEVKIFAT tipi, KDV raporunda tevkifat); fason tekstil oranı 7/10 olarak güncellendi",
-    "tarih":  "2026-11-23 09:42"
+    "yama":  230,
+    "sema":  "2026.11.23.2",
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL230/IBY_ERP.exe",
+    "sha256":  "5ef790a40430657e90194ec5d628de11cabceeb9aef848b147fe8f0fde18d7a5",
+    "boyut":  52363823,
+    "notlar":  "PL230: Tevkifat tamamlandı — irsaliyeden tevkifatlı fatura, tevkifatlı faturanın iadesi; demo şirkete tevkifatlı satış örneği",
+    "tarih":  "2026-11-23 10:00"
 }
