@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  233,
+    "yama":  236,
     "sema":  "2026.11.23.2",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL233/IBY_ERP.exe",
-    "sha256":  "f8bcb0477addb67a65acd8960be5343b7300e43577037e9b630870f332584a82",
-    "boyut":  52380623,
-    "notlar":  "PL231-233: Bankanın MT940 / camt.053 ekstreleri, izlenen ekstre klasörü; program eski kalınca internetten güncelleme",
-    "tarih":  "2026-11-23 11:02"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL236/IBY_ERP.exe",
+    "sha256":  "4e0985d3bafca8ed93069cd3aeed120eaa70c67e1d403ba90fd06aa9eddf6dba",
+    "boyut":  52411531,
+    "notlar":  "PL234-236: Banka sürücü altyapısı; çek / senet portföyü ve açık satış / satınalma siparişleri Excel\u0027den aktarım",
+    "tarih":  "2026-11-23 11:33"
 }
