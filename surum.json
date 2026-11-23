@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  240,
+    "yama":  242,
     "sema":  "2026.11.23.3",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL240/IBY_ERP.exe",
-    "sha256":  "5081ccae6c3aa880ca4402ce99427b4440ab4e3fcce1178a770a5ba454b51c32",
-    "boyut":  52418841,
-    "notlar":  "PL238-240: Reçetede fire payı; fason ile yapılan ürün reçetede ve MRP\u0027de FASON; iş emri numarası düzeltmesi; üretim pilotu",
-    "tarih":  "2026-11-23 14:20"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL242/IBY_ERP.exe",
+    "sha256":  "dc43b05921a2ffc7c4538f168de7b67c3404d0d5953e242e375df77f0c70e4e7",
+    "boyut":  52432556,
+    "notlar":  "PL241-242: Toplu reçete aktarımında fire yüzdesi ve hata kontrolü; MRP\u0027den fason siparişi açma; fasona gönderilmemiş bileşen MRP ihtiyacında",
+    "tarih":  "2026-11-23 15:08"
 }
