@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  244,
+    "yama":  245,
     "sema":  "2026.11.23.4",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL244/IBY_ERP.exe",
-    "sha256":  "250e0d7a5004fbcd81f0574275b25d8a274a947840aa00d22521eae336cf2d79",
-    "boyut":  52442931,
-    "notlar":  "PL243-244: Tam tevkifat kodları 801-825; tekstil fasonunda çoklu girdi ve tüketim oranı (kumaş, düğme, etiket)",
-    "tarih":  "2026-11-23 15:37"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL245/IBY_ERP.exe",
+    "sha256":  "b047bdb7dc3e27748da979c2b9420e9b9e9056b7a8bae41a360e78a92708a6b8",
+    "boyut":  52451507,
+    "notlar":  "PL245: Rapor tasarlayıcıya stok durumu, cari hareketler, iş emirleri, fason, irsaliye ve banka kaynakları; yazdırma ve grafik",
+    "tarih":  "2026-11-23 17:20"
 }
