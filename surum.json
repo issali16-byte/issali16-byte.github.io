@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  237,
-    "sema":  "2026.11.23.2",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL237/IBY_ERP.exe",
-    "sha256":  "151cd3f4f8f45d545eefed8a62c807c5305208b9f4da6bc6395150005e37fed9",
-    "boyut":  52417861,
-    "notlar":  "PL237: Yönetim altında Eski Programdan Geçiş ekranı — açılış aktarımları sırayla, her adımda şablon / aktar / ekran",
-    "tarih":  "2026-11-23 11:53"
+    "yama":  240,
+    "sema":  "2026.11.23.3",
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL240/IBY_ERP.exe",
+    "sha256":  "5081ccae6c3aa880ca4402ce99427b4440ab4e3fcce1178a770a5ba454b51c32",
+    "boyut":  52418841,
+    "notlar":  "PL238-240: Reçetede fire payı; fason ile yapılan ürün reçetede ve MRP\u0027de FASON; iş emri numarası düzeltmesi; üretim pilotu",
+    "tarih":  "2026-11-23 14:20"
 }
