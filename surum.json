@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  228,
-    "sema":  "2026.11.20.6",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL228/IBY_ERP.exe",
-    "sha256":  "853f15767161b79c34a799e744156a84b92b4f7d3323bb6bdbc26ded3e4d9b41",
-    "boyut":  52355247,
-    "notlar":  "PL228: Demo şirkete finans açılışları, İK/bordro, fason örnekleri ve tevkifatlı fatura eklendi; yeni şirket Tekdüzen hesap planıyla açılır (fason faturası 730 hatası giderildi)",
-    "tarih":  "2026-11-20 17:15"
+    "yama":  229,
+    "sema":  "2026.11.23.1",
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL229/IBY_ERP.exe",
+    "sha256":  "53905d7b14870a57ea1f36fda4151994432660f3251a34a14cf9b660163cb4cc",
+    "boyut":  52362083,
+    "notlar":  "PL229: Satış faturasında KDV tevkifatı (GB kodları 601-627, e-Fatura TEVKIFAT tipi, KDV raporunda tevkifat); fason tekstil oranı 7/10 olarak güncellendi",
+    "tarih":  "2026-11-23 09:42"
 }
