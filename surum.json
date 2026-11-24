@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  246,
-    "sema":  "2026.11.23.5",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL246/IBY_ERP.exe",
-    "sha256":  "881c7b8914247384c6c9d9f300be91eb64deafc8b5428f7d27d0e4ce7002b226",
-    "boyut":  52476088,
-    "notlar":  "PL246: Fiyat listesi motoru - müşteriye fiyat listesi, miktar kademesi, sipariş ve faturada fiyatın listeden gelmesi",
-    "tarih":  "2026-11-23 17:39"
+    "yama":  247,
+    "sema":  "2026.11.23.6",
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL247/IBY_ERP.exe",
+    "sha256":  "dde941e08d29254648a90e108e687eaa587092470a914d15213c24cd1b8a376f",
+    "boyut":  52487265,
+    "notlar":  "PL247: Kampanya ve iskonto kuralları; sipariş, fatura ve teklifte fiyat ve iskonto önerisi",
+    "tarih":  "2026-11-24 09:13"
 }
