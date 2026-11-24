@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  251,
+    "yama":  252,
     "sema":  "2026.11.24.1",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL251/IBY_ERP.exe",
-    "sha256":  "1ba5508dfb46f41f4ead16fd3b8053b52eb6c5cc0ab52915e41d19365ef1c04b",
-    "boyut":  52696601,
-    "notlar":  "PL251: kişiye göre onay limiti; onaylayıcı limitine kadar karar verir, üstü yöneticiye kalır",
-    "tarih":  "2026-11-24 14:32"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL252/IBY_ERP.exe",
+    "sha256":  "c796e131d654c0026c495688301c0c1265fa439f7600bfa2d863611971ee09c9",
+    "boyut":  52699176,
+    "notlar":  "PL252: satınalma siparişi ve alış faturasına kullanıcı tanımlı alan; mal kabulden faturaya taşınır",
+    "tarih":  "2026-11-24 15:03"
 }
