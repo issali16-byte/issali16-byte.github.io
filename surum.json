@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  258,
-    "sema":  "2026.11.24.4",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL258/IBY_ERP.exe",
-    "sha256":  "4a11829e1c98f9a663b9514df13262de85881b926222881925b6ae04e157cefc",
-    "boyut":  52786346,
-    "notlar":  "PL258: müşteriye en az kalan raf ömrü; SKT\u0027si erken parti o müşteriye çıkmaz",
-    "tarih":  "2026-11-24 17:40"
+    "yama":  259,
+    "sema":  "2026.11.24.5",
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL259/IBY_ERP.exe",
+    "sha256":  "2900f2bcf03405a650e9c4efb4e82c1a3f999bc18081771c03c0a57e70b6425e",
+    "boyut":  52804388,
+    "notlar":  "PL259: kalite spesifikasyonu ve Analiz Sertifikası (CoA)",
+    "tarih":  "2026-11-24 18:10"
 }
