@@ -184,14 +184,16 @@
   EKRAN.belge = function () {
     if (!durum.sepet) yeniSepet('siparis');
     var s = durum.sepet, net = 0, kdv = 0;
-    s.satirlar.forEach(function (k) { var t = k.miktar * k.fiyat; net += t; kdv += t * k.kdv / 100; });
+    s.satirlar.forEach(function (k) { var t = satirNet(k); net += t; kdv += t * k.kdv / 100; });
     var satirlar = s.satirlar.map(function (k, i) {
       var yeter = k.miktar <= k.stok;
       return '<div class="kart liste" style="gap:10px"><div class="satir" style="display:flex;justify-content:space-between;gap:8px"><div class="orta" style="min-width:0"><div class="ad" style="font-weight:600">' + h(k.ad) + '</div><div class="bilgi etk" style="font-size:12px">' + h(k.kod) + '</div></div>' +
         '<button class="geri" style="color:#5B6675" data-sil="' + i + '" aria-label="Satırı sil">' + IK.carpi + '</button></div>' +
         '<div style="display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap"><div class="adim"><button data-adim="' + i + '" data-yon="-1" aria-label="Azalt">−</button><label class="gizli" for="m' + i + '">Miktar</label><input id="m' + i + '" inputmode="decimal" data-miktar="' + i + '" value="' + h(sayi(k.miktar)) + '"><button data-adim="' + i + '" data-yon="1" aria-label="Artır">+</button></div>' +
-        '<label class="alan" style="flex-direction:row;align-items:center;gap:6px;font-weight:400">Fiyat<input style="width:96px;height:42px" class="' + (k.fiyat > 0 ? '' : 'fiyat-yok') + '" inputmode="decimal" data-fiyat="' + i + '" value="' + h(String(k.fiyat).replace('.', ',')) + '"></label></div>' +
-        '<div style="display:flex;justify-content:space-between;font-size:13px"><span class="' + (yeter ? 'yesil' : 'kirmizi') + '" style="font-weight:600">' + (yeter ? 'Stokta var · ' : 'Stok yetersiz · depoda ') + sayi(k.stok) + ' ' + h(k.birim) + '</span><b>' + tl(k.miktar * k.fiyat) + '</b></div></div>';
+        '<label class="alan" style="flex-direction:row;align-items:center;gap:6px;font-weight:400">Fiyat<input style="width:96px;height:42px" class="' + (k.fiyat > 0 ? '' : 'fiyat-yok') + '" inputmode="decimal" data-fiyat="' + i + '" value="' + h(String(k.fiyat).replace('.', ',')) + '"></label>' +
+        '<label class="alan" style="flex-direction:row;align-items:center;gap:6px;font-weight:400">İsk. %<input style="width:58px;height:42px" inputmode="decimal" data-isk="' + i + '" value="' + h(String(k.iskonto || 0).replace('.', ',')) + '"></label></div>' +
+        (k.aciklama ? '<div class="etk" style="font-size:12px">' + h(k.aciklama) + '</div>' : '') +
+        '<div style="display:flex;justify-content:space-between;font-size:13px"><span class="' + (yeter ? 'yesil' : 'kirmizi') + '" style="font-weight:600">' + (yeter ? 'Stokta var · ' : 'Stok yetersiz · depoda ') + sayi(k.stok) + ' ' + h(k.birim) + '</span><b>' + tl(satirNet(k)) + '</b></div></div>';
     }).join('');
     uyg.innerHTML = ust('Yeni ' + (s.tur === 'siparis' ? 'Sipariş' : 'Teklif'), s.musteri_ad || 'Müşteri seçilmedi', durum.gecmis.length > 0) +
       '<main class="icerik" style="padding-bottom:16px"><div class="sekme" role="tablist"><button role="tab" data-tur="siparis" class="' + (s.tur === 'siparis' ? 'secili' : '') + '">Sipariş</button><button role="tab" data-tur="teklif" class="' + (s.tur === 'teklif' ? 'secili' : '') + '">Teklif</button></div>' +
@@ -202,6 +204,26 @@
       '<div class="toplam buyuk"><span>Genel toplam</span><span>' + tl(net + kdv) + '</span></div><div id="bHata"></div>' +
       (s.satirlar.some(function (k) { return !(k.fiyat > 0); }) ? '<div style="font-size:13px;color:#8A4100;font-weight:600">Fiyatı 0 olan satır var — fiyat girin.</div>' : '') + '<button class="dugme tam" data-eylem="gonder"' + (s.satirlar.length && s.musteri_id ? '' : ' disabled') + '>' + (s.tur === 'siparis' ? 'Siparişi Gönder' : 'Teklifi Gönder') + '</button></div>';
   };
+  function satirNet(k) { return k.miktar * k.fiyat * (1 - (k.iskonto || 0) / 100); }
+  // PL248: müşterinin fiyat listesi (miktar kademesi) + kampanya iskontosu sunucudan; elle değiştirilene dokunulmaz
+  function fiyatYenile() {
+    var s = durum.sepet;
+    if (!s || !s.satirlar.length) return;
+    api('fiyatlar', { musteri_id: s.musteri_id, kalemler: s.satirlar.map(function (k) { return { urun_id: k.urun_id, miktar: k.miktar }; }) })
+      .then(function (l) {
+        if (durum.sepet !== s) return;
+        var oneri = {};
+        (l || []).forEach(function (o) { oneri[o.urun_id] = o; });
+        s.satirlar.forEach(function (k) {
+          var o = oneri[k.urun_id];
+          if (!o) return;
+          if (!k.fiyatElle) k.fiyat = o.fiyat;
+          if (!k.iskElle) k.iskonto = o.iskonto;
+          k.aciklama = o.aciklama || '';
+        });
+        if (durum.ekran === 'belge') ciz();
+      }, function () {});                                  // öneri alınamazsa sepet olduğu gibi kalır
+  }
   function sayiOku(v) { var n = parseFloat(String(v).replace(/\./g, '').replace(',', '.')); return isNaN(n) ? 0 : n; }
 
   EKRAN.tamam = function () {
@@ -299,8 +321,9 @@
     if (!durum.sepet) yeniSepet('siparis');
     var var_ = durum.sepet.satirlar.filter(function (k) { return k.urun_id === u.id; })[0];
     if (var_) var_.miktar += 1;
-    else durum.sepet.satirlar.push({ urun_id: u.id, ad: u.ad, kod: u.kod, birim: u.birim, fiyat: u.fiyat, kdv: u.kdv, stok: u.stok, miktar: 1 });
+    else durum.sepet.satirlar.push({ urun_id: u.id, ad: u.ad, kod: u.kod, birim: u.birim, fiyat: u.fiyat, kdv: u.kdv, stok: u.stok, miktar: 1, iskonto: 0 });
     bildir(u.ad + ' eklendi');
+    fiyatYenile();
     if (durum.ekran === 'stok' && durum.param.sec) {          // sipariş ekranından açılan ürün seçici → geri dön
       durum.gecmis.pop(); durum.ekran = 'belge'; durum.param = {}; return ciz();
     }
@@ -444,14 +467,14 @@
     if (d.musteri !== undefined && d.musteri !== '') {
       if (d.sec) { // belgeye müşteri seçimi
         durum.sepet.musteri_id = +d.musteri; durum.sepet.musteri_ad = b.querySelector('.ad').textContent;
-        durum.gecmis.pop(); durum.ekran = 'belge'; durum.param = {}; return ciz();
+        durum.gecmis.pop(); durum.ekran = 'belge'; durum.param = {}; fiyatYenile(); return ciz();
       }
       return git('musteri', { id: +d.musteri });
     }
     if (d.belge) { yeniSepet(d.belge, +d.mid, durum.param.ad); return git('belge'); }
     if (d.tur) { durum.sepet.tur = d.tur; return ciz(); }
     if (d.sil !== undefined) { durum.sepet.satirlar.splice(+d.sil, 1); return ciz(); }
-    if (d.adim !== undefined) { var k = durum.sepet.satirlar[+d.adim]; k.miktar = Math.max(1, k.miktar + (+d.yon)); return ciz(); }
+    if (d.adim !== undefined) { var k = durum.sepet.satirlar[+d.adim]; k.miktar = Math.max(1, k.miktar + (+d.yon)); fiyatYenile(); return ciz(); }
     switch (d.eylem) {
       case 'geri': return geri();
       case 'yenile': return ciz();
@@ -466,15 +489,16 @@
   });
   document.addEventListener('change', function (e) {
     var d = e.target.dataset;
-    if (d.miktar !== undefined) { durum.sepet.satirlar[+d.miktar].miktar = Math.max(0.001, sayiOku(e.target.value)); ciz(); }
-    if (d.fiyat !== undefined) { durum.sepet.satirlar[+d.fiyat].fiyat = Math.max(0, sayiOku(e.target.value)); ciz(); }
+    if (d.miktar !== undefined) { durum.sepet.satirlar[+d.miktar].miktar = Math.max(0.001, sayiOku(e.target.value)); fiyatYenile(); ciz(); }
+    if (d.fiyat !== undefined) { var kf = durum.sepet.satirlar[+d.fiyat]; kf.fiyat = Math.max(0, sayiOku(e.target.value)); kf.fiyatElle = true; ciz(); }
+    if (d.isk !== undefined) { var ki = durum.sepet.satirlar[+d.isk]; ki.iskonto = Math.min(99.99, Math.max(0, sayiOku(e.target.value))); ki.iskElle = true; ciz(); }
     if (e.target.id === 'belgeNot') durum.sepet.not = e.target.value;
   });
   function gonder(b) {
     var s = durum.sepet; b.disabled = true;
     var notEl = document.getElementById('belgeNot'); if (notEl) s.not = notEl.value;
     api('belge', { tur: s.tur, musteri_id: s.musteri_id, notlar: s.not || '',
-                   kalemler: s.satirlar.map(function (k) { return { urun_id: k.urun_id, miktar: k.miktar, fiyat: k.fiyat }; }) })
+                   kalemler: s.satirlar.map(function (k) { return { urun_id: k.urun_id, miktar: k.miktar, fiyat: k.fiyat, iskonto: k.iskonto || 0 }; }) })
       .then(function (r) {
         var p = { tur: s.tur, no: r.no, genel: r.genel, musteri_ad: s.musteri_ad, musteri_id: s.musteri_id };
         durum.sepet = null; durum.gecmis = []; git('tamam', p, true);

@@ -82,12 +82,21 @@
                 adres: [v.adres, [v.ilce, v.il].filter(Boolean).join('/')].filter(Boolean).join(' '), limit: 0, bakiye: 0, geciken: 0, vade: 30, belgeler: [] };
       MUSTERI.unshift(m); return mDetay(m);
     },
+    // PL248: müşteriye özel fiyat / kampanya önerisi — demoda 'Örnek Bilişim' bayi kampanyasında (%5), 10 adet üstü %8
+    'POST fiyatlar': function (v) {
+      return (v.kalemler || []).map(function (k) {
+        var u = URUN.filter(function (x) { return x.id === k.urun_id; })[0];
+        var bayi = +v.musteri_id === 1, isk = bayi ? ((k.miktar || 1) >= 10 ? 8 : 5) : 0;
+        return { urun_id: k.urun_id, miktar: k.miktar || 1, fiyat: u ? u.fiyat : 0, iskonto: isk,
+                 aciklama: isk ? 'Kampanya: Bayi kampanyası (%' + isk + ')' : '' };
+      });
+    },
     'POST belge': function (v) {
       var m = MUSTERI.filter(function (x) { return x.id === +v.musteri_id; })[0];
       if (!m) hata('Müşteri bulunamadı.');
       if (!v.kalemler || !v.kalemler.length) hata('En az bir ürün ekleyin.');
       var net = 0, kdv = 0;
-      v.kalemler.forEach(function (k) { var u = URUN.filter(function (x) { return x.id === k.urun_id; })[0]; var t = k.miktar * k.fiyat; net += t; kdv += t * (u ? u.kdv : 20) / 100; });
+      v.kalemler.forEach(function (k) { var u = URUN.filter(function (x) { return x.id === k.urun_id; })[0]; var t = k.miktar * k.fiyat * (1 - (k.iskonto || 0) / 100); net += t; kdv += t * (u ? u.kdv : 20) / 100; });
       var sip = v.tur === 'siparis'; sira += 1;
       var no = (sip ? 'SIP-' : 'TK-') + bugun.getFullYear() + ('0' + (bugun.getMonth() + 1)).slice(-2) + ('0' + bugun.getDate()).slice(-2) + '-' + ('000' + sira).slice(-4);
       if (sip) { siparisSay += 1; tutar += net; } else { teklif += 1; }
