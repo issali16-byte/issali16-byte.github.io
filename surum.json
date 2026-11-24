@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  257,
-    "sema":  "2026.11.24.3",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL257/IBY_ERP.exe",
-    "sha256":  "5b6fe1f1ba94e0cfe133ef442f79d55e1d7e668e5ac582c8ca348729c8d70755",
-    "boyut":  52781772,
-    "notlar":  "PL257: geri çağırma ve parti izi; partinin müşterilere, mamul partilerine ve stoğa zincir izi",
-    "tarih":  "2026-11-24 17:16"
+    "yama":  258,
+    "sema":  "2026.11.24.4",
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL258/IBY_ERP.exe",
+    "sha256":  "4a11829e1c98f9a663b9514df13262de85881b926222881925b6ae04e157cefc",
+    "boyut":  52786346,
+    "notlar":  "PL258: müşteriye en az kalan raf ömrü; SKT\u0027si erken parti o müşteriye çıkmaz",
+    "tarih":  "2026-11-24 17:40"
 }
