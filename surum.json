@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  253,
+    "yama":  254,
     "sema":  "2026.11.24.2",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL253/IBY_ERP.exe",
-    "sha256":  "f92c1d0fd99ece7ff5c0e62215c917aca6bf07b9f1fc22b5a5531fe2d61a049b",
-    "boyut":  52730380,
-    "notlar":  "PL253: beden / renk varyantı; model, özellik ve değerler, her kombinasyon ayrı ürün kartı, stok matrisi",
-    "tarih":  "2026-11-24 15:36"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL254/IBY_ERP.exe",
+    "sha256":  "55be0f5774e651f05708621d93c2aeff677accea4670f0ad4adb5bb4fa325211",
+    "boyut":  52741159,
+    "notlar":  "PL254: sipariş, teklif ve faturada beden / renk matrisiyle giriş",
+    "tarih":  "2026-11-24 15:59"
 }
