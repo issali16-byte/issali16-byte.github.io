@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  249,
+    "yama":  250,
     "sema":  "2026.11.23.6",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL249/IBY_ERP.exe",
-    "sha256":  "e479817426c7ca232347e4771a653434e23c139c516033999ee5c917fd90142a",
-    "boyut":  52683887,
-    "notlar":  "PL249: Fasoncu Ekstresi ekranına Yenile düğmesi",
-    "tarih":  "2026-11-24 10:07"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL250/IBY_ERP.exe",
+    "sha256":  "7e34d7308887f38719900c2de3b0a08cc1f525e17942052cd04b64fbfb539874",
+    "boyut":  52688391,
+    "notlar":  "PL250: teklif, satış siparişi ve satış faturasına kullanıcı tanımlı alan; aynı adlı alan teklif - sipariş - fatura taşınır",
+    "tarih":  "2026-11-24 13:55"
 }
