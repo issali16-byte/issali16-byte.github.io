@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  255,
+    "yama":  256,
     "sema":  "2026.11.24.3",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL255/IBY_ERP.exe",
-    "sha256":  "95d1529011ef422fecd2c9986f2843ecc6385a1439dc5a97b11a0091a989b3f5",
-    "boyut":  52757115,
-    "notlar":  "PL255: ürün birimleri; koli, palet, bidon, IBC, kg-lt dönüşümü, koli barkodu, e-Faturada koli birim kodu düzeltmesi",
-    "tarih":  "2026-11-24 16:25"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL256/IBY_ERP.exe",
+    "sha256":  "dd8903ae697da583c5f8556681010ea482044631f6798bd27cd775d619ca0b43",
+    "boyut":  52763549,
+    "notlar":  "PL256: sipariş ve satınalmada birim seçimi, çıktılarda koli / palet karşılığı",
+    "tarih":  "2026-11-24 16:52"
 }
