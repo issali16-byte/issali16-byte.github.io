@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  254,
-    "sema":  "2026.11.24.2",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL254/IBY_ERP.exe",
-    "sha256":  "55be0f5774e651f05708621d93c2aeff677accea4670f0ad4adb5bb4fa325211",
-    "boyut":  52741159,
-    "notlar":  "PL254: sipariş, teklif ve faturada beden / renk matrisiyle giriş",
-    "tarih":  "2026-11-24 15:59"
+    "yama":  255,
+    "sema":  "2026.11.24.3",
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL255/IBY_ERP.exe",
+    "sha256":  "95d1529011ef422fecd2c9986f2843ecc6385a1439dc5a97b11a0091a989b3f5",
+    "boyut":  52757115,
+    "notlar":  "PL255: ürün birimleri; koli, palet, bidon, IBC, kg-lt dönüşümü, koli barkodu, e-Faturada koli birim kodu düzeltmesi",
+    "tarih":  "2026-11-24 16:25"
 }
