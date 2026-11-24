@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  247,
+    "yama":  248,
     "sema":  "2026.11.23.6",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL247/IBY_ERP.exe",
-    "sha256":  "dde941e08d29254648a90e108e687eaa587092470a914d15213c24cd1b8a376f",
-    "boyut":  52487265,
-    "notlar":  "PL247: Kampanya ve iskonto kuralları; sipariş, fatura ve teklifte fiyat ve iskonto önerisi",
-    "tarih":  "2026-11-24 09:13"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL248/IBY_ERP.exe",
+    "sha256":  "0bd1d492fd7bdee81d3ab6e089a7ebb82488e814db3ba375d8f5fd637f63313e",
+    "boyut":  52490111,
+    "notlar":  "PL248: Mobilde müşteriye özel fiyat ve kampanya iskontosu",
+    "tarih":  "2026-11-24 09:39"
 }
