@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  264,
+    "yama":  265,
     "sema":  "2026.11.25.5",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL264/IBY_ERP.exe",
-    "sha256":  "4e2de55e49c7375256b5e8a2401a5bd730f64608e121f59f44b7a91ecc5643c9",
-    "boyut":  52941796,
-    "notlar":  "PL264: AQL örnekleme (ISO 2859-1); ürüne AQL, kontrolde numune ve kabul / red sayısı, örnekleme tablosu",
-    "tarih":  "2026-11-25 15:04"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL265/IBY_ERP.exe",
+    "sha256":  "26c2de85a729dba3f544f093c3fae269f3d5b9d94eb6821f94f34376b84b23c3",
+    "boyut":  52973546,
+    "notlar":  "PL265: kalite panosu ve SPC; kontrol kartı, Cp / Cpk, NCR pareto ve eğilim",
+    "tarih":  "2026-11-25 15:23"
 }
