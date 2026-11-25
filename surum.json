@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  262,
-    "sema":  "2026.11.25.3",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL262/IBY_ERP.exe",
-    "sha256":  "276d71dd93a13a98cf6d816452ca9f22c9b795e9d17a8301f253fe74b9ccfd3d",
-    "boyut":  52902703,
-    "notlar":  "PL262: müşteri şikâyeti ve tedarikçi karnesi; haklı şikâyette otomatik NCR, mal kabul ve giriş kalite redlerinde NCR",
-    "tarih":  "2026-11-25 14:28"
+    "yama":  263,
+    "sema":  "2026.11.25.4",
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL263/IBY_ERP.exe",
+    "sha256":  "7de00f74b9fe8446d0c0ac1ee0876fd499414c48d2dae6a010f53bd8d2507a2e",
+    "boyut":  52928865,
+    "notlar":  "PL263: ölçüm cihazları ve kalibrasyon; süresi geçmiş cihazla ölçüm kaydedilmez, uygun değil sonucunda NCR",
+    "tarih":  "2026-11-25 14:45"
 }
