@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  263,
-    "sema":  "2026.11.25.4",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL263/IBY_ERP.exe",
-    "sha256":  "7de00f74b9fe8446d0c0ac1ee0876fd499414c48d2dae6a010f53bd8d2507a2e",
-    "boyut":  52928865,
-    "notlar":  "PL263: ölçüm cihazları ve kalibrasyon; süresi geçmiş cihazla ölçüm kaydedilmez, uygun değil sonucunda NCR",
-    "tarih":  "2026-11-25 14:45"
+    "yama":  264,
+    "sema":  "2026.11.25.5",
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL264/IBY_ERP.exe",
+    "sha256":  "4e2de55e49c7375256b5e8a2401a5bd730f64608e121f59f44b7a91ecc5643c9",
+    "boyut":  52941796,
+    "notlar":  "PL264: AQL örnekleme (ISO 2859-1); ürüne AQL, kontrolde numune ve kabul / red sayısı, örnekleme tablosu",
+    "tarih":  "2026-11-25 15:04"
 }
