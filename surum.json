@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  269,
+    "yama":  270,
     "sema":  "2026.11.25.6",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL269/IBY_ERP.exe",
-    "sha256":  "b53316def60e65e9ee6da72073294884951c132e4cde8ed40820af46186c3f51",
-    "boyut":  53025622,
-    "notlar":  "PL269: satınalma onayında stok kontrol; 5 yıllık kullanım, kaç aylık stok, yönetici miktarı düzeltip onaylar",
-    "tarih":  "2026-11-25 17:04"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL270/IBY_ERP.exe",
+    "sha256":  "82fc91babb0578b9b2be58ced952ccc0a4c5a1f659d31043c816ed3932129e2d",
+    "boyut":  53043706,
+    "notlar":  "PL270: sipariş akışı ekranı; her siparişin adımı ve sıradaki iş kimde",
+    "tarih":  "2026-11-25 17:41"
 }
