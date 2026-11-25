@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  265,
+    "yama":  266,
     "sema":  "2026.11.25.5",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL265/IBY_ERP.exe",
-    "sha256":  "26c2de85a729dba3f544f093c3fae269f3d5b9d94eb6821f94f34376b84b23c3",
-    "boyut":  52973546,
-    "notlar":  "PL265: kalite panosu ve SPC; kontrol kartı, Cp / Cpk, NCR pareto ve eğilim",
-    "tarih":  "2026-11-25 15:23"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL266/IBY_ERP.exe",
+    "sha256":  "1bb96cd7ac39095626e45eb8e096c2f4ec9fc04d54a88056883f68c0728d89fa",
+    "boyut":  52973454,
+    "notlar":  "PL266: iş emri sayfasında geri dönüş düğmesi (satış siparişleri / ihtiyaç planlama)",
+    "tarih":  "2026-11-25 15:57"
 }
