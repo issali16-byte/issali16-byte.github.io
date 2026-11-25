@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  266,
+    "yama":  268,
     "sema":  "2026.11.25.5",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL266/IBY_ERP.exe",
-    "sha256":  "1bb96cd7ac39095626e45eb8e096c2f4ec9fc04d54a88056883f68c0728d89fa",
-    "boyut":  52973454,
-    "notlar":  "PL266: iş emri sayfasında geri dönüş düğmesi (satış siparişleri / ihtiyaç planlama)",
-    "tarih":  "2026-11-25 15:57"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL268/IBY_ERP.exe",
+    "sha256":  "5d6d9cf52c5f563e74ddc170dea9b1a73bfeeb3d67cf0b5e39435a5443a7c575",
+    "boyut":  53007529,
+    "notlar":  "PL267-268: sevkiyat toplaması depoda (raf / parti), kabul sevkiyatta; sıkı akış; kısmi ve acil sevkiyata gönderim; iş emri tam toplanmadan bitmez",
+    "tarih":  "2026-11-25 16:45"
 }
