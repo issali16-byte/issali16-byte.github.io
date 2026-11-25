@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  261,
-    "sema":  "2026.11.25.2",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL261/IBY_ERP.exe",
-    "sha256":  "b22141423630b950c0c647519415252ea622d01f0b3f5654acd1d6751ef967a5",
-    "boyut":  52868359,
-    "notlar":  "PL261: uygunsuzluk kaydı (NCR) ve DÖF / 8D; karar partiyi yönetir, RED kontrolde otomatik NCR, 8D raporu",
-    "tarih":  "2026-11-25 14:07"
+    "yama":  262,
+    "sema":  "2026.11.25.3",
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL262/IBY_ERP.exe",
+    "sha256":  "276d71dd93a13a98cf6d816452ca9f22c9b795e9d17a8301f253fe74b9ccfd3d",
+    "boyut":  52902703,
+    "notlar":  "PL262: müşteri şikâyeti ve tedarikçi karnesi; haklı şikâyette otomatik NCR, mal kabul ve giriş kalite redlerinde NCR",
+    "tarih":  "2026-11-25 14:28"
 }
