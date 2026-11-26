@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  273,
+    "yama":  274,
     "sema":  "2026.11.25.7",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL273/IBY_ERP.exe",
-    "sha256":  "8cfd283f88d41eecebceaf9e9e16f671391351bb1a06e61b42e1aad8af598a3e",
-    "boyut":  53058739,
-    "notlar":  "PL273: stok kontrolde açık ihtiyaç gerekçesi; sipariş ve iş emri ihtiyacı, ihtiyaç sonrası kaç aylık stok",
-    "tarih":  "2026-11-26 12:10"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL274/IBY_ERP.exe",
+    "sha256":  "39a2e8c044de93ab9d08898d3fa45a31da7c5f9e91573494365081f30b4f3ab0",
+    "boyut":  53060971,
+    "notlar":  "PL274: mobil demo hazır; örnek şirkette telefonda deneme girişi satis / satis123",
+    "tarih":  "2026-11-26 15:50"
 }
