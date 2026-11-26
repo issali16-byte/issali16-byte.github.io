@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  272,
+    "yama":  273,
     "sema":  "2026.11.25.7",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL272/IBY_ERP.exe",
-    "sha256":  "3b6adf68161c9ac246ed19febffe90ef4f02c4cef8d1749f8ecbb7c6177aa650",
-    "boyut":  53056851,
-    "notlar":  "PL272: ana sayfada sıradaki işlerim kartı; adrese taşı toplu taşı açılış hatası düzeltildi",
-    "tarih":  "2026-11-26 10:57"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL273/IBY_ERP.exe",
+    "sha256":  "8cfd283f88d41eecebceaf9e9e16f671391351bb1a06e61b42e1aad8af598a3e",
+    "boyut":  53058739,
+    "notlar":  "PL273: stok kontrolde açık ihtiyaç gerekçesi; sipariş ve iş emri ihtiyacı, ihtiyaç sonrası kaç aylık stok",
+    "tarih":  "2026-11-26 12:10"
 }
