@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  274,
+    "yama":  275,
     "sema":  "2026.11.25.7",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL274/IBY_ERP.exe",
-    "sha256":  "39a2e8c044de93ab9d08898d3fa45a31da7c5f9e91573494365081f30b4f3ab0",
-    "boyut":  53060971,
-    "notlar":  "PL274: mobil demo hazır; örnek şirkette telefonda deneme girişi satis / satis123",
-    "tarih":  "2026-11-26 15:50"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL275/IBY_ERP.exe",
+    "sha256":  "dac925ab9b1efe4ec3770d89a584be17e82beb8760d873d5f945499513be55f4",
+    "boyut":  53061874,
+    "notlar":  "PL275: mobilde koli barkodu okutulunca koli adedi kadar eklenir; ana pencere kucultulup acilinca gizli kalan pencere geri gelir",
+    "tarih":  "2026-11-26 16:21"
 }
