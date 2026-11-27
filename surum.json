@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  278,
+    "yama":  279,
     "sema":  "2026.11.26.1",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL278/IBY_ERP.exe",
-    "sha256":  "961d857bfdf86e9beb25c0815825748ca5cecd2eb88ae73954c8eaf08f55b435",
-    "boyut":  53076941,
-    "notlar":  "PL278: raporda ara toplam (musteri / ay gibi sutuna gore) ve genel toplam, basliga tiklayarak siralama",
-    "tarih":  "2026-11-27 12:35"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL279/IBY_ERP.exe",
+    "sha256":  "03583472880ac7af91a4d73bfdd454d8f64decbe45fd1fb233b15b90a2721f57",
+    "boyut":  53083014,
+    "notlar":  "PL279: raporda hazir donem (bu ay, gecen ay, son 30 gun...) ve kayitli rapor acilirken sorulan suzgecler",
+    "tarih":  "2026-11-27 14:19"
 }
