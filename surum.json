@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  277,
+    "yama":  278,
     "sema":  "2026.11.26.1",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL277/IBY_ERP.exe",
-    "sha256":  "4f647283849b16b178460b194568436d5c1622cfa933cc8a7cfddb0bd31c49f2",
-    "boyut":  53073325,
-    "notlar":  "PL277: kisisel rapor duzeni - raporu yalniz ben / herkese acik kaydetme, varsayilan duzen, sutun sirasi ve basliklari degistirme",
-    "tarih":  "2026-11-27 12:11"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL278/IBY_ERP.exe",
+    "sha256":  "961d857bfdf86e9beb25c0815825748ca5cecd2eb88ae73954c8eaf08f55b435",
+    "boyut":  53076941,
+    "notlar":  "PL278: raporda ara toplam (musteri / ay gibi sutuna gore) ve genel toplam, basliga tiklayarak siralama",
+    "tarih":  "2026-11-27 12:35"
 }
