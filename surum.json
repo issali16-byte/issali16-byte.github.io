@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  279,
-    "sema":  "2026.11.26.1",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL279/IBY_ERP.exe",
-    "sha256":  "03583472880ac7af91a4d73bfdd454d8f64decbe45fd1fb233b15b90a2721f57",
-    "boyut":  53083014,
-    "notlar":  "PL279: raporda hazir donem (bu ay, gecen ay, son 30 gun...) ve kayitli rapor acilirken sorulan suzgecler",
-    "tarih":  "2026-11-27 14:19"
+    "yama":  280,
+    "sema":  "2026.11.27.1",
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL280/IBY_ERP.exe",
+    "sha256":  "80a760f06e47f7bcd0a56b5b54283ec7b212664bd79dd754d6246db61f4f676b",
+    "boyut":  53086067,
+    "notlar":  "PL280: kayitli raporu ana sayfaya sabitleme - ana sayfada Raporlarim karti, tek tikla acilir",
+    "tarih":  "2026-11-27 14:39"
 }
