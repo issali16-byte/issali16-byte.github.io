@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  285,
+    "yama":  286,
     "sema":  "2026.11.27.3",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL285/IBY_ERP.exe",
-    "sha256":  "6b9ef074300b99b6803c34554a5ebbe5a31271c412e1ea059c8b5ad68a24e4e7",
-    "boyut":  53121938,
-    "notlar":  "PL285: listelerde kisisel sutun duzeni - liste basligina sag tik, Sutunlari Duzenle (gizle / goster / sirala / genislik)",
-    "tarih":  "2026-11-27 16:35"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL286/IBY_ERP.exe",
+    "sha256":  "6e401e4b875128e2740e41aff7e787dcb160ca0599964ab3b180956e8a9bfd19",
+    "boyut":  53132047,
+    "notlar":  "PL286: birlesik rapor - 2-3 veri kaynagi ortak sutunda yan yana (urun basina satis + stok + satinalma gibi)",
+    "tarih":  "2026-11-27 17:31"
 }
