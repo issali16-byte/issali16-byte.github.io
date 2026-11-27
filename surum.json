@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  276,
-    "sema":  "2026.11.25.7",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL276/IBY_ERP.exe",
-    "sha256":  "6d7b2e256bbbf0d70dd32837e1536c4bf5e73e812741483bcb6d531eb2156875",
-    "boyut":  53063844,
-    "notlar":  "PL276: rapor tasarlayicida model, beden ve renk sutunlari (varyantli urunlerde hangi beden / renk ne kadar satildi)",
-    "tarih":  "2026-11-26 16:39"
+    "yama":  277,
+    "sema":  "2026.11.26.1",
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL277/IBY_ERP.exe",
+    "sha256":  "4f647283849b16b178460b194568436d5c1622cfa933cc8a7cfddb0bd31c49f2",
+    "boyut":  53073325,
+    "notlar":  "PL277: kisisel rapor duzeni - raporu yalniz ben / herkese acik kaydetme, varsayilan duzen, sutun sirasi ve basliklari degistirme",
+    "tarih":  "2026-11-27 12:11"
 }
