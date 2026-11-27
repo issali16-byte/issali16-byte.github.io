@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  282,
+    "yama":  283,
     "sema":  "2026.11.27.2",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL282/IBY_ERP.exe",
-    "sha256":  "424b82686d05db76672a2d8bdd445019eec482df5f64aea2962aaabfff0a1677",
-    "boyut":  53094845,
-    "notlar":  "PL282: bobin hareketlerinde sag tik ile ters islem - kalan giris, uretime cikis ve giris bir onceki hale doner",
-    "tarih":  "2026-11-27 15:18"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL283/IBY_ERP.exe",
+    "sha256":  "fce32715b151cad1fda8aed94c3e5b7d9194f3575f2d45d5b627eac1184f8d1e",
+    "boyut":  53109673,
+    "notlar":  "PL283: varyantli modelleri Excel\u0027den toplu aktarma (beden / renk kartlari kendiliginden acilir), ornek sirkette varyantli model",
+    "tarih":  "2026-11-27 16:05"
 }
