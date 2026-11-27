@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  280,
-    "sema":  "2026.11.27.1",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL280/IBY_ERP.exe",
-    "sha256":  "80a760f06e47f7bcd0a56b5b54283ec7b212664bd79dd754d6246db61f4f676b",
-    "boyut":  53086067,
-    "notlar":  "PL280: kayitli raporu ana sayfaya sabitleme - ana sayfada Raporlarim karti, tek tikla acilir",
-    "tarih":  "2026-11-27 14:39"
+    "yama":  281,
+    "sema":  "2026.11.27.2",
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL281/IBY_ERP.exe",
+    "sha256":  "525c8092abba6787829138caadfdbe8b9838c8676e1fa5a049cdffbb1a338623",
+    "boyut":  53089039,
+    "notlar":  "PL281: raporu yalniz ben / sectigim kisiler / herkese acik olarak kaydetme ve paylasma",
+    "tarih":  "2026-11-27 15:02"
 }
