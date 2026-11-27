@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  281,
+    "yama":  282,
     "sema":  "2026.11.27.2",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL281/IBY_ERP.exe",
-    "sha256":  "525c8092abba6787829138caadfdbe8b9838c8676e1fa5a049cdffbb1a338623",
-    "boyut":  53089039,
-    "notlar":  "PL281: raporu yalniz ben / sectigim kisiler / herkese acik olarak kaydetme ve paylasma",
-    "tarih":  "2026-11-27 15:02"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL282/IBY_ERP.exe",
+    "sha256":  "424b82686d05db76672a2d8bdd445019eec482df5f64aea2962aaabfff0a1677",
+    "boyut":  53094845,
+    "notlar":  "PL282: bobin hareketlerinde sag tik ile ters islem - kalan giris, uretime cikis ve giris bir onceki hale doner",
+    "tarih":  "2026-11-27 15:18"
 }
