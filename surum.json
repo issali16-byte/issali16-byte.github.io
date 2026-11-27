@@ -1,10 +1,10 @@
 {
     "surum":  "2.2",
-    "yama":  283,
+    "yama":  284,
     "sema":  "2026.11.27.2",
-    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL283/IBY_ERP.exe",
-    "sha256":  "fce32715b151cad1fda8aed94c3e5b7d9194f3575f2d45d5b627eac1184f8d1e",
-    "boyut":  53109673,
-    "notlar":  "PL283: varyantli modelleri Excel\u0027den toplu aktarma (beden / renk kartlari kendiliginden acilir), ornek sirkette varyantli model",
-    "tarih":  "2026-11-27 16:05"
+    "exe_url":  "https://github.com/issali16-byte/iby-erp-surumler/releases/download/v2.2-PL284/IBY_ERP.exe",
+    "sha256":  "29a72a9c23409ca4192d527e6b9fafa60d8f4adb1e462993af88de6fb74aed58",
+    "boyut":  53110491,
+    "notlar":  "PL284: acilir listede fare tekerlegi cevrilince cikan beklenmeyen hata duzeltildi (bobin giris vb.)",
+    "tarih":  "2026-11-27 16:21"
 }
